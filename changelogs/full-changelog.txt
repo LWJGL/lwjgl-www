@@ -1,3 +1,577 @@
+2004-04-13 14:13  elias_naur
+
+	* src/native/linux/: Window.h, org_lwjgl_input_Keyboard.cpp,
+	  org_lwjgl_input_Mouse.cpp, org_lwjgl_opengl_Window.cpp: LINUX:
+	  Improved input handling
+
+2004-04-12 16:46  matzon
+
+	* src/: java/org/lwjgl/input/Mouse.java,
+	  java/org/lwjgl/test/input/HWCursorTest.java,
+	  java/org/lwjgl/test/input/MouseTest.java,
+	  native/win32/org_lwjgl_input_Mouse.cpp: fixed mouse issues,
+	  setGrabbed & native cursor now works (afaik ;))
+
+2004-04-12 16:37  matzon
+
+	* src/java/org/lwjgl/input/Cursor.java: removed resetAnimation
+
+2004-04-12 16:29  elias_naur
+
+	* src/native/linux/org_lwjgl_opengl_Window.cpp: LINUX: Turn off
+	  keyboard repeat rate at Window.create too
+
+2004-04-12 14:20  elias_naur
+
+	* src/native/linux/: Window.h, org_lwjgl_input_Mouse.cpp,
+	  org_lwjgl_opengl_Window.cpp: LINUX: Fixed warp ignores
+
+2004-04-12 12:37  matzon
+
+	* src/native/win32/org_lwjgl_input_Mouse.cpp: removed restriction
+	  about native cursors, and fixed mouse not showing on
+	  setNativeCursor(null);
+
+2004-04-12 12:33  elias_naur
+
+	* src/native/linux/: org_lwjgl_input_Mouse.cpp,
+	  org_lwjgl_opengl_Window.cpp: LINUX:Improved warp event ignore
+
+2004-04-12 12:05  elias_naur
+
+	* src/: java/org/lwjgl/input/Cursor.java, native/linux/Window.h,
+	  native/linux/org_lwjgl_input_Keyboard.cpp,
+	  native/linux/org_lwjgl_input_Mouse.cpp,
+	  native/linux/org_lwjgl_opengl_Window.cpp: LINUX: Implemented
+	  setGrabbed
+
+2004-04-12 09:20  elias_naur
+
+	* src/java/org/lwjgl/input/Cursor.java: Cursor.java:Fixed case
+	  where delays == null
+
+2004-04-12 09:13  elias_naur
+
+	* src/java/org/lwjgl/input/Mouse.java: Reverted the relative
+	  coordinate 'bug' - that's the required behaviour when
+	  Window.update is calling Mouse.poll. Consider the case where we
+	  call Window.update twice before checking getD*: with the old
+	  behaviour, only the deltas between the updates are reported, not
+	  those before the first update
+
+2004-04-12 02:33  matzon
+
+	* src/: java/org/lwjgl/input/Cursor.java,
+	  java/org/lwjgl/input/Mouse.java,
+	  java/org/lwjgl/test/input/HWCursorTest.java,
+	  java/org/lwjgl/test/input/MouseTest.java,
+	  native/common/org_lwjgl_input_Cursor.h,
+	  native/common/org_lwjgl_input_Mouse.h,
+	  native/linux/org_lwjgl_input_Cursor.cpp,
+	  native/linux/org_lwjgl_input_Mouse.cpp,
+	  native/macosx/org_lwjgl_input_Cursor.cpp,
+	  native/macosx/org_lwjgl_input_Mouse.cpp,
+	  native/win32/org_lwjgl_input_Cursor.cpp,
+	  native/win32/org_lwjgl_input_Mouse.cpp: reworked animated native
+	  cursors, to use X animation when required added initial
+	  setGrabbed(boolean) feature - Work in progress both needs
+	  verification on linux
+
+2004-04-11 18:03  matzon
+
+	* src/java/org/lwjgl/input/Mouse.java: fixed relative coordinate
+	  bug
+
+2004-04-09 23:52  elias_naur
+
+	* src/native/common/: common_tools.cpp, extal.cpp,
+	  arb/org_lwjgl_opengl_ARBProgram.cpp,
+	  nv/org_lwjgl_opengl_NVProgram.cpp: Various fixes
+
+2004-04-09 23:38  elias_naur
+
+	* src/java/org/lwjgl/test/openal/: EAXTest.java,
+	  MovingSoundTest.java, OpenALCreationTest.java,
+	  PlayTestMemory.java, StressTest.java: Fix rest of the openal
+	  examples
+
+2004-04-09 21:26  elias_naur
+
+	* src/native/common/org_lwjgl_openal_AL10.cpp: [no log message]
+
+2004-04-09 17:22  elias_naur
+
+	* src/java/org/lwjgl/: openal/AL10.java,
+	  test/openal/BasicTest.java, test/openal/PlayTest.java,
+	  test/openal/PositionTest.java: removed size argument from
+	  alBufferData and added additional buffer types
+
+2004-04-07 09:55  elias_naur
+
+	* src/java/org/lwjgl/: input/Controller.java, input/Keyboard.java,
+	  input/Mouse.java, opengl/Window.java,
+	  test/input/KeyboardTest.java: Folded read into poll to simplify
+	  interface
+
+2004-04-07 09:48  elias_naur
+
+	* src/: java/org/lwjgl/input/Keyboard.java,
+	  native/common/org_lwjgl_input_Keyboard.h,
+	  native/linux/org_lwjgl_input_Keyboard.cpp,
+	  native/macosx/org_lwjgl_input_Keyboard.cpp,
+	  native/win32/org_lwjgl_input_Keyboard.cpp: Removed
+	  Keyboard.initIDs
+
+2004-04-07 09:46  elias_naur
+
+	* src/native/linux/: Window.h, org_lwjgl_Display.cpp,
+	  org_lwjgl_input_Cursor.cpp, org_lwjgl_input_Keyboard.cpp,
+	  org_lwjgl_input_Mouse.cpp, org_lwjgl_opengl_Pbuffer.cpp,
+	  org_lwjgl_opengl_Window.cpp: LINUX: Implemented reference counted
+	  display connection to let Cursors be created and destroyed
+	  without a window or a mouse
+
+2004-04-06 16:46  elias_naur
+
+	* src/native/common/org_lwjgl_input_Mouse.h: Updated Mouse.h
+
+2004-04-06 16:40  elias_naur
+
+	* src/native/win32/org_lwjgl_input_Mouse.cpp: win32 fixup
+
+2004-04-06 16:23  elias_naur
+
+	* src/: java/org/lwjgl/input/Mouse.java,
+	  native/common/org_lwjgl_input_Mouse.h,
+	  native/linux/org_lwjgl_input_Mouse.cpp,
+	  native/macosx/org_lwjgl_input_Mouse.cpp,
+	  native/win32/org_lwjgl_input_Mouse.cpp: Make poll deltas
+	  accumulative, and only reset on getD*
+
+2004-04-06 03:32  matzon
+
+	* www/: installation.php, images/installation/netbeans-1.png,
+	  images/installation/netbeans-2.png,
+	  images/installation/netbeans-3.png: Netbeans installation guide
+
+2004-04-05 16:19  elias_naur
+
+	* src/native/linux/org_lwjgl_opengl_Window.cpp: [no log message]
+
+2004-04-04 16:10  elias_naur
+
+	* src/java/org/lwjgl/opengl/Window.java: Updated docs to reflect
+	  the dirty flag change
+
+2004-04-04 16:09  elias_naur
+
+	* src/native/: linux/org_lwjgl_opengl_Window.cpp,
+	  win32/org_lwjgl_opengl_Window.cpp: Reverted the dirty flag
+	  change, because it might be used as a flag to check if the back
+	  buffer is corrupted when creating textures from the it. You can't
+	  just swap the back buffer in to clear the flag in that case. So
+	  we need the flag to be cleared also when isDirty is called
+
+2004-04-04 15:43  cix_foo
+
+	* src/native/linux/org_lwjgl_opengl_Window.cpp: Tweaking
+
+2004-04-04 15:38  cix_foo
+
+	* src/native/win32/org_lwjgl_opengl_Window.cpp: [no log message]
+
+2004-04-04 15:37  cix_foo
+
+	* src/: java/org/lwjgl/opengl/Window.java,
+	  native/linux/org_lwjgl_opengl_Window.cpp: Tweaking
+
+2004-04-04 15:24  elias_naur
+
+	* src/native/linux/org_lwjgl_opengl_Window.cpp: Pulled global
+	  isUndecorated into function
+
+2004-04-04 15:19  cix_foo
+
+	* src/java/org/lwjgl/opengl/Window.java: [no log message]
+
+2004-04-04 15:18  elias_naur
+
+	* src/java/org/lwjgl/test/opengl/PbufferTest.java: Fixed a small
+	  glitch in the test conversion
+
+2004-04-04 15:01  cix_foo
+
+	* src/java/org/lwjgl/opengl/Window.java: Rules with mighty fist.
+	  New API killed off before it even sees light of day. Some
+	  refactoring.
+
+2004-04-04 14:51  cix_foo
+
+	* src/: native/linux/org_lwjgl_opengl_Window.cpp,
+	  java/org/lwjgl/opengl/Window.java: Rules with mighty fist. New
+	  API killed off before it even sees light of day. Some
+	  refactoring.
+
+2004-04-04 14:48  cix_foo
+
+	* src/: java/org/lwjgl/test/opengl/shaders/ShadersTest.java,
+	  java/org/lwjgl/test/opengl/BouncingWindowTest.java,
+	  java/org/lwjgl/test/opengl/FullScreenWindowedTest.java,
+	  java/org/lwjgl/test/opengl/Game.java,
+	  java/org/lwjgl/test/opengl/Grass.java,
+	  java/org/lwjgl/test/opengl/PbufferTest.java,
+	  java/org/lwjgl/test/opengl/VBOIndexTest.java,
+	  java/org/lwjgl/test/opengl/VBOTest.java,
+	  java/org/lwjgl/test/input/HWCursorTest.java,
+	  native/common/org_lwjgl_opengl_Window.h,
+	  java/org/lwjgl/test/input/ControllerTest.java,
+	  java/org/lwjgl/test/input/KeyboardTest.java,
+	  java/org/lwjgl/test/input/MouseTest.java,
+	  java/org/lwjgl/test/openal/PositionTest.java,
+	  native/win32/org_lwjgl_opengl_Window.cpp: Rules with mighty fist.
+	  New API killed off before it even sees light of day. Some
+	  refactoring.
+
+2004-04-04 12:24  matzon
+
+	* www/: documentation.php, forum.php, installation.php,
+	  license.php, links.php, about.php, changelog.php, contact.php,
+	  credits.php, demos.php: removed news require
+
+2004-04-04 12:24  matzon
+
+	* www/download.php: added win32 cvs build
+
+2004-04-04 12:23  matzon
+
+	* www/images/projects/: vermins_1.jpg, vermins_2.jpg,
+	  vermins_small_1.jpg, vermins_small_2.jpg: Vermin ExTerminator
+	  screenshots added
+
+2004-04-04 12:22  matzon
+
+	* www/: include/projects.php, projects.php: made projects random
+
+2004-04-04 11:34  elias_naur
+
+	* src/native/linux/org_lwjgl_opengl_Window.cpp: Implemented the
+	  undecorated flag and reshape on linux
+
+2004-04-04 10:36  elias_naur
+
+	* src/native/linux/org_lwjgl_opengl_Window.cpp: Fixed compile
+	  problems
+
+2004-04-04 10:10  elias_naur
+
+	* src/java/org/lwjgl/opengl/Window.java: Fixed typo
+
+2004-04-04 09:37  elias_naur
+
+	* src/native/win32/org_lwjgl_input_Mouse.cpp: Fixed a possible
+	  buffer overflow bug in Mouse
+
+2004-04-04 01:14  cix_foo
+
+	* src/java/org/lwjgl/opengl/Window.java: Added clamping to window
+	  bounds
+
+2004-04-04 01:01  cix_foo
+
+	* src/: java/org/lwjgl/opengl/Window.java,
+	  native/win32/org_lwjgl_opengl_Window.cpp,
+	  java/org/lwjgl/test/opengl/BouncingWindowTest.java,
+	  native/common/org_lwjgl_opengl_Window.h,
+	  native/linux/org_lwjgl_opengl_Window.cpp: New window sizing &
+	  undecorated code
+
+2004-04-03 23:08  cix_foo
+
+	* src/java/org/lwjgl/opengl/BufferChecks.java: Superfluous import
+
+2004-04-03 23:05  cix_foo
+
+	* src/java/org/lwjgl/opengl/Window.java: Added four boolean
+	  properties to alter default behaviour in non-standard apps
+
+2004-04-03 20:18  matzon
+
+	* src/java/org/lwjgl/input/Mouse.java: center mouse as cursor is
+
+2004-03-31 23:03  spasi
+
+	* src/java/org/lwjgl/test/opengl/shaders/: ShadersTest.java,
+	  shaderFSH.fsh: Bugs fixed
+
+2004-03-31 19:43  spasi
+
+	* src/java/org/lwjgl/test/opengl/shaders/: ShadersTest.java,
+	  shaderFSH.fsh, shaderFSH.vsh, shaderVSH.vsh: Fixed bugs
+
+2004-03-31 01:25  spasi
+
+	* src/java/org/lwjgl/test/opengl/shaders/: Shader.java,
+	  ShaderFP.java, ShaderFSH.java, ShaderVP.java, ShaderVSH.java,
+	  ShadersTest.java, shaderFP.fp, shaderFP.vp, shaderFSH.fsh,
+	  shaderFSH.vsh, shaderVP.vp, shaderVSH.vsh: Added shader tests
+
+2004-03-30 19:18  matzon
+
+	* www/: about.php, changelog.php, contact.php, credits.php,
+	  default.css, demos.php, documentation.php, download.php, faq.php,
+	  forum.php, index.php, installation.php, license.php, links.php,
+	  projects.php, changelogs/0.10-changelog.txt,
+	  changelogs/0.20-changelog.txt, changelogs/0.30-changelog.txt,
+	  changelogs/0.40-changelog.txt, changelogs/0.50-changelog.txt,
+	  changelogs/0.60-changelog.txt, changelogs/0.70-changelog.txt,
+	  changelogs/0.80-changelog.txt, changelogs/0.89-changelog.txt,
+	  changelogs/full-changelog.txt, images/installation/eclipse-1.png,
+	  images/installation/eclipse-2.png,
+	  images/installation/eclipse-3.png,
+	  images/installation/eclipse-4.png,
+	  images/projects/alienflux_1.jpg, images/projects/alienflux_2.jpg,
+	  images/projects/alienflux_3.jpg,
+	  images/projects/alienflux_small_1.jpg,
+	  images/projects/alienflux_small_2.jpg,
+	  images/projects/alienflux_small_3.jpg,
+	  images/projects/extorris_1.jpg, images/projects/extorris_2.jpg,
+	  images/projects/extorris_3.jpg,
+	  images/projects/extorris_small_1.jpg,
+	  images/projects/extorris_small_2.jpg,
+	  images/projects/extorris_small_3.jpg,
+	  images/projects/marathon_1.jpg, images/projects/marathon_2.jpg,
+	  images/projects/marathon_3.jpg,
+	  images/projects/marathon_small_1.jpg,
+	  images/projects/marathon_small_2.jpg,
+	  images/projects/marathon_small_3.jpg,
+	  images/projects/tribaltrouble_1.jpg,
+	  images/projects/tribaltrouble_2.jpg,
+	  images/projects/tribaltrouble_3.jpg,
+	  images/projects/tribaltrouble_small_1.jpg,
+	  images/projects/tribaltrouble_small_2.jpg,
+	  images/projects/tribaltrouble_small_3.jpg, include/default.php,
+	  include/faq.php, include/news.php, jnlp/lwjgl-demo.php,
+	  jnlp/lwjgl-media.jar, jnlp/lwjgl-windows.jar, jnlp/lwjgl.jar,
+	  jnlp/lwjgl_test.jar, jnlp/lwjglaudio-windows.jar,
+	  jnlp/source.php: readded site under www
+
+2004-03-30 19:13  spasi
+
+	* src/java/org/lwjgl/opengl/: ARBBufferObject.java,
+	  ARBFragmentProgram.java, ARBProgram.java,
+	  ARBVertexBufferObject.java, ARBVertexProgram.java,
+	  EXTPixelBufferObject.java, NVFragmentProgram.java,
+	  NVProgram.java, NVVertexProgram.java: Restored hierarchies and
+	  completed EXT_pixel_buffer_object
+
+2004-03-30 19:09  matzon
+
+	* .cvsignore: added .project to cvs ignore - keep IDE's out of root
+	  folder
+
+2004-03-29 21:09  elias_naur
+
+	* src/java/org/lwjgl/opengl/BufferChecks.java: Add error message to
+	  the buffer overflow exception
+
+2004-03-29 18:55  spasi
+
+	* src/native/common/ext/: Makefile.am,
+	  org_lwjgl_opengl_EXTDepthBoundsTest.cpp: New extensions and
+	  static import modifications
+
+2004-03-29 18:51  spasi
+
+	* src/native/common/: arb/Makefile.am,
+	  arb/org_lwjgl_opengl_ARBBufferObject.cpp,
+	  arb/org_lwjgl_opengl_ARBVertexBufferObject.cpp,
+	  nv/org_lwjgl_opengl_NVFragmentProgram.cpp: New extensions and
+	  static import modifications
+
+2004-03-29 18:47  spasi
+
+	* src/native/common/: extgl.cpp, extgl.h: New extensions and static
+	  import modifications
+
+2004-03-29 18:44  spasi
+
+	* src/java/org/lwjgl/: opengl/ARBBufferObject.java,
+	  opengl/ARBFragmentProgram.java, opengl/ARBProgram.java,
+	  opengl/ARBVertexBufferObject.java, opengl/ARBVertexProgram.java,
+	  opengl/EXTDepthBoundsTest.java, opengl/EXTPixelBufferObject.java,
+	  opengl/GLContext.java, opengl/NVFragmentProgram.java,
+	  opengl/NVProgram.java, opengl/NVVertexProgram.java,
+	  test/opengl/Grass.java, test/opengl/VBOIndexTest.java,
+	  test/opengl/VBOTest.java: New extensions and static import
+	  modifications
+
+2004-03-29 13:28  elias_naur
+
+	* src/java/org/lwjgl/opengl/VBOTracker.java: The client attrib
+	  stack tracked by VBOTracter is now at least 1
+
+2004-03-29 13:26  elias_naur
+
+	* src/native/linux/: org_lwjgl_opengl_Pbuffer.cpp,
+	  org_lwjgl_opengl_Window.cpp: added missing software flag checks
+	  in linux
+
+2004-03-29 09:53  elias_naur
+
+	* src/java/org/lwjgl/opengl/: ARBFragmentProgram.java,
+	  NVFragmentProgram.java, NVProgram.java: Fixed newlines
+
+2004-03-29 09:32  elias_naur
+
+	* src/java/org/lwjgl/: opengl/GL11.java, opengl/GL15.java,
+	  opengl/glu/Project.java, test/opengl/Grass.java: Fixed naming
+
+2004-03-28 22:29  spasi
+
+	* src/java/org/lwjgl/opengl/Window.java: Fixed vsync bug
+
+2004-03-27 16:05  elias_naur
+
+	* src/: java/org/lwjgl/Display.java,
+	  java/org/lwjgl/LWJGLErrorException.java,
+	  java/org/lwjgl/LWJGLException.java, java/org/lwjgl/Sys.java,
+	  java/org/lwjgl/input/Controller.java,
+	  java/org/lwjgl/input/Cursor.java,
+	  java/org/lwjgl/input/Keyboard.java,
+	  java/org/lwjgl/input/Mouse.java, java/org/lwjgl/openal/AL.java,
+	  java/org/lwjgl/openal/ALC.java,
+	  java/org/lwjgl/openal/eax/EAX.java,
+	  java/org/lwjgl/opengl/Pbuffer.java,
+	  java/org/lwjgl/opengl/Window.java,
+	  native/common/common_tools.cpp: Renamed LWJGLErrorException to
+	  LWJGLException
+
+2004-03-27 15:42  elias_naur
+
+	* src/: java/org/lwjgl/Display.java,
+	  java/org/lwjgl/LWJGLErrorException.java,
+	  java/org/lwjgl/SwingAdapter.java,
+	  java/org/lwjgl/input/Controller.java,
+	  java/org/lwjgl/input/Cursor.java,
+	  java/org/lwjgl/input/Keyboard.java,
+	  java/org/lwjgl/input/Mouse.java, java/org/lwjgl/openal/AL.java,
+	  java/org/lwjgl/openal/ALC.java,
+	  java/org/lwjgl/openal/eax/EAX.java,
+	  java/org/lwjgl/opengl/Pbuffer.java,
+	  java/org/lwjgl/opengl/Window.java,
+	  native/common/common_tools.cpp, native/common/extal.cpp: Added
+	  LWJGLErrorException to replace the too general Exception
+
+2004-03-27 15:09  elias_naur
+
+	* src/: java/org/lwjgl/Sys.java, native/common/checkALerror.h,
+	  native/common/common_tools.cpp, native/common/common_tools.h,
+	  native/common/org_lwjgl_Sys.h, native/linux/org_lwjgl_Sys.cpp,
+	  native/linux/org_lwjgl_opengl_Window.cpp, native/macosx/hid.cpp,
+	  native/macosx/org_lwjgl_Sys.cpp, native/win32/org_lwjgl_Sys.cpp:
+	  Implemented version check to check for incompatible native
+	  libraries
+
+2004-03-27 14:48  elias_naur
+
+	* src/java/org/lwjgl/: Display.java, Sys.java,
+	  input/Controller.java, input/Cursor.java, input/Keyboard.java,
+	  input/Mouse.java, openal/AL.java, openal/ALC.java,
+	  openal/eax/EAX.java, openal/eax/EAXBufferProperties.java,
+	  openal/eax/EAXListenerProperties.java, opengl/GLContext.java,
+	  opengl/Pbuffer.java, opengl/Window.java: All classes use
+	  Sys.initialize now
+
+2004-03-27 12:55  elias_naur
+
+	* src/java/org/lwjgl/: Display.java, input/Controller.java,
+	  input/Cursor.java, input/Keyboard.java, input/Mouse.java,
+	  openal/AL10.java, opengl/ARBVertexBufferObject.java,
+	  opengl/ARBVertexShader.java, opengl/ATIDrawBuffers.java,
+	  opengl/GL15.java, opengl/Window.java: Replaced asserts with
+	  proper runtime exceptions
+
+2004-03-26 22:57  matzon
+
+	* src/java/org/lwjgl/: input/Keyboard.java, input/Mouse.java,
+	  test/WindowCreationTest.java,
+	  test/input/ControllerCreationTest.java,
+	  test/input/ControllerTest.java, test/input/HWCursorTest.java,
+	  test/input/MouseCreationTest.java, test/input/MouseTest.java,
+	  test/openal/ALCTest.java, test/openal/PositionTest.java,
+	  test/opengl/FullScreenWindowedTest.java,
+	  test/opengl/VBOIndexTest.java, test/opengl/VBOTest.java: fixed
+	  tests according to new way cleaned up imports
+
+2004-03-26 22:49  elias_naur
+
+	* src/native/win32/: org_lwjgl_input_Keyboard.cpp,
+	  org_lwjgl_input_Mouse.cpp: Saved input events for win32
+
+2004-03-26 22:11  elias_naur
+
+	* src/: java/org/lwjgl/input/Keyboard.java,
+	  java/org/lwjgl/input/Mouse.java, native/common/common_tools.cpp,
+	  native/common/common_tools.h,
+	  native/common/org_lwjgl_input_Keyboard.h,
+	  native/common/org_lwjgl_input_Mouse.h,
+	  native/linux/org_lwjgl_input_Keyboard.cpp,
+	  native/linux/org_lwjgl_input_Mouse.cpp,
+	  native/macosx/org_lwjgl_input_Keyboard.cpp,
+	  native/macosx/org_lwjgl_input_Mouse.cpp: Save unread buffered
+	  input events between read()s
+
+2004-03-26 17:18  elias_naur
+
+	* src/java/org/lwjgl/input/Mouse.java: set native cursor to null at
+	  Mouse.destroy()
+
+2004-03-26 16:03  matzon
+
+	* src/java/org/lwjgl/test/: input/ControllerCreationTest.java,
+	  input/ControllerTest.java, input/HWCursorTest.java,
+	  input/KeyboardTest.java, input/MouseCreationTest.java,
+	  input/MouseTest.java, opengl/VBOIndexTest.java,
+	  opengl/VBOTest.java: removed Window.paint() references
+
+2004-03-26 12:26  cix_foo
+
+	* src/java/org/lwjgl/: BufferUtils.java, opengl/ARBImaging.java,
+	  opengl/Util.java, opengl/VBOTracker.java,
+	  test/openal/PositionTest.java, test/opengl/Game.java,
+	  test/opengl/Grass.java, test/opengl/PbufferTest.java,
+	  input/Keyboard.java: Simplification work
+
+2004-03-26 12:09  cix_foo
+
+	* src/java/org/lwjgl/opengl/Window.java: Simplification work
+
+2004-03-26 12:01  cix_foo
+
+	* src/: native/common/org_lwjgl_opengl_Window.h,
+	  native/win32/org_lwjgl_opengl_Window.cpp,
+	  java/org/lwjgl/test/opengl/FullScreenWindowedTest.java,
+	  native/linux/org_lwjgl_opengl_Window.cpp: Simplification work
+
+2004-03-26 12:01  cix_foo
+
+	* src/java/org/lwjgl/opengl/Window.java: [no log message]
+
+2004-03-26 11:58  cix_foo
+
+	* src/java/org/lwjgl/input/: Controller.java, Keyboard.java,
+	  Mouse.java: Simplification work
+
+2004-03-25 23:44  matzon
+
+	* src/java/org/lwjgl/test/openal/: BasicTest.java,
+	  PositionTest.java: cleaned up
+
+2004-03-25 23:38  matzon
+
+	* src/java/org/lwjgl/test/openal/PositionTest.java: fixed minimized
+	  || !focus bug
+
 2004-03-23 22:23  matzon
 
 	* src/native/macosx/org_lwjgl_opengl_Window.cpp: added nMakeCurrent
@@ -1308,23 +1882,9 @@
 	* src/native/common/nv/org_lwjgl_opengl_nv_NVFragmentProgram.h:
 	  Fixed compile errors in NVFragmentProgram
 
-2004-01-31 14:01  matzon
-
-	* website/documents/: credits.html, license.html, readme.html:
-	  updated
-
 2004-01-31 13:57  matzon
 
 	* doc/: CREDITS, LICENSE, README: updated
-
-2004-01-31 13:50  matzon
-
-	* website/documents/index.html: better wording
-
-2004-01-31 13:49  matzon
-
-	* website/documents/index.html: new documents page, until new site
-	  is done
 
 2004-01-31 13:34  matzon
 
@@ -1961,10 +2521,6 @@
 2003-11-22 20:20  elias_naur
 
 	* src/native/linux/org_lwjgl_Sys.cpp: Newline fix
-
-2003-11-20 23:15  matzon
-
-	* website/index.html: added irc to front page
 
 2003-11-18 12:10  cix_foo
 
@@ -2700,8 +3256,7 @@
 
 2003-08-24 22:47  matzon
 
-	* build.xml, website/documents/tutorials/openal/openal_basics.html:
-	  preparing for 0.7
+	* build.xml: preparing for 0.7
 
 2003-08-23 13:34  elias_naur
 
@@ -3559,14 +4114,6 @@
 	* src/native/linux/org_lwjgl_opengl_BaseGL.cpp: Small error message
 	  fix
 
-2003-07-10 16:19  matzon
-
-	* website/index.html: fix: http
-
-2003-07-10 16:18  matzon
-
-	* website/index.html: small changes for lwjgl.org
-
 2003-07-07 00:43  elias_naur
 
 	* src/java/org/lwjgl/opengl/: BaseGL.java, CoreGL.java, GL.java:
@@ -3720,14 +4267,6 @@
 	  native/win32/org_lwjgl_input_Cursor.cpp,
 	  native/win32/org_lwjgl_input_Keyboard.cpp,
 	  native/win32/org_lwjgl_input_Mouse.cpp: Ported OpenGL to Buffers
-
-2003-06-18 01:00  matzon
-
-	* website/documents/links.html: added AF link
-
-2003-06-18 01:00  matzon
-
-	* website/index.html: now linking to puppygames forum
 
 2003-06-17 23:23  matzon
 
@@ -4182,13 +4721,11 @@
 	* doc/tutorial/openal_basics.html: updated to reflect version in
 	  website folder
 
-2003-04-27 23:25  matzon
+2003-04-27 23:26  matzon
 
-	* website/documents/tutorials/openal/openal_basics.html,
-	  src/java/org/lwjgl/openal/AL.java,
-	  src/java/org/lwjgl/test/openal/BasicTest.java,
-	  src/java/org/lwjgl/test/openal/OpenALCreationTest.java: add:
-	  default constructor for OpenAL
+	* src/java/org/lwjgl/: openal/AL.java, test/openal/BasicTest.java,
+	  test/openal/OpenALCreationTest.java: add: default constructor for
+	  OpenAL
 
 2003-04-27 20:39  matzon
 
@@ -4197,30 +4734,28 @@
 
 2003-04-27 20:37  matzon
 
-	* src/java/org/lwjgl/openal/AL.java,
-	  src/java/org/lwjgl/openal/ALC.java,
-	  src/java/org/lwjgl/openal/ALCcontext.java,
-	  src/java/org/lwjgl/openal/ALCdevice.java,
-	  src/java/org/lwjgl/openal/BaseAL.java,
-	  src/java/org/lwjgl/openal/BaseALConstants.java,
-	  src/java/org/lwjgl/openal/CoreAL.java,
-	  src/java/org/lwjgl/test/openal/ALCTest.java,
-	  src/java/org/lwjgl/test/openal/ALTest.java,
-	  src/java/org/lwjgl/test/openal/BasicTest.java,
-	  src/java/org/lwjgl/test/openal/EAXTest.java,
-	  src/java/org/lwjgl/test/openal/MovingSoundTest.java,
-	  src/java/org/lwjgl/test/openal/OpenALCreationTest.java,
-	  src/java/org/lwjgl/test/openal/PlayTest.java,
-	  src/java/org/lwjgl/test/openal/PlayTestMemory.java,
-	  src/java/org/lwjgl/test/openal/SourceLimitTest.java,
-	  src/java/org/lwjgl/test/openal/StressTest.java,
-	  src/native/common/org_lwjgl_openal_ALC.cpp,
-	  src/native/common/org_lwjgl_openal_ALC.h,
-	  src/native/common/org_lwjgl_openal_BaseAL.h,
-	  src/native/common/org_lwjgl_openal_CoreAL.h,
-	  website/documents/tutorials/openal/openal_basics.html: New OpenAL
-	  programming model:  no context/device fiddling  easier
-	  initialization
+	* src/: java/org/lwjgl/openal/AL.java,
+	  java/org/lwjgl/openal/ALC.java,
+	  java/org/lwjgl/openal/ALCcontext.java,
+	  java/org/lwjgl/openal/ALCdevice.java,
+	  java/org/lwjgl/openal/BaseAL.java,
+	  java/org/lwjgl/openal/BaseALConstants.java,
+	  java/org/lwjgl/openal/CoreAL.java,
+	  java/org/lwjgl/test/openal/ALCTest.java,
+	  java/org/lwjgl/test/openal/ALTest.java,
+	  java/org/lwjgl/test/openal/BasicTest.java,
+	  java/org/lwjgl/test/openal/EAXTest.java,
+	  java/org/lwjgl/test/openal/MovingSoundTest.java,
+	  java/org/lwjgl/test/openal/OpenALCreationTest.java,
+	  java/org/lwjgl/test/openal/PlayTest.java,
+	  java/org/lwjgl/test/openal/PlayTestMemory.java,
+	  java/org/lwjgl/test/openal/SourceLimitTest.java,
+	  java/org/lwjgl/test/openal/StressTest.java,
+	  native/common/org_lwjgl_openal_ALC.cpp,
+	  native/common/org_lwjgl_openal_ALC.h,
+	  native/common/org_lwjgl_openal_BaseAL.h,
+	  native/common/org_lwjgl_openal_CoreAL.h: New OpenAL programming
+	  model:  no context/device fiddling  easier initialization
 
 2003-04-26 08:54  elias_naur
 
@@ -4328,8 +4863,7 @@
 
 2003-03-30 15:30  matzon
 
-	* doc/tutorial/intro.html, website/documents/tutorials/intro.html:
-	  fix: remove platform specific wording
+	* doc/tutorial/intro.html: fix: remove platform specific wording
 
 2003-03-29 22:51  cix_foo
 
@@ -4780,10 +5314,6 @@
 	  native/win32/org_lwjgl_Display.cpp, java/org/lwjgl/Display.java:
 	  fix: now enumerates multiple displaydevices, if available
 
-2003-03-02 23:59  matzon
-
-	* website/documents/readme.html: update to reflect newest readme
-
 2003-03-02 23:09  matzon
 
 	* doc/README: added mo content
@@ -5098,11 +5628,6 @@
 
 2003-01-29 22:34  matzon
 
-	* website/documents/tutorials/opengl/skeleton_code.html: made
-	  compatible with 0.4
-
-2003-01-29 22:34  matzon
-
 	* src/java/org/lwjgl/test/opengl/Game.java: cleaned up removed some
 	  stuff (specifically buffered mouse mode)
 
@@ -5145,11 +5670,6 @@
 	* src/native/linux/: org_lwjgl_input_Controller.cpp, Makefile.am,
 	  org_lwjgl_input_GamePad.cpp, org_lwjgl_input_Joystick.cpp,
 	  org_lwjgl_input_Keyboard.cpp: Fixed linux compile
-
-2003-01-11 14:56  matzon
-
-	* website/documents/links.html: add: link to chman's nehe ports
-	  added
 
 2003-01-03 19:47  matzon
 
@@ -5407,14 +5927,11 @@
 
 2002-12-21 13:10  matzon
 
-	* doc/tutorial/openal_basics.html,
-	  website/documents/tutorials/openal/openal_basics.html: up to date
-	  version
+	* doc/tutorial/openal_basics.html: up to date version
 
 2002-12-21 13:09  matzon
 
-	* doc/CREDITS, website/documents/credits.html: credit due, where
-	  credit is due
+	* doc/CREDITS: credit due, where credit is due
 
 2002-12-21 13:08  matzon
 
@@ -5436,42 +5953,6 @@
 	  java/org/lwjgl/vector/Vector4f.java,
 	  native/macosx/org_lwjgl_Display.cpp,
 	  native/macosx/org_lwjgl_input_GamePad.cpp: no message
-
-2002-12-20 22:20  matzon
-
-	* content/bullet.psd, content/linkbar.psd, content/logo.psd,
-	  content/miscellaneous.psd, content/tutorialsbar.psd,
-	  website/index.html, website/documents/credits.html,
-	  website/documents/index.html, website/documents/license.html,
-	  website/documents/links.html,
-	  website/documents/openal_c-to-java.html,
-	  website/documents/readme.html,
-	  website/documents/tutorials/intro.html,
-	  website/documents/tutorials/openal/openal_basics.html,
-	  website/documents/tutorials/opengl/skeleton_code.html,
-	  website/images/bullet.png, website/images/cvs.png,
-	  website/images/cvs_selected.png, website/images/discussion.png,
-	  website/images/discussion_selected.png,
-	  website/images/documents.png,
-	  website/images/documents_selected.png,
-	  website/images/download.png,
-	  website/images/download_selected.png, website/images/input.png,
-	  website/images/links.png, website/images/links_selected.png,
-	  website/images/logo.png, website/images/lwjgl.png,
-	  website/images/miscellaneous.png, website/images/openal.png,
-	  website/images/opengl.png, website/images/sourceforge.png,
-	  website/images/sourceforge_selected.png,
-	  website/images/vector.png: website files
-
-2002-12-20 22:19  matzon
-
-	* content/about.xml, content/contact.xml, content/credits.xml,
-	  content/download.xml, content/license.xml, content/navbar.xml,
-	  content/simple.xsl, content/source.xml, website/about.html,
-	  website/contact.html, website/credits.html,
-	  website/download.html, website/license.html, website/navbar.html,
-	  website/simple.css, website/source.html, website/title.png:
-	  removing not used files
 
 2002-12-20 21:47  matzon
 
@@ -6169,14 +6650,6 @@
 2002-11-22 10:34  elias_naur
 
 	* src/native/linux/Makefile: make g++ compile with -O3
-
-2002-11-22 00:05  matzon
-
-	* .project: *** keyword substitution change ***
-
-2002-11-21 23:46  matzon
-
-	* .project: fix: made .project file into java project
 
 2002-11-21 23:38  matzon
 
@@ -7322,13 +7795,8 @@
 
 2002-08-12 01:38  mpcooke3
 
-	* .project, build.xml, content/about.xml, content/contact.xml,
-	  content/credits.xml, content/download.xml, content/license.xml,
-	  content/navbar.xml, content/simple.xsl, content/source.xml,
-	  website/about.html, website/contact.html, website/credits.html,
-	  website/download.html, website/license.html, website/navbar.html,
-	  website/simple.css, website/source.html, website/title.png: Some
-	  initial stuff for the website. Not ready to go live yet - Matt
+	* build.xml: Some initial stuff for the website. Not ready to go
+	  live yet - Matt
 
 2002-08-11 18:27  matzon
 
