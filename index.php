@@ -29,6 +29,9 @@
       LWJGL is available under a BSD license, which means it's open source and freely available
       at no charge. However, we won't mind a <a href="http://sourceforge.net/donate/index.php?group_id=58488">donation</a>. 
     </p>
+    <p>
+      Please visit us on the Freenode IRC Network: <a href="irc://irc.freenode.net/lwjgl">#LWJGL</a>. Do idle if there is no one to answer any of your questions, we are on different timezones.
+    </p>
   </div>
   
 <?php 
