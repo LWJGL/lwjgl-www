@@ -46,7 +46,6 @@
     <pre>
       FullScreenWindowedTest    [<a href="jnlp/lwjgl-demo.php/test.opengl.FullScreenWindowedTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/FullScreenWindowedTest.java" target="_blank">source</a>]
       Game                      [<a href="jnlp/lwjgl-demo.php/test.opengl.Game">launch</a> | <a href="jnlp/source.php?path=test/opengl/Game.java" target="_blank">source</a>]
-      Grass                     [<a href="jnlp/lwjgl-demo.php/test.opengl.Grass">launch</a> | <a href="jnlp/source.php?path=test/opengl/Grass.java" target="_blank">source</a>]
       PbufferTest               [<a href="jnlp/lwjgl-demo.php/test.opengl.PbufferTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/PbufferTest.java" target="_blank">source</a>]
       VBOIndexTest              [<a href="jnlp/lwjgl-demo.php/test.opengl.VBOIndexTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/VBOIndexTest.java" target="_blank">source</a>]
       VBOTest                   [<a href="jnlp/lwjgl-demo.php/test.opengl.VBOTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/VBOTest.java" target="_blank">source</a>]
