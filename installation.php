@@ -24,7 +24,10 @@ lwjgl_test.jar</pre>
 		A window should appear and you should see the following output:<br/><br/>
 		<pre>Found &lt;number&gt; display modes
 240, 320, WindowCreationTest
-Display created</pre>
+Display created
+Moving to 100, 100
+Window created
+600, 800, Game</pre>
 	</li>
 	<li>
 		Should you wish to place the dll's in some other directory than you're class files (say /native as opposed to /classes) you could do so, by using the java.library.path property. For example:<br/><br/>
@@ -83,7 +86,10 @@ lwjgl_test.jar</pre>
 		A window should appear and you should see the following output:<br/><br/>
 		<pre>Found &lt;number&gt; display modes
 240, 320, WindowCreationTest
-Display created</pre>
+Display created
+Moving to 100, 100
+Window created
+600, 800, Game</pre>
 	</li>
 	<li>
 		Should you wish to place the files in some other directory than you're class files (say /native as opposed to /classes) you could do so, by using the java.library.path property. For example:<br/><br/>
