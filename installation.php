@@ -142,7 +142,15 @@
     <p>&nbsp;</p>
     <h3>Netbeans</h3>
     <p>
-      <i>no text yet</i>
+      1. Having installed LWJGL on your platform of choice, fire up Netbeans.<br>
+      2. Create a new project, and mount lwjgl.jar in the project filesystem by right clicking the Filesystem and selecting Mount -> Archive Files<br><br>
+      <img src="images/installation/netbeans-1.png"><br><br>
+      3. Having created a class to run, you need to setup that class to execute using an External Execution<br><br>
+      <img src="images/installation/netbeans-2.png"><br><br>
+      Since Netbeans doesn't allow to change the library path you either have to change the working directory of the executor to the lwjgl.dll<br>
+      or copy files over to whereever you run from. More info is provided in the <a href="http://www.netbeans.org/kb/faqs/miscellaneous.html#FAQ_34" target="_blank">Netbeans FAQ.</a><br><br>
+      <img src="images/installation/netbeans-3.png"><br><br>
+      4. You should now be able to run the application directly from Netbeans. Push F6 to verify.
     </p>  
     
     <!-- JCreator -->
