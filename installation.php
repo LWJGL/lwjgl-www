@@ -15,11 +15,12 @@
 		<pre>lwjgl.dll
 lwjglaudio.dll
 lwjgl.jar
+lwjgl_util.jar
 lwjgl_test.jar</pre>
 	</li>
 	<li>
 		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command:<br/><br/>
-		<pre>java -cp lwjgl.jar;lwjgl_test.jar; org.lwjgl.test.WindowCreationTest</pre>
+		<pre>java -cp lwjgl.jar;lwjgl_util.jar;lwjgl_test.jar; org.lwjgl.test.WindowCreationTest</pre>
 		A window should appear and you should see the following output:<br/><br/>
 		<pre>Found &lt;number&gt; display modes
 240, 320, WindowCreationTest
@@ -41,17 +42,21 @@ Display created</pre>
 		<pre>liblwjgl.so
 libopenal.so
 lwjgl.jar
+lwjgl_util.jar
 lwjgl_test.jar</pre>
 	</li>
 	<li>
 		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command:<br/><br/>
-		<pre>java -cp lwjgl.jar:lwjgl_test.jar: org.lwjgl.test.WindowCreationTest</pre>
+		<pre>java -cp lwjgl.jar:lwjgl_util.jar:lwjgl_test.jar: org.lwjgl.test.WindowCreationTest</pre>
 		Should library loading fail, try using -Djava.library.path to specify the path. For example:<br/><br/>
-		<pre>java -cp lwjgl.jar:lwjgl_test.jar: -Djava.library.path=/home/lwjgluser/lwjgl/ org.lwjgl.test.WindowCreationTest</pre>
+		<pre>java -cp lwjgl.jar:lwjgl_util.jar:lwjgl_test.jar: -Djava.library.path=/home/lwjgluser/lwjgl/ org.lwjgl.test.WindowCreationTest</pre>
 		A window should appear and you should see the following output:<br/><br/>
 		<pre>Found &lt;number&gt; display modes
 240, 320, WindowCreationTest
-Display created</pre>
+Display created
+Moving to 100, 100
+Window created
+600, 800, Game</pre>
 	</li>
 	<li>
 		Should you wish to place the so files in some other directory than you're class files (say /native as opposed to /classes) you could do so, by using the java.library.path property. For example:<br/><br/>
@@ -69,11 +74,12 @@ Display created</pre>
 		<pre>liblwjgl.jnilib
 libopenal.dylib
 lwjgl.jar
+lwjgl_util.jar
 lwjgl_test.jar</pre>
 	</li>
 	<li>
 		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command:<br/><br/>
-		<pre>java -cp lwjgl.jar:lwjgl_test.jar: org.lwjgl.test.WindowCreationTest</pre>
+		<pre>java -cp lwjgl.jar:lwjgl_util.jar:lwjgl_test.jar: org.lwjgl.test.WindowCreationTest</pre>
 		A window should appear and you should see the following output:<br/><br/>
 		<pre>Found &lt;number&gt; display modes
 240, 320, WindowCreationTest
