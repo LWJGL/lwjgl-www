@@ -161,12 +161,12 @@
     <p>&nbsp;</p>
     <h3>JCreator</h3>
     <p>
-	1. At the top, click Project -> Project Properties<br>
-	2. Click a tab that says "Required Libraries"<br>
-	3. Then click the "new" button<br>
-	4. A new window should pop up. At the top text box, put LWJGL<br>
-	5. Then click add --> add path, and select the file were you put the .class/dll files<br>
-	6. Click add -> add archive and add both .jar files<br>
+	1. Create project. Goto Project->Project Properties, select 'Required Libraries' tab and click New.<br>
+	<img src="images/installation/jcreator-1.jpg"><br><br>
+	2. Call new library collection LWJGL. Click add->path and add the path to where you installed lwjgl. Then click add->Archive and select the 2 .jar files.<br>
+	<img src="images/installation/jcreator-2.jpg"><br><br>
+	3. Make sure the LWJGL library is ticked.<br>
+	<img src="images/installation/jcreator-3.jpg"><br><br>
     </p>       
   </div>
 <?php 
