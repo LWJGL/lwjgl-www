@@ -1,0 +1,134 @@
+/* default body style */
+body {
+ font-family: Verdana, Arial;
+ font-size: 13px;
+ margin: 0px;
+ vertical-align: top;
+}
+
+/* Top header */
+div.header {
+  color: #ffffff;
+  padding: 30px 0em 30px 7em;
+  background-color: #666666;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* footer */
+div.footer {
+  color: #999999;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 1.5em 0em 1.5em 7em;
+}
+
+/* left menu */
+div.menu {
+  vertical-align: top;
+  background-color: #666666;
+  float: left;
+  width: 10em;
+}
+
+/* header menu items */
+div.menu_header {
+  padding-left: 0.5em;
+  color: #ff0000;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+/* menu item links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* menu item links */
+a.menu_item {
+  padding-left: 1.0em;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+a.menu_item:hover {
+  color:  #5D90ED;
+  text-decoration: underline;
+}
+
+/* menu item links */
+a.header {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* menu item links */
+a.footer {
+  color: #999999;
+  text-decoration: none;
+}
+
+a.footer:hover {
+  color:  #5D90ED;
+  text-decoration: underline;
+}
+
+/* menu item links */
+div.current_page {
+  padding-left: 1.0em;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+/* introduction area */
+div.paragraph_item {
+  margin-left: 10.5em;
+}
+div.paragraph_item > h2:first-child {
+  color: #ff0000;
+}
+div.paragraph_item > p {
+  margin-left: 1em;
+}
+
+/* news area */
+div.news {
+  margin-left: 10.5em;
+}
+
+div.news > h2:first-child {
+  color: #ff0000;
+}
+
+div.news_item {
+  margin-left: 1em;
+}
+
+/* introduction area */
+div.iframe {
+  margin-left: 10em;
+}
+
+/* faq area */
+div.faq {
+  margin-left: 10.5em;
+}
+
+div.faq > h2:first-child {
+  color: #ff0000;
+}
+
+div.faq_item {
+  margin-left: 1em;
+}
