@@ -8,7 +8,7 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 0.95 released!</b> <span class="newsdate">Tuesday, January 25th, 2004</span><br/>
+	<b>LWJGL 0.95 released!</b> <span class="newsdate">Tuesday, January 25th, 2005</span><br/>
 	0.95 released. Lots of fixes. Thanks everybody. Please check <a href="http://lwjgl.org/forum/viewtopic.php?p=6422">this thread</a> for more info regarding the release<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
