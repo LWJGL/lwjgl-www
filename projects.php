@@ -78,6 +78,17 @@ $projects[] = array('name'    => 'Gravity Battle',
 								       2 => array('small' => 'gravitybattle_small_3.jpg',
 												  'big'   => 'gravitybattle_3.jpg')));												  										  
 												  
+$projects[] = array('name'    => 'Puppytron',
+					'url'     => 'http://www.puppygames.net/',
+					'type'    => 'Freeware game',
+					'desc'    => 'Intense shoot-em-up with 100% pure frenzied gameplay. Play for the glory. Only hiscores matter. Play it <a href="http://puppygames.net/applets/puppytron.jnlp">here</a>',
+					'screens' => array(0 => array('small' => 'puppytron_small_1.jpg',
+											      'big'   => 'puppytron_1.jpg'),
+								       1 => array('small' => 'puppytron_small_2.jpg',
+												  'big'   => 'puppytron_2.jpg'),
+								       2 => array('small' => 'puppytron_small_3.jpg',
+												  'big'   => 'puppytron_3.jpg')));												  
+												  
 function displayProjects() {
 	
 	GLOBAL $projects;
