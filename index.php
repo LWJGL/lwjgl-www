@@ -8,6 +8,10 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>Finally at last! 0.96 released!</b> <span class="newsdate">Wednesday, March 30th, 2005</span><br/>
+	This relase includes (among other things) AWT support and expanded DevIL and FMOD support. Please check <a href="http://lwjgl.org/forum/viewtopic.php?p=7121">this thread</a> for more info regarding the release<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 0.95 released!</b> <span class="newsdate">Tuesday, January 25th, 2005</span><br/>
 	0.95 released. Lots of fixes. Thanks everybody. Please check <a href="http://lwjgl.org/forum/viewtopic.php?p=6422">this thread</a> for more info regarding the release<br/><br/>
 </p>
@@ -18,9 +22,5 @@
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>New site!</b> <span class="newsdate">Wednesday, November 10th, 2004</span><br/>
 	With the help of <a href="http://www.gomjabbar.de/" target="_blank">Daniel Leinich</a> we have a new site online! If you find any bugs, please send an email to <a href="mailto:info@lwjgl.org">info@lwjgl.org</a><br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 0.93 released!</b> <span class="newsdate">Wednesday, October 27th, 2004</span><br/>
-	Thats right - <a href="download.php">another release</a> fresh off the build machine. For more info about the release, please visit <a href="http://puppygames.net/forums/viewtopic.php?p=5405" target="_blank">this thread</a> on the boards.<br/><br/>
 </p>
 <? require('_include/footer.php'); ?>
