@@ -9,7 +9,7 @@
 		<a href="http://www.lwjgl.org/javadoc" target="_blank">LWJGL javadoc</a><br/><br/>
 	</li>
 	<li>
-		<a href="http://lwjgl.org/wiki/tiki-index.php" target="_blank">LWJGL Wiki</a><br/><br/>
+		<a href="http://wiki.lwjgl.org" target="_blank">LWJGL Wiki</a><br/><br/>
 	</li>
 	<li>
 		<a href="documentation_openal_01.php">Using OpenAL</a><br/><br/>
