@@ -8,6 +8,10 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 0.94 released!</b> <span class="newsdate">Tuesday, December 14th, 2004</span><br/>
+	Time for yet another relase - this time featuring the long awaited Mac OS X port which was made possible using the donated money. Thanks everybody. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=846">this thread</a> for more info regarding the release<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>New site!</b> <span class="newsdate">Wednesday, November 10th, 2004</span><br/>
 	With the help of <a href="http://www.gomjabbar.de/" target="_blank">Daniel Leinich</a> we have a new site online! If you find any bugs, please send an email to <a href="mailto:info@lwjgl.org">info@lwjgl.org</a><br/><br/>
 </p>
