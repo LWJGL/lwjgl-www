@@ -372,7 +372,7 @@
 </p>
 
 <p>
-	Download source code and resources for this lesson <a href="tutorials/openal/devmaster/lesson1.zip">here</a>.
+	Download source code and resources for this lesson <a href="_files/tutorials/openal_devmaster_lesson1.zip">here</a>.
 </p>
 
 <? require('_include/footer.php'); ?>

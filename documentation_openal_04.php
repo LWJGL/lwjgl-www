@@ -143,8 +143,4 @@
 	of how OpenAL interacts with the operation system.
 </p>
 
-<p>
-	Download source code and resources for this lesson <a href="tutorials/openal/devmaster/lesson4.zip">here</a>.
-</p>
-
 <? require('_include/footer.php'); ?>
