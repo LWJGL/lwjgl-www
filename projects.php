@@ -56,6 +56,28 @@ $projects[] = array('name'    => 'Alien Flux',
 								       2 => array('small' => 'alienflux_small_3.jpg',
 												  'big'   => 'alienflux_3.jpg')));
 
+$projects[] = array('name'    => 'Super Dudester',
+					'url'     => 'http://puppygames.net',
+					'type'    => 'Commercial game',
+					'desc'    => 'Super Dudester is trapped in Dr. Doooom\'s Bad Trip Machine! Only you can help him escape. The Dude must make his way from the start room to the exit room. Each room he encounters is different, and he must learn how to escape each one.',
+					'screens' => array(0 => array('small' => 'superdudester_small_1.jpg',
+											      'big'   => 'superdudester_1.jpg'),
+								       1 => array('small' => 'superdudester_small_2.jpg',
+												  'big'   => 'superdudester_2.jpg'),
+								       2 => array('small' => 'superdudester_small_3.jpg',
+												  'big'   => 'superdudester_3.jpg')));		
+												  
+$projects[] = array('name'    => 'Gravity Battle',
+					'url'     => 'http://www.cokeandcode.com/gravitybattle/',
+					'type'    => 'Commercial game (in progress)',
+					'desc'    => 'Gravity Battle is a game of thrust and control. Gently guide your pod around the levels completing the tasks set out. Watch out for the inhabitants of the caverns and be sure to pick up all the bonuses. Ah, but wait! Completing the level isn\'t good enough, can you get 3 medals on every level?',
+					'screens' => array(0 => array('small' => 'gravitybattle_small_1.jpg',
+											      'big'   => 'gravitybattle_1.jpg'),
+								       1 => array('small' => 'gravitybattle_small_2.jpg',
+												  'big'   => 'gravitybattle_2.jpg'),
+								       2 => array('small' => 'gravitybattle_small_3.jpg',
+												  'big'   => 'gravitybattle_3.jpg')));												  										  
+												  
 function displayProjects() {
 	
 	GLOBAL $projects;
