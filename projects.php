@@ -87,7 +87,18 @@ $projects[] = array('name'    => 'Puppytron',
 								       1 => array('small' => 'puppytron_small_2.jpg',
 												  'big'   => 'puppytron_2.jpg'),
 								       2 => array('small' => 'puppytron_small_3.jpg',
-												  'big'   => 'puppytron_3.jpg')));												  
+												  'big'   => 'puppytron_3.jpg')));
+												 
+$projects[] = array('name'    => 'Illuminati',
+					'url'     => 'http://www.ninjasoftware.com/',
+					'type'    => 'Commercial game',
+					'desc'    => 'Brick-puzzle game featuring awesome visuals and music. A free demo is available for you to check out the addictive gameplay!',
+					'screens' => array(0 => array('small' => 'illuminati_small_1.jpg',
+											      'big'   => 'illuminati_1.jpg'),
+								       1 => array('small' => 'illuminati_small_2.jpg',
+												  'big'   => 'illuminati_2.jpg'),
+								       2 => array('small' => 'illuminati_small_3.jpg',
+												  'big'   => 'illuminati_3.jpg')));												  
 												  
 function displayProjects() {
 	
@@ -108,7 +119,7 @@ function displayProjects() {
 		echo "            <td>".$project['type']."</td>\n";
 		echo "        </tr>\n";
 		echo "        <tr>\n";
-		echo "            <td width=\"110\">&nbsp;&nbsp;&nbsp;&nbsp;<i>Description:</i></td>\n";
+		echo "            <td width=\"110\" valign=\"top\">&nbsp;&nbsp;&nbsp;&nbsp;<i>Description:</i></td>\n";
 		echo "            <td>".$project['desc']."</td>\n";
 		echo "        </tr>\n";
 		echo "        <tr>\n";
@@ -136,7 +147,7 @@ function displayProjects() {
 
 <h1><a name="top">Projects</a></h1>
 <p>
-	The following is a list of projects that use LWJGL. Please write to <a href="mailto:info@lwjgl.org">info@lwjgl.org</a> if you have a project you want to have listed.
+	The following is a list of projects that use LWJGL. Please write to <a href="mailto:info@lwjgl.org">info@lwjgl.org</a> if you have a project you want to have listed. Please include 3 small and large screenshots along with a description of your project.
 </p>
 
 <?
