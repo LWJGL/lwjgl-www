@@ -22,6 +22,7 @@
     </p>
     <p>
     	<a href="/javadoc" target="_blank">LWJGL javadoc</a><br><br>
+    	<a href="http://lwjgl.org/wiki/tiki-index.php">LWJGL Wiki</a><br><br>
     	<a href="?page=tutorials/openal/devmaster/lesson1">Using OpenAL</a>
     </p>
   </div>
