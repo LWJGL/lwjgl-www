@@ -11,7 +11,7 @@
     "forum",              "http://forum.lwjgl.org/",                                "_blank",
     "faq",                "faq.php",                                                "_top",
     "projects",           "projects.php",                                           "_top",
-//    "demos",              "demos.php",                                              "_top",
+    "demos",              "demos.php",                                              "_top",
     "license",            "license.php",                                            "_top",
     "contact",            "contact.php",                                            "_top",
     "credits",            "credits.php",                                            "_top");

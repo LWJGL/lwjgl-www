@@ -10,7 +10,7 @@ header("Content-type: application/x-java-jnlp-file");
   <information> 
     <title>LWJGL Demo [<?php echo substr($_SERVER["PATH_INFO"], 1, strlen($_SERVER["PATH_INFO"])-1); ?>]</title> 
     <vendor>LWJGL</vendor> 
-    <homepage href="http://lwjgl.orgt/"/> 
+    <homepage href="http://lwjgl.org/"/> 
     <description>Demonstration of LWJGL</description> 
     <description kind="short">Technology Preview</description> 
     <offline-allowed/> 
@@ -20,25 +20,24 @@ header("Content-type: application/x-java-jnlp-file");
   </security>
   <resources> 
     <j2se version="1.4+"/> 
-<?php
-  if (strpos($_SERVER["PATH_INFO"], "openal") > -1 ||
-      strpos($_SERVER["PATH_INFO"], "opengl") > -1) {
-    echo "    <jar href=\"lwjgl-media.jar\"/>";
-  }
-?>    
     <jar href="lwjgl.jar"/>
     <jar href="lwjgl_test.jar" main="true"/>
+    <jar href="lwjgl_util.jar"/>
+    <jar href="lwjgl_fmod3.jar"/>
+    <jar href="lwjgl_media.jar"/>
   </resources> 
   <resources os="Windows">
     <j2se version="1.4+"/> 
     <nativelib href="lwjgl-windows.jar"/>
     <nativelib href="lwjglaudio-windows.jar"/>
+    <nativelib href="lwjglfmod3-windows.jar"/>";
   </resources> 
   <resources os="Linux" arch="i386">
     <j2se version="1.4+"/> 
-    <nativelib href="lwjgl-rh8-9.jar"/>
-    <nativelib href="openal-rh8-9.jar"/>
+    <nativelib href="lwjgl-linux.jar"/>
+    <nativelib href="lwjglaudio-linux.jar"/>
+    <nativelib href="lwjglfmod3-linux.jar"/>";
   </resources>   
   <!--<property key="java.library.path" value="." />-->
-  <application-desc main-class="org.lwjgl.test.<?php echo substr($_SERVER["PATH_INFO"], 1, strlen($_SERVER["PATH_INFO"])-1); ?>"/> 
+  <application-desc main-class="org.lwjgl.<?php echo substr($_SERVER["PATH_INFO"], 1, strlen($_SERVER["PATH_INFO"])-1); ?>"/>
 </jnlp>
