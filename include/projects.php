@@ -48,7 +48,17 @@
     "Free, open source game",
     "Vermin ExTerminator is a free multiplayer network game. It's a 2D real-time first-person shooter. Little worms (vermins) fight against each other using hand guns, rifles, grenades or rockets. In other words the game is mix of liero and a real-time worms. The game is written in Java with LWJGL as OpenGL and OpenAL interface. The development is open source and still in progress and till now Vermin ExTerminator is only in alpha version.",
     array ("Vermins", 800, 600, 150, 112),
-    array ("Vermins", 800, 600, 150, 112));    
+    array ("Vermins", 800, 600, 150, 112));
+    
+  $projects[4] = array(
+    "StarShip2D", 
+    "http://www.drx.dk/starship2d.html",
+    "http://www.drx.dk/starship2d.html",
+    "Free, open source game",
+    "StarShip2D is a 2d scroller game, where you shoot incomming enemies with your cannon or powerfull rockets.",
+    array ("starship2d", 640, 480, 162, 122),
+    array ("starship2d", 640, 480, 162, 122),
+    array ("starship2d", 640, 480, 162, 122));
   // -------------------------------------------------------
   
   /////////////////////////////////////////////////////////////////////////////////
