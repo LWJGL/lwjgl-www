@@ -8,6 +8,10 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 0.95 released!</b> <span class="newsdate">Tuesday, January 25th, 2004</span><br/>
+	0.95 released. Lots of fixes. Thanks everybody. Please check <a href="http://lwjgl.org/forum/viewtopic.php?p=6422">this thread</a> for more info regarding the release<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 0.94 released!</b> <span class="newsdate">Tuesday, December 14th, 2004</span><br/>
 	Time for yet another relase - this time featuring the long awaited Mac OS X port which was made possible using the donated money. Thanks everybody. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=846">this thread</a> for more info regarding the release<br/><br/>
 </p>
@@ -18,9 +22,5 @@
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 0.93 released!</b> <span class="newsdate">Wednesday, October 27th, 2004</span><br/>
 	Thats right - <a href="download.php">another release</a> fresh off the build machine. For more info about the release, please visit <a href="http://puppygames.net/forums/viewtopic.php?p=5405" target="_blank">this thread</a> on the boards.<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 0.92 released!</b> <span class="newsdate">Monday, September 5th, 2004</span><br/>
-	LWJGL 0.92 has arrived! <a href="download.php">Get Downloading</a>! Please follow <a href="http://puppygames.net/forums/viewtopic.php?p=5052" target="_blank">this thread</a> for more info.<br/><br/>
 </p>
 <? require('_include/footer.php'); ?>

@@ -17,6 +17,7 @@ function displayChangelog($version) {
 </p>
 <ul>
 	<li><a href="http://www.lwjgl.org/changelogs/full-changelog.txt" target="_blank">Full changelog</a></li>
+	<li><a href="#0.95">LWJGL 0.95</a></li>
 	<li><a href="#0.94">LWJGL 0.94</a></li>
 	<li><a href="#0.93">LWJGL 0.93</a></li>
 	<li><a href="#0.92">LWJGL 0.92</a></li>
@@ -33,6 +34,7 @@ function displayChangelog($version) {
 </ul>
 
 <?
+displayChangelog('0.95');
 displayChangelog('0.94');
 displayChangelog('0.93');
 displayChangelog('0.92');

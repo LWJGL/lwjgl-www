@@ -2,8 +2,8 @@
 
 <h1>Download</h1>
 <p>
-	Latest stable release is 0.94. Please download it here:<br/>
-	<a href="https://sourceforge.net/project/showfiles.php?group_id=58488" target="_blank">LWJGL 0.94 alpha</a>
+	Latest stable release is 0.95. Please download it here:<br/>
+	<a href="https://sourceforge.net/project/showfiles.php?group_id=58488" target="_blank">LWJGL 0.95 alpha</a>
 </p>
 <p>
     Latest CVS tarball. Please download it here:<br/>
