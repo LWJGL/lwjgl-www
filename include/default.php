@@ -53,12 +53,20 @@
     
     echo "  <!-- icon block -->\n";
     echo "  <div align=\"center\">\n";
+    echo "    <!-- opengl -->\n";
+    echo "    <a href=\"http://opengl.org\" target=\"blank\"><img src=\"images/opengl_logo.png\" width=\"88\" height=\"45\" border=\"0\" alt=\"OpenGL.org logo\" title=\"Using OpenGL technology\"/></a>\n";
+    echo "    <!-- openal -->\n";
+    echo "    <br>\n";
+    echo "    <a href=\"http://openal.org\" target=\"blank\"><img src=\"images/openal_logo.png\" width=\"88\" height=\"47\" border=\"0\" alt=\"OpenAL.org logo\" title=\"Using OpenAL technology\"/></a>\n";
+    echo "    <!-- java.net -->\n";
+    echo "    <br><br>\n";
+    echo "    <a href=\"http://java.net\" target=\"blank\"><img src=\"images/javanet_button_90.gif\" width=\"90\" height=\"25\" border=\"0\" alt=\"java.net logo\" title=\"java.net member\"/></a>\n";
     echo "    <!-- donation -->\n";
-    echo "    <p>&nbsp;</p>\n";
-    echo "    <a href=\"http://sourceforge.net/donate/index.php?group_id=58488\"><img src=\"http://images.sourceforge.net/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Support This Project\" title=\"Donate to LWJGL\"/></a>\n";
+    echo "    <br><br>\n";
+    echo "    <a href=\"http://sourceforge.net/donate/index.php?group_id=58488\" target=\"blank\"><img src=\"http://images.sourceforge.net/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Support This Project\" title=\"Donate to LWJGL\"/></a>\n";
     echo "    <!-- SF icon -->\n";
     echo "    <br><br>\n";
-    echo "    <a href=\"http://sourceforge.net\"><img src=\"http://sourceforge.net/sflogo.php?group_id=58488&type=1\" width=\"88\" height=\"31\" border=\"0\" alt=\"SourceForge.net Logo\" title=\"SourceForge.net Logo\"></a>\n";
+    echo "    <a href=\"http://sourceforge.net\" target=\"blank\"><img src=\"http://sourceforge.net/sflogo.php?group_id=58488&type=1\" width=\"88\" height=\"31\" border=\"0\" alt=\"SourceForge.net Logo\" title=\"SourceForge.net Logo\"/></a>\n";
     echo "  </div>\n";
     echo "  <br>\n";
     echo "</div>\n\n";
@@ -94,8 +102,6 @@
   ////////////////////////////////////////////////////////////////////////////////
   function printFooter() {
     echo "<div class=\"footer\">this site and its content is © <a class=\"footer\" href=\"mailto:info@lwjgl.org\">lwjgl.org</a>";
-    echo "<!-- java.net icon -->\n";
-    echo "<br><br>\n";
     echo "</div>\n\n";
     echo "</body>";
     echo "</html>";
