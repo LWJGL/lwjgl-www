@@ -22,6 +22,7 @@
     <p>
       <ul>
       	<li><a href="changelogs/full-changelog.txt">Full changelog</a></li>
+      	<li><a href="#0.92">LWJGL 0.92</a></li>
       	<li><a href="#0.90">LWJGL 0.90</a></li>
         <li><a href="#0.89">LWJGL 0.89</a></li>
         <li><a href="#0.80">LWJGL 0.80</a></li>
@@ -35,6 +36,7 @@
       </ul>
     </p>
 
+    <?php printChangelog("0.92"); ?>
     <?php printChangelog("0.90"); ?>
     <?php printChangelog("0.89"); ?>
     <?php printChangelog("0.80"); ?>
