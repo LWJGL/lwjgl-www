@@ -64,6 +64,10 @@
       once navigated, issue the following command:
       <pre>
       java -cp lwjgl.jar:lwjgl_test.jar: org.lwjgl.test.WindowCreationTest</pre>
+      Should library loading fail, try using <code>-Djava.library.path</code> to specify the path.<br>
+      for example:<br>
+      <pre>
+      java -cp lwjgl.jar:lwjgl_test.jar: -Djava.library.path=/home/lwjgluser/lwjgl/ org.lwjgl.test.WindowCreationTest</pre>
     </p>
     <p>
       a window should appear, and you should see the following output:
