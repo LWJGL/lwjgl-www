@@ -7,6 +7,7 @@
     "download",           "download.php",                                           "_top",
     "installation",       "installation.php",                                       "_top",
     "documentation",      "documentation.php",                                      "_top",
+    "wiki",               "http://wiki.lwjgl.org/",                                 "_blank",
     "forum",              "http://forum.lwjgl.org/",                                "_blank",
     "faq",                "faq.php",                                                "_top",
     "projects",           "projects.php",                                           "_top",
