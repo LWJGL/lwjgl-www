@@ -2,6 +2,11 @@
   // News
   // =======================================================
   $news[0] = array(
+    "LWJGL 0.9a released", 
+    "LWJGL 0.9 alpha has been released! Download <a href=\"http://www.lwjgl.org/download.php\">here</a>.<br>consider <a href=\"http://sourceforge.net/donate/index.php?group_id=58488\">donating</a> if you find LWJGL usefull.",
+    "Tuesday, April 13th, 2004");
+  
+  $news[1] = array(
     "New site!", 
     "Welcome to the grand opening of our new site! Please browse around. Should you find any errors or have trouble finding exactly what your looking for, please email <a href=\"mailto:info@lwjgl.org\">info@lwjgl.org</a>",
     "Sunday, March 28th, 2004");

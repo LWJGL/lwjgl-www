@@ -9,8 +9,8 @@
   <div class="paragraph_item">
     <h2>Download</h2>
     <p>
-      Latest stable release is 0.8. Please download it here:<br>
-      <a href="http://sourceforge.net/project/showfiles.php?group_id=58488&package_id=54362&release_id=192924" target="_blank">LWJGL 0.8 alpha</a>
+      Latest stable release is 0.9. Please download it here:<br>
+      <a href="http://sourceforge.net/project/showfiles.php?group_id=58488&package_id=54362&release_id=230885" target="_blank">LWJGL 0.9 alpha</a>
     </p>
     <p>
       Random Win32 CVS builds are provided here: <i>Please note that these builds may be more buggy than an official release, but will typically contain the newest features.</i><br>
