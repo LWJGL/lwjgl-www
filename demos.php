@@ -49,14 +49,14 @@
       PbufferTest               [<a href="jnlp/lwjgl-demo.php/test.opengl.PbufferTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/PbufferTest.java" target="_blank">source</a>]
       VBOIndexTest              [<a href="jnlp/lwjgl-demo.php/test.opengl.VBOIndexTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/VBOIndexTest.java" target="_blank">source</a>]
       VBOTest                   [<a href="jnlp/lwjgl-demo.php/test.opengl.VBOTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/VBOTest.java" target="_blank">source</a>]
-      GLGears                   [<a href="jnlp/lwjgl-demo.php/test.opengl.Gears">launch</a> | <a href="source.php?path=test/opengl/Gears.java" target="_blank">source</a>]
+      GLGears                   [<a href="jnlp/lwjgl-demo.php/test.opengl.Gears">launch</a> | <a href="jnlp/source.php?path=test/opengl/Gears.java" target="_blank">source</a>]
     </pre>
     </p>
     <p><b>FMOD</b></p>
     <p>
     <pre>
-      NetTest                   [<a href="jnlp/lwjgl-demo.php/test.fmod3.NetTest">launch</a> | <a href="source.php?path=test/fmod3/NetTest.java" target="_blank">source</a>]
-      StreamPlayerMemory        [<a href="jnlp/lwjgl-demo.php/test.fmod3.StreamPlayerMemory">launch</a> | <a href="source.php?path=test/fmod3/StreamPlayerMemory.java" target="_blank">source</a>]
+      NetTest                   [<a href="jnlp/lwjgl-demo.php/test.fmod3.NetTest">launch</a> | <a href="jnlp/source.php?path=test/fmod3/NetTest.java" target="_blank">source</a>]
+      StreamPlayerMemory        [<a href="jnlp/lwjgl-demo.php/test.fmod3.StreamPlayerMemory">launch</a> | <a href="jnlp/source.php?path=test/fmod3/StreamPlayerMemory.java" target="_blank">source</a>]
     </pre>
     </p>
     <p><b>org.lwjgl</b></p>

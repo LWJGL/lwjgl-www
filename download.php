@@ -9,8 +9,8 @@
   <div class="paragraph_item">
     <h2>Download</h2>
     <p>
-      Latest stable release is 0.92. Please download it here:<br>
-      <a href="https://sourceforge.net/project/showfiles.php?group_id=58488" target="_blank">LWJGL 0.92 alpha</a>
+      Latest stable release is 0.93. Please download it here:<br>
+      <a href="https://sourceforge.net/project/showfiles.php?group_id=58488" target="_blank">LWJGL 0.93 alpha</a>
     </p>
     <!--
     <p>
