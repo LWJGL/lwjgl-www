@@ -14,7 +14,8 @@
     </p>
     <p>
       Random Win32 CVS builds are provided here: <i>Please note that these builds may be more buggy than an official release, but will typically contain the newest features.</i><br>
-      <a href="http://matzon.dk/brian/lwjgl/builds/lwjgl-2004-03-31.rar" target="">lwjgl-2004-03-31.rar</a><br>
+      <a href="http://matzon.dk/brian/lwjgl/builds/lwjgl-2004-05-14.zip">lwjgl-2004-05-14.zip</a> <i>swt enabled!</i><br>
+      <a href="http://matzon.dk/brian/lwjgl/builds/lwjgl-2004-05-14-swt.zip">lwjgl-2004-05-14-swt.zip</a> <i>swt enabled! (includes swt support files)</i><br>
     </p>
     <p>
       Latest CVS tarball. Please download it here:<br>
