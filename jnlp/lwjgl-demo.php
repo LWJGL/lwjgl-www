@@ -13,6 +13,7 @@ header("Content-type: application/x-java-jnlp-file");
     <homepage href="http://lwjgl.org/"/> 
     <description>Demonstration of LWJGL</description> 
     <description kind="short">Technology Preview</description> 
+    <icon kind="splash" href="logo.png" />
     <offline-allowed/> 
   </information> 
   <security> 
@@ -29,16 +30,13 @@ header("Content-type: application/x-java-jnlp-file");
   <resources os="Windows">
     <j2se version="1.4+"/> 
     <nativelib href="lwjgl_win32.jar"/>
-    <nativelib href="lwjglaudio_win32.jar"/>
-    <nativelib href="lwjglfmod3_win32.jar"/>";
+    <property name="org.lwjgl.Sys.debug" value="true" />
   </resources> 
   <resources os="Linux" arch="i386">
     <j2se version="1.4+"/> 
     <nativelib href="lwjgl_linux.jar"/>
-    <nativelib href="lwjglaudio_linux.jar"/>
-    <nativelib href="lwjglfmod3_linux.jar"/>";
+    <property name="org.lwjgl.Sys.debug" value="true" />
   </resources>   
-  <!--<property key="java.library.path" value="." />-->
   <application-desc main-class="org.lwjgl.<?php echo substr($_SERVER["PATH_INFO"], 1, strlen($_SERVER["PATH_INFO"])-1); ?>">
   <?php
     if(isset($HTTP_GET_VARS['arguments'])) {
