@@ -1,6 +1,5 @@
 <?php
   require 'include/default.php';
-  require 'include/news.php';
 
   printHeader(null, null);
   printMenu("installation");
