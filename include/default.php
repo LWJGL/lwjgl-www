@@ -63,8 +63,10 @@
     echo "    <br><br>\n";
     echo "    <a href=\"http://java.net\" target=\"blank\"><img src=\"images/javanet_button_90.gif\" width=\"90\" height=\"25\" border=\"0\" alt=\"java.net logo\" title=\"java.net member\"/></a>\n";
     echo "    <!-- donation -->\n";
+    echo "    <!--\n";
     echo "    <br><br>\n";
     echo "    <a href=\"http://sourceforge.net/donate/index.php?group_id=58488\" target=\"blank\"><img src=\"http://images.sourceforge.net/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Support This Project\" title=\"Donate to LWJGL\"/></a>\n";
+    echo "    -->\n";
     echo "    <!-- SF icon -->\n";
     echo "    <br><br>\n";
     echo "    <a href=\"http://sourceforge.net\" target=\"blank\"><img src=\"http://sourceforge.net/sflogo.php?group_id=58488&type=1\" width=\"88\" height=\"31\" border=\"0\" alt=\"SourceForge.net Logo\" title=\"SourceForge.net Logo\"/></a>\n";
