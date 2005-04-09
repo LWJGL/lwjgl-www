@@ -16,7 +16,7 @@
 				<div class="menu">
 					<h2>LWJGL</h2>
 					<p>
-         				<a href="index.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false) ? ' class="activeItem"' : '');?>>Home</a><br/>
+         			<a href="index.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false) ? ' class="activeItem"' : '');?>>Home</a><br/>
 					    <a href="about.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'about.php') !== false) ? ' class="activeItem"' : '');?>>About</a><br/>
 					    <a href="download.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'download.php') !== false) ? ' class="activeItem"' : '');?>>Download</a><br/>
 					    <a href="installation.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'installation.php') !== false) ? ' class="activeItem"' : '');?>>Installation</a><br/>
@@ -32,6 +32,7 @@
 					</p>
 					<h2>Developers</h2>
 					<p>
+							<a href="http://cia.lwjgl.org" target="_blank">CVS Commits</a><br/>
 					    <a href="http://cvs.sourceforge.net/viewcvs.py/java-game-lib/" target="_blank">CVS Tree</a><br/>
 					    <a href="http://sourceforge.net/projects/java-game-lib" target="_blank">Project Home</a><br/>
 					</p>
@@ -39,6 +40,7 @@
 					<p>
 					    <a href="links.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'links.php') !== false) ? ' class="activeItem"' : '');?>>Links</a><br/>
 					    <a href="changelog.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'changelog.php') !== false) ? ' class="activeItem"' : '');?>>Changelog</a><br/>
+					    <a href="irclog.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'irclog.php') !== false) ? ' class="activeItem"' : '');?>>IRC Chatlog</a><br/>
 					</p>
 					<p>
 					    <br/><a href="http://www.opengl.org" target="_blank"><img src="_gfx/button_opengl.png" alt="OpenGL" border="0"></a><br/><br/>
