@@ -30,7 +30,7 @@ Window created
 600, 800, Game</pre>
 	</li>
 	<li>
-		Should you wish to place the dll's in some other directory than you're class files (say /native as opposed to /classes) you could do so, by using the java.library.path property. For example:<br/><br/>
+		Should you wish to place the dll's in some other directory than your class files (say /native as opposed to /classes) you could do so, by using the java.library.path property. For example:<br/><br/>
 		<pre>java -cp classes; -Djava.library.path=native org.lwjgl.test.WindowCreationTest</pre>
 	</li>
 </ul>
