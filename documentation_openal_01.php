@@ -101,7 +101,7 @@
 <span class="codeKeyword">import</span> org.lwjgl.LWJGLException;
 <span class="codeKeyword">import</span> org.lwjgl.openal.AL;
 <span class="codeKeyword">import</span> org.lwjgl.openal.AL10;
-<span class="codeKeyword">import</span> org.lwjgl.test.openal.WaveData;
+<span class="codeKeyword">import</span> org.lwjgl.util.WaveData;
 
 <span class="codeKeyword">public class</span> Lesson1 {
 <span class="codeComment">  /** Buffers hold sound data. */</span>
