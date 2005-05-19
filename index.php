@@ -8,6 +8,10 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>Now for a totally different type of news item!: LWJGL 0.97 released</b> <span class="newsdate">Thursday, May 19th, 2005</span><br/>
+	Basically this is a bugfix release, but it does contain some new stuff. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=1117">this thread</a> for more info regarding the release<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>Finally at last! 0.96 released!</b> <span class="newsdate">Wednesday, March 30th, 2005</span><br/>
 	This relase includes (among other things) AWT support and expanded DevIL and FMOD support. Please check <a href="http://lwjgl.org/forum/viewtopic.php?p=7121">this thread</a> for more info regarding the release<br/><br/>
 </p>
