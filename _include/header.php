@@ -8,7 +8,25 @@
 	</head>
 
 	<body>
-
+				<p align="center" class="adsense" style="overflow: hidden;">
+					<br>
+					<script type="text/javascript">
+					<!--
+					google_ad_client = "pub-6854624150474051";
+					google_ad_width = 728;
+					google_ad_height = 90;
+					google_ad_format = "728x90_as";
+					google_ad_type = "text";
+					google_ad_channel ="";
+					google_color_border = "000000";
+					google_color_bg = "FFFFFF";
+					google_color_link = "000000";
+					google_color_url = "666666";
+					google_color_text = "333333";
+					//--></script>
+					<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+				<br>
+				</p>
 		<div class="mainFrame">
 		    <div class="borderTop"><span class="left"></span><span class="right"></span></div>
 		    <div class="contentFrame">
