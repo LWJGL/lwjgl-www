@@ -8,7 +8,7 @@
 	</head>
 
 	<body>
-				<p align="center" class="adsense" style="overflow: hidden;">
+				<p align="center" class="adsense">
 					<br>
 					<script type="text/javascript">
 					<!--
@@ -17,7 +17,7 @@
 					google_ad_height = 90;
 					google_ad_format = "728x90_as";
 					google_ad_type = "text";
-					google_ad_channel ="";
+					google_ad_channel ="3055331000";
 					google_color_border = "000000";
 					google_color_bg = "FFFFFF";
 					google_color_link = "000000";
