@@ -24,7 +24,7 @@
 
 	<a name="faq4">
 	<b>Q:</b> Whats up with all those ByteBuffers? Why not just use arrays?<br/>
-	<b>A:</b> Basically because it's the fastest way to transport data to the OpenGL layer. For more indepth discussion, <a href="http://www.puppygames.net/forums/viewtopic.php?t=295" target="_blank">click here</a>.<br/><br/>
+	<b>A:</b> Basically because it's the fastest way to transport data to the OpenGL layer. For more indepth discussion, <a href="http://www.lwjgl.org/forum/viewtopic.php?t=295" target="_blank">click here</a>.<br/><br/>
 
 	<a name="faq5">
 	<b>Q:</b> I have been looking all around the site, but I can't find any documentation, apart from the javadoc?<br/>
