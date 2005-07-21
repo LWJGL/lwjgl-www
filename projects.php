@@ -24,7 +24,7 @@ $projects[] = array('name'    => 'Vermin ExTerminator',
 												  'big'   => 'vermins_2.jpg')));
 												   
 $projects[] = array('name'    => 'StarShip2D',
-					'url'     => 'http://www.drx.dk/starship2d.html',
+					'url'     => 'http://www.drx.dk/starship2d.php',
 					'type'    => 'Free, open source game',
 					'desc'    => 'StarShip2D is a 2d scroller game, where you shoot incomming enemies with your cannon or powerfull rockets.',
 					'screens' => array(0 => array('small' => 'starship2d_small_1.jpg',
@@ -98,7 +98,29 @@ $projects[] = array('name'    => 'Illuminati',
 								       1 => array('small' => 'illuminati_small_2.jpg',
 												  'big'   => 'illuminati_2.jpg'),
 								       2 => array('small' => 'illuminati_small_3.jpg',
-												  'big'   => 'illuminati_3.jpg')));												  
+												  'big'   => 'illuminati_3.jpg')));		
+
+$projects[] = array('name'    => 'Cultris',
+					'url'     => 'http://cultris.ath.cx/',
+					'type'    => 'Free game',
+					'desc'    => 'Everyone knows Tetris - Cultris is a extremly fast-paced multiplayer version.',
+					'screens' => array(0 => array('small' => 'cultris_small_1.jpg',
+											      'big'   => 'cultris_1.jpg'),
+								       1 => array('small' => 'cultris_small_2.jpg',
+												  'big'   => 'cultris_2.jpg'),
+								       2 => array('small' => 'cultris_small_3.jpg',
+												  'big'   => 'cultris_3.jpg')));	
+                          
+$projects[] = array('name'    => 'Keith Goes Painting ',
+					'url'     => 'http://www.wolfys.co.uk/',
+					'type'    => 'Free game',
+					'desc'    => 'Keiths\' Boss has left town with intstructions that all the furniture in his house must be painted. It is up to you to guide Keith around the big house and paint the furniture before his Boss comes home and sacks him. The house seems to be infested with giant worms, flappy bat things and other rare baddys. But fear not, for Keith is armed with a paint gun which can be used splat a path through the house. There are many hidden places to explore and secrets to find, good luck!',
+					'screens' => array(0 => array('small' => 'keith_goes_painting_small_1.jpg',
+											      'big'   => 'keith_goes_painting_1.jpg'),
+								       1 => array('small' => 'keith_goes_painting_small_2.jpg',
+												  'big'   => 'keith_goes_painting_2.jpg'),
+								       2 => array('small' => 'keith_goes_painting_small_3.jpg',
+												  'big'   => 'keith_goes_painting_3.jpg')));	                          
 												  
 function displayProjects() {
 	
