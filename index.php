@@ -8,6 +8,10 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>Another release! 0.98</b> <span class="newsdate">Thursday, August 18th, 2005</span><br/>
+	Getting closer to 1.0 with this latest release. <a href="http://lwjgl.org/forum/viewtopic.php?t=1238">Grab and discuss</a><br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>AdSense added</b> <span class="newsdate">Thursday, June 16th, 2005</span><br/>
 	We have added Google AdSense, which should allow us to cover the cost of hosting lwjgl.org<br/><br/>
 </p>
@@ -26,9 +30,5 @@
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 0.94 released!</b> <span class="newsdate">Tuesday, December 14th, 2004</span><br/>
 	Time for yet another relase - this time featuring the long awaited Mac OS X port which was made possible using the donated money. Thanks everybody. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=846">this thread</a> for more info regarding the release<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>New site!</b> <span class="newsdate">Wednesday, November 10th, 2004</span><br/>
-	With the help of <a href="http://www.gomjabbar.de/" target="_blank">Daniel Leinich</a> we have a new site online! If you find any bugs, please send an email to <a href="mailto:info@lwjgl.org">info@lwjgl.org</a><br/><br/>
 </p>
 <? require('_include/footer.php'); ?>

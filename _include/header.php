@@ -58,7 +58,7 @@
 					<p>
 					    <a href="links.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'links.php') !== false) ? ' class="activeItem"' : '');?>>Links</a><br/>
 					    <a href="changelog.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'changelog.php') !== false) ? ' class="activeItem"' : '');?>>Changelog</a><br/>
-					    <a href="irclog.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'irclog.php') !== false) ? ' class="activeItem"' : '');?>>IRC Chatlog</a><br/>
+					    <a href="irclog_browse.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'irclog.php') !== false) ? ' class="activeItem"' : '');?>>IRC Chatlog</a><br/>
 					    <a href="http://irc-stats.lwjgl.org" target="_blank">IRC Stats</a><br/>
 					</p>
 					<p>
