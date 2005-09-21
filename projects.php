@@ -111,7 +111,7 @@ $projects[] = array('name'    => 'Cultris',
 								       2 => array('small' => 'cultris_small_3.jpg',
 												  'big'   => 'cultris_3.jpg')));	
                           
-$projects[] = array('name'    => 'Keith Goes Painting ',
+$projects[] = array('name'    => 'Keith Goes Painting',
 					'url'     => 'http://www.wolfys.co.uk/',
 					'type'    => 'Free game',
 					'desc'    => 'Keiths\' Boss has left town with intstructions that all the furniture in his house must be painted. It is up to you to guide Keith around the big house and paint the furniture before his Boss comes home and sacks him. The house seems to be infested with giant worms, flappy bat things and other rare baddies. But fear not, for Keith is armed with a paint gun which can be used splat a path through the house. There are many hidden places to explore and secrets to find, good luck!',
@@ -121,6 +121,17 @@ $projects[] = array('name'    => 'Keith Goes Painting ',
 												  'big'   => 'keith_goes_painting_2.jpg'),
 								       2 => array('small' => 'keith_goes_painting_small_3.jpg',
 												  'big'   => 'keith_goes_painting_3.jpg')));	                          
+
+$projects[] = array('name'    => 'SubHunt ',
+					'url'     => 'http://www.efd.lth.se/~d01dj/subhunt/',
+					'type'    => 'Freeware',
+					'desc'    => 'A remake of the old arcade game Sub Hunter. You control a surface ship with the mission to destroy as many enemy subs as you can.',
+					'screens' => array(0 => array('small' => 'subhunt_small_1.jpg',
+											      'big'   => 'subhunt_1.jpg'),
+								       1 => array('small' => 'subhunt_small_2.jpg',
+												  'big'   => 'subhunt_2.jpg'),
+								       2 => array('small' => 'subhunt_small_3.jpg',
+												  'big'   => 'subhunt_3.jpg')));
 												  
 function displayProjects() {
 	
