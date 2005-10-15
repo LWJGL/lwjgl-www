@@ -133,6 +133,39 @@ $projects[] = array('name'    => 'SubHunt ',
 								       2 => array('small' => 'subhunt_small_3.jpg',
 												  'big'   => 'subhunt_3.jpg')));
 												  
+	$projects[] = array(
+						'name'    => 'Ultratron',
+						'url'     => 'http://www.puppygames.net/',
+						'type'    => 'Commercial game',
+						'desc'    => 'The last human has been slain by evil killer robots. You are the one remaining humanoid battle droid. Your mission is to avenge the human race, and destroy the four bots of the Apocalypse - Ieiunitas, Bellum, Lues and Letum!
+													Power up your droid with ever more powerful weaponry as you blast your way through the levels, avoiding Chasers, Turrets, Spawners, Minelayers, bombs, and bullets!',
+						'screens' => array(
+							0 => array(
+								'small' => 'ultratron_small_1.jpg',
+								'big'   => 'ultratron_1.jpg'),
+							1 => array(
+								'small' => 'ultratron_small_2.jpg',
+								'big'   => 'ultratron_2.jpg'),
+							2 => array(
+								'small' => 'ultratron_small_3.jpg',
+								'big'   => 'ultratron_3.jpg')));												  
+								
+	$projects[] = array(
+						'name'    => 'JGLMark',
+						'url'     => 'http://jglmark.dev.java.net',
+						'type'    => 'Benchmark',
+						'desc'    => 'JGLMark is intended is a platform independent OpenGL benchmark. JGLMark may also be used as a system stress and stability test tool. JGLMark will benchmark the ability of a system to perform various OpenGL tasks.',
+						'screens' => array(
+							0 => array(
+								'small' => 'jglmark_small_1.jpg',
+								'big'   => 'jglmark_1.jpg'),
+							1 => array(
+								'small' => 'jglmark_small_2.jpg',
+								'big'   => 'jglmark_2.jpg'),
+							2 => array(
+								'small' => 'jglmark_small_3.jpg',
+								'big'   => 'jglmark_3.jpg')));												  								
+												  
 function displayProjects() {
 	
 	GLOBAL $projects;
