@@ -6,6 +6,61 @@
 <p>LWJGL is available under a <a href="license.php">BSD license</a>, which means it's open source and freely available at no charge.</p>
 <p>Please visit us on the Freenode IRC Network: <a href="irc://irc.freenode.net/lwjgl" target="_blank">#LWJGL</a>. Do idle if there is no one to answer any of your questions, we are on different timezones.</p>
 
+
+<h1>LWJGL Monetary situation as of 3rd October 2005</h1>
+<p>The following table displays the current monetary situation of LWJGL. It is purely made to get an overview and does not necessarily accurately display the exact current funds of LWJGL.
+	<br/>
+	Please note that the total expenses are currently 0$ since the hosting is provided free of charge by <a href="http://puppygames.net">Puppygames</a> and that the domains (lwjgl.org and lwjgl.com) are paid by <a href="mailto:brian@matzon.dk">Brian Matzon</a>.
+</p>
+<table>
+	<tr>
+		<td colspan="2"><b>Income</b></td>
+	</tr>
+	<tr>
+		<td width="100">Adsense</td>
+		<td align="right">$101.20</td>
+	</tr>
+	<tr>
+		<td>Paypal</td>
+		<td align="right">$28.48</td>
+	</tr>
+	<tr>
+		<td>Total income</td>
+		<td align="right">$129.68</td>
+	</tr>
+	<tr>
+		<td colspan="2">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2"><b>Expenses</b></td>
+	</tr>
+	<tr>
+		<td>Hosting</td>
+		<td align="right">$0.00</td>
+	</tr>
+	<tr>
+		<td>Domains</td>
+		<td align="right">$0.00</td>
+	</tr>
+	<tr>
+		<td>Total expenses</td>
+		<td align="right">$0.00</td>
+	</tr>
+</table>
+<br/>
+<i>Adsense currently averages at $0.92/day</i>
+<br/>
+<br/>
+<h2>Planned expenses</h2>
+<p>
+	* LWJGL Developer Guide - $1000/onetime
+</p>
+<br/>
+<h2>Wishlist</h2>
+<p>
+	* LWJGL Code signing certificate - $200/year
+</p>
+
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>Another release! 0.98</b> <span class="newsdate">Thursday, August 18th, 2005</span><br/>
