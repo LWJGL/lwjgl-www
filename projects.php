@@ -164,7 +164,23 @@ $projects[] = array('name'    => 'SubHunt ',
 								'big'   => 'jglmark_2.jpg'),
 							2 => array(
 								'small' => 'jglmark_small_3.jpg',
-								'big'   => 'jglmark_3.jpg')));												  								
+								'big'   => 'jglmark_3.jpg')));
+								
+	$projects[] = array(
+						'name'    => 'Drommi Race',
+						'url'     => 'http://www.drommiracing.com/',
+						'type'    => 'Commercial TV-Game',
+						'desc'    => 'Bet on your favorite Camelus dromedarius to win the race for you. And then send some SMS to shoot some whips, spurs or even flying carpets to enliven your drommi. The more items you collect the faster your drommi will go. But be aware that you play with or agains all others watching the race! Others may have bet on the same drommi and help you. But most will bet on one of the other eight drommies in the race, so you\'ll have though competition. The game runs on SuperRTL in Germany and in Cairos Tasliya TV. It is using UTF-16 and therefore multilingual.',
+						'screens' => array(
+							0 => array(
+								'small' => 'drommi_small_1.jpg',
+								'big'   => ''),
+							1 => array(
+								'small' => 'drommi_small_2.jpg',
+								'big'   => ''),
+							2 => array(
+								'small' => 'drommi_small_3.jpg',
+								'big'   => '')));				
 												  
 function displayProjects() {
 	
@@ -192,7 +208,12 @@ function displayProjects() {
 		echo "            <td colspan=\"2\"><br/>\n";
 		
 		for ($i = 0; $i < count($project['screens']); $i++) {
-			echo "&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"javascript: openPopUp('".urlencode($project['screens'][$i]['big'])."');\"><img src=\"_gfx/projects/".$project['screens'][$i]['small']."\" border=\"0\" alt=\"\"/></a>\n";
+			echo "&nbsp;&nbsp;&nbsp;&nbsp;";
+			if($project['screens'][$i]['big'] != "") {
+				echo "<a href=\"javascript: openPopUp('".urlencode($project['screens'][$i]['big'])."');\"><img src=\"_gfx/projects/".$project['screens'][$i]['small']."\" border=\"0\" alt=\"\"/></a>\n";
+			} else {
+				echo "<img src=\"_gfx/projects/".$project['screens'][$i]['small']."\" border=\"0\" alt=\"\"/>\n";
+			}
 		}
 		
 		echo "            <br/><br/></td>\n";
