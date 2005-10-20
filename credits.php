@@ -17,7 +17,7 @@
 	<b>Contributors</b>
 </p>
 <ul>
-	<li>Niels Jørgensen</li>
+	<li>Niels J&oslash;rgensen</li>
 	<li>Tristan Campbell</li>
 	<li>Gregory Pierce</li>
 	<li>Luke Holden</li>
