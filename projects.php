@@ -67,16 +67,16 @@ $projects[] = array('name'    => 'Super Dudester',
 								       2 => array('small' => 'superdudester_small_3.jpg',
 												  'big'   => 'superdudester_3.jpg')));		
 												  
-$projects[] = array('name'    => 'Gravity Battle',
-					'url'     => 'http://www.cokeandcode.com/gravitybattle/',
-					'type'    => 'Commercial game (in progress)',
-					'desc'    => 'Gravity Battle is a game of thrust and control. Gently guide your pod around the levels completing the tasks set out. Watch out for the inhabitants of the caverns and be sure to pick up all the bonuses. Ah, but wait! Completing the level isn\'t good enough, can you get 3 medals on every level?',
-					'screens' => array(0 => array('small' => 'gravitybattle_small_1.jpg',
-											      'big'   => 'gravitybattle_1.jpg'),
-								       1 => array('small' => 'gravitybattle_small_2.jpg',
-												  'big'   => 'gravitybattle_2.jpg'),
-								       2 => array('small' => 'gravitybattle_small_3.jpg',
-												  'big'   => 'gravitybattle_3.jpg')));												  										  
+$projects[] = array('name'    => 'Tempest',
+					'url'     => 'http://www.cokeandcode.com/tempest',
+					'type'    => 'The game is currently freeware',
+					'desc'    => 'Tempest is a fast pased shooter based on the classic arcade game of the same name. It has been developed as an entry to the OMGCup. You control a claw with is move round one end of the board, while the enemies approach from the other end. Destroy them before they reach you!',
+					'screens' => array(0 => array('small' => 'tempest_small_1.png',
+											      'big'   => 'tempest_1.png'),
+								       1 => array('small' => 'tempest_small_2.png',
+												  'big'   => 'tempest_2.png'),
+								       2 => array('small' => 'tempest_small_3.png',
+												  'big'   => 'tempest_3.png')));												  										  
 												  
 $projects[] = array('name'    => 'Puppytron',
 					'url'     => 'http://www.puppygames.net/',
