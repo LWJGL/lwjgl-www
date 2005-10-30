@@ -67,16 +67,16 @@ $projects[] = array('name'    => 'Super Dudester',
 								       2 => array('small' => 'superdudester_small_3.jpg',
 												  'big'   => 'superdudester_3.jpg')));		
 												  
-$projects[] = array('name'    => 'Tempest',
-					'url'     => 'http://www.cokeandcode.com/tempest',
+$projects[] = array('name'    => 'Typhoon',
+					'url'     => 'http://www.cokeandcode.com/typhoon',
 					'type'    => 'The game is currently freeware',
-					'desc'    => 'Tempest is a fast pased shooter based on the classic arcade game of the same name. It has been developed as an entry to the OMGCup. You control a claw with is move round one end of the board, while the enemies approach from the other end. Destroy them before they reach you!',
-					'screens' => array(0 => array('small' => 'tempest_small_1.png',
-											      'big'   => 'tempest_1.png'),
-								       1 => array('small' => 'tempest_small_2.png',
-												  'big'   => 'tempest_2.png'),
-								       2 => array('small' => 'tempest_small_3.png',
-												  'big'   => 'tempest_3.png')));												  										  
+					'desc'    => 'Typhoon is a fast pased shooter based on defend a board from a hoard on bad guys. It has been developed as an entry to the OMGCup. You control a player which is moved round one end of the board, while the enemies approach from the other end. Destroy them before they reach you!',
+					'screens' => array(0 => array('small' => 'typhoon_small_1.png',
+											      'big'   => 'typhoon_1.png'),
+								       1 => array('small' => 'typhoon_small_2.png',
+												  'big'   => 'typhoon_2.png'),
+								       2 => array('small' => 'typhoon_small_3.png',
+												  'big'   => 'typhoon_3.png')));												  										  
 												  
 $projects[] = array('name'    => 'Puppytron',
 					'url'     => 'http://www.puppygames.net/',
