@@ -180,7 +180,23 @@ $projects[] = array('name'    => 'SubHunt ',
 								'big'   => ''),
 							2 => array(
 								'small' => 'drommi_small_3.jpg',
-								'big'   => '')));				
+								'big'   => '')));			
+								
+	$projects[] = array(
+						'name'    => 'Strategic Tetris',
+						'url'     => 'http://donut.spitaki.org/',
+						'type'    => 'Shareware game',
+						'desc'    => 'multiplayer Tetris where two players play on the same board at the same time. It\'s not just about being fast. You have to co-operate and co-ordinate with your friend in order to go higher! Hitting each others pieces makes them move and rotate so its not as easy as it may sound! :) There are also online highscore tables for the registered users where they can compare themselves to other people from all over the world!',
+						'screens' => array(
+							0 => array(
+								'small' => 'strategic_tetris_small_1.jpg',
+								'big'   => 'strategic_tetris_1.jpg'),
+							1 => array(
+								'small' => 'strategic_tetris_small_2.jpg',
+								'big'   => 'strategic_tetris_2.jpg'),
+							2 => array(
+								'small' => 'strategic_tetris_small_3.jpg',
+								'big'   => 'strategic_tetris_3.jpg')));										
 												  
 function displayProjects() {
 	
