@@ -36,6 +36,7 @@
 					<p>
          			<a href="index.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false) ? ' class="activeItem"' : '');?>>Home</a><br/>
 					    <a href="about.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'about.php') !== false) ? ' class="activeItem"' : '');?>>About</a><br/>
+					    <a href="donations.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'donations.php') !== false) ? ' class="activeItem"' : '');?>>Donations</a><br/>
 					    <a href="download.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'download.php') !== false) ? ' class="activeItem"' : '');?>>Download</a><br/>
 					    <a href="installation.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'installation.php') !== false) ? ' class="activeItem"' : '');?>>Installation</a><br/>
 					    <a href="documentation.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'documentation.php') !== false || strpos($_SERVER['SCRIPT_NAME'], 'documentation_') !== false) ? ' class="activeItem"' : '');?>>Documentation</a><br/>
@@ -62,7 +63,19 @@
 					    <a href="http://irc-stats.lwjgl.org" target="_blank">IRC Stats</a><br/>
 					</p>
 					<p>
-					    <br/><a href="http://www.opengl.org" target="_blank"><img src="_gfx/button_opengl.png" alt="OpenGL" border="0"></a><br/><br/>
+					    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="brian@matzon.dk">
+<input type="hidden" name="item_name" value="LWJGL Donation">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="tax" value="0">
+<input type="hidden" name="bn" value="PP-DonationsBF">
+<input type="image" src="_gfx/paypal.png" border="0" name="submit" alt="Donate to LWJGL" title="Donate to LWJGL">
+</form>					    <br/>
+
+					    <a href="http://www.opengl.org" target="_blank"><img src="_gfx/button_opengl.png" alt="OpenGL" border="0"></a><br/><br/>
 					    <a href="http://www.openal.org" target="_blank"><img src="_gfx/button_openal.png" alt="OpenAL" border="0"></a><br/><br/>
 					    <a href="http://java.net" target="_blank"><img src="_gfx/button_javanet.png" alt="java.net" border="0"></a><br/><br/>
 					    <a href="http://sourceforge.net" target="_blank"><img src="_gfx/button_sourceforge.png" alt="SourceForge.net" border="0"></a><br/><br/>
