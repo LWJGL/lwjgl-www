@@ -22,7 +22,7 @@
 		$donations[] = array("Apostolos Tsakpinis [zdimensions.gr]", 										"http://www.zdimensions.gr/");
 		$donations[] = array("Scott Palmer", 														"");
 		$donations[] = array("Chris Heimpel", 													"");
-		$donations[] = array("Caspian Rychlik-Prince [puppygames.com]", "http://puppygames.net/");
+		$donations[] = array("Caspian Rychlik-Prince [puppygames.net]", "http://puppygames.net/");
 		$donations[] = array("Christiaan Ghijselinck", 									"");
 		$donations[] = array("David Hope", 															"");
 		$donations[] = array("Ruben Steins", 														"");
