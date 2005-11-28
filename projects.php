@@ -196,7 +196,23 @@ $projects[] = array('name'    => 'SubHunt ',
 								'big'   => 'strategic_tetris_2.jpg'),
 							2 => array(
 								'small' => 'strategic_tetris_small_3.jpg',
-								'big'   => 'strategic_tetris_3.jpg')));										
+								'big'   => 'strategic_tetris_3.jpg')));
+								
+	$projects[] = array(
+						'name'    => 'Monstrumo',
+						'url'     => 'http://hvor.madpage.com',
+						'type'    => 'The game is currently freeware',
+						'desc'    => 'In Monstrumo, a player takes role of an unfortunate character that was turned into zombie with powerful voodoo magic. The story is connected with an isolated islands which are presented in several levels. In order to regain his human state, a player needs to steal life essence from other beings, so he attacks pirate nests in search for his humanity. There are other zombies around on island, so things are more difficult for you!',
+						'screens' => array(
+							0 => array(
+								'small' => 'monstrumo_small_1.jpg',
+								'big'   => 'monstrumo_1.jpg'),
+							1 => array(
+								'small' => 'monstrumo_small_2.jpg',
+								'big'   => 'monstrumo_2.jpg'),
+							2 => array(
+								'small' => 'monstrumo_small_3.jpg',
+								'big'   => 'monstrumo_3.jpg')));								
 												  
 function displayProjects() {
 	
