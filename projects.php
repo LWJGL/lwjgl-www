@@ -212,7 +212,23 @@ $projects[] = array('name'    => 'SubHunt ',
 								'big'   => 'monstrumo_2.jpg'),
 							2 => array(
 								'small' => 'monstrumo_small_3.jpg',
-								'big'   => 'monstrumo_3.jpg')));								
+								'big'   => 'monstrumo_3.jpg')));
+								
+$projects[] = array(
+						'name'    => 'Technopolies',
+						'url'     => 'http://technopolies.net',
+						'type'    => 'Freeware',
+						'desc'    => 'Technopolies is an attempt to breed X-COM-like MMORPG where hundreds of players co-exist in multi-faction, constantly changing game world. The accent will be made on giving players the ability to affect game world, and to allow human players to hire teams of computer-controlled players to help in their missions. Currently in development.',
+						'screens' => array(
+							0 => array(
+								'small' => 'technopolies_small_1.jpg',
+								'big'   => 'technopolies_1.jpg'),
+							1 => array(
+								'small' => 'technopolies_small_2.jpg',
+								'big'   => 'technopolies_2.jpg'),
+							2 => array(
+								'small' => 'technopolies_small_3.jpg',
+								'big'   => 'technopolies_3.jpg')));								
 												  
 function displayProjects() {
 	
