@@ -23,6 +23,10 @@
 		<a href="http://xith.org/" target="_blank">http://xith.org/</a><br/>
 		Xith3D is an open source 3D scenegraph for Java. It is designed to be leaner, more game orientated alternative to the Java3D scenegraph, yet using the same basic scenegraph structure as Java3D (ie. similar functioning TransformGroups?, Nodes, Views, etc).<br/><br/>
 	</li>
+	<li>
+		<a href="http://www.jpct.net/" target="_blank">http://www.jpct.net</a><br/>
+		jPCT is a 3D engine for Java. The basic idea behind jPCT is to provide a small, fast and easy to use API for rendering 3D graphics in applets and applications. jPCT is targeted, but not limited to games development.
+	</li>
 	<br>
 	<b>Other LWJGL related libraries</b>
 	<li>
