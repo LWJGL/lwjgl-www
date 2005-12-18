@@ -1,3 +1,14 @@
+2005-12-18 11:54  matzon
+
+	* src/java/org/lwjgl/devil/ILUT.java: disallow creation of ILUT
+	  prior to ILU (unable to load native unless ILU has been loaded
+	  first)
+
+2005-12-17 22:25  matzon
+
+	* www/changelogs/: 0.99-changelog.txt, full-changelog.txt: updated
+	  to 0.99
+
 2005-12-17 22:21  matzon
 
 	* build.xml, src/java/org/lwjgl/Sys.java,
