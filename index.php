@@ -8,6 +8,10 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 0.99 released!</b> <span class="newsdate">Sunday, December 18th, 2005</span><br/>
+	Getting closer to 1.0! - but first up, the 0.99 release. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=1433">this thread</a> for more info regarding the release<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>Added donations page</b> <span class="newsdate">Thursday, November 10th, 2005</span><br/>
 	Added a <a href="donations.php">donations page</a> which shows a list of users and/or companies that have donated to LWJGL.<br/><br/>
 </p>
@@ -34,9 +38,5 @@
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 0.95 released!</b> <span class="newsdate">Tuesday, January 25th, 2005</span><br/>
 	0.95 released. Lots of fixes. Thanks everybody. Please check <a href="http://lwjgl.org/forum/viewtopic.php?p=6422">this thread</a> for more info regarding the release<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 0.94 released!</b> <span class="newsdate">Tuesday, December 14th, 2004</span><br/>
-	Time for yet another relase - this time featuring the long awaited Mac OS X port which was made possible using the donated money. Thanks everybody. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=846">this thread</a> for more info regarding the release<br/><br/>
 </p>
 <? require('_include/footer.php'); ?>
