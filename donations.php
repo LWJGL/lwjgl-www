@@ -13,7 +13,7 @@
 </p>
 <ul>
 	<?
-		$donations[] = array("Brian Matzon", 														"mailto:brian@matzon.dk");
+		$donations[] = array("Brian Matzon", 														"http://echelog.matzon.dk/");
 		$donations[] = array("Anthony Rogers [tomato.co.uk]", 													"http://www.tomato.co.uk/");
 		$donations[] = array("Anthony Lovell", 													"");
 		$donations[] = array("Shane Essary", 														"");
@@ -31,7 +31,11 @@
 		$donations[] = array("Benoit Hambucken", 												"");
 		$donations[] = array("John Watson", 														"");
 		$donations[] = array("Elias Naur [oddlabs.com]", 								"http://oddlabs.com");
-		$donations[] = array("Andrew Kelly", 														"http://games.swizel-studios.com/");
+		$donations[] = array("Andrew Kelly [games.swizel-studios.com]", 														"http://games.swizel-studios.com/");
+		$donations[] = array("Gregory Pierce", "");
+		$donations[] = array("Shannon Smith", "");
+		$donations[] = array("Franz Bartlechner", "");
+
 		
 		shuffle($donations);
 		
