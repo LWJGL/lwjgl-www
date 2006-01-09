@@ -5,6 +5,12 @@
 	<head>
 		<title>lwjgl.org - Home of the Lightweight Java Game Library</title>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
+
+		<!-- Google Analytics -->
+		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+		<script type="text/javascript">_uacct = "UA-83518-1";urchinTracker();</script>
+		<!-- Google Analytics -->
+
 	</head>
 
 	<body>
@@ -36,6 +42,7 @@
 					<p>
          			<a href="index.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false) ? ' class="activeItem"' : '');?>>Home</a><br/>
 					    <a href="about.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'about.php') !== false) ? ' class="activeItem"' : '');?>>About</a><br/>
+					    <a href="shop.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'shop.php') !== false) ? ' class="activeItem"' : '');?>>Shop</a><br/>
 					    <a href="donations.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'donations.php') !== false) ? ' class="activeItem"' : '');?>>Donations</a><br/>
 					    <a href="download.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'download.php') !== false) ? ' class="activeItem"' : '');?>>Download</a><br/>
 					    <a href="installation.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'installation.php') !== false) ? ' class="activeItem"' : '');?>>Installation</a><br/>
