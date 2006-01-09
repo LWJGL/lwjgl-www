@@ -27,7 +27,7 @@
 						'price'					=> '$9.95',
 						'donation'			=> '$9.95 (100%)',
 						'product'     	=> 'http://puppygames.net/ultratron/index.php?referrer=LWJGL',
-						'link'					=> '<i>Purchase must be done from within game</i><br/><a href=\'http://www.puppygames.net/downloads/Ultratron_MacOSX_LWJGL.zip\'>Play now (Mac)</a>&nbsp;|&nbsp;<a href=\'http://www.puppygames.net/downloads/SetupUltratronDemoLWJGL.exe\'>Play now (Win)</a>&nbsp;|&nbsp;<a href=\'3rdparty/ultratron.jnlp\'>Play now (Linux)</a>',
+						'link'					=> '<a href=\'http://www.puppygames.net/downloads/Ultratron_MacOSX_LWJGL.zip\'>Play now (Mac)</a>&nbsp;|&nbsp;<a href=\'http://www.puppygames.net/downloads/SetupUltratronDemoLWJGL.exe\'>Play now (Win)</a>&nbsp;|&nbsp;<a href=\'3rdparty/ultratron.jnlp\'>Play now (Linux)</a>',
 						'type'    			=> 'Shoot-em-up',
 						'desc'    			=> 'The last human has been slain by evil killer robots. You are the one remaining humanoid battle droid. Your mission is to avenge the human race, and destroy the four bots of the Apocalypse - Ieiunitas, Bellum, Lues and Letum!
 													Power up your droid with ever more powerful weaponry as you blast your way through the levels, avoiding Chasers, Turrets, Spawners, Minelayers, bombs, and bullets!',
