@@ -35,6 +35,7 @@
 		$donations[] = array("Gregory Pierce", "");
 		$donations[] = array("Shannon Smith", "");
 		$donations[] = array("Franz Bartlechner", "");
+		$donations[] = array("Peter Koeleman", "");
 
 		
 		shuffle($donations);
@@ -51,7 +52,7 @@
 	?>
 </ul>
 <p>
-	<b>LWJGL Monetary situation as of 8th November 2005</b>
+	<b>LWJGL Monetary situation as of 9th January 2006</b>
 <p>The following table displays the current monetary situation of LWJGL. It is purely made to get an overview and does not necessarily accurately display the exact current funds of LWJGL.
 	<br/>
 	Please note that the total expenses are currently 0$ since the hosting is provided free of charge by <a href="http://puppygames.net">Puppygames</a> and that the domains (lwjgl.org and lwjgl.com) are paid by <a href="mailto:brian@matzon.dk">Brian Matzon</a>.
@@ -62,15 +63,15 @@
 	</tr>
 	<tr>
 		<td width="100">Adsense</td>
-		<td align="right">$212.63</td>
+		<td align="right">$322.35</td>
 	</tr>
 	<tr>
 		<td>Paypal</td>
-		<td align="right">$89.74</td>
+		<td align="right">$236.84</td>
 	</tr>
 	<tr>
 		<td>Total income</td>
-		<td align="right">$302,37</td>
+		<td align="right">$559.19</td>
 	</tr>
 	<tr>
 		<td colspan="2">&nbsp;</td>
