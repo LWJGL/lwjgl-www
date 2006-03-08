@@ -112,7 +112,7 @@ $projects[] = array('name'    => 'Cultris',
 												  'big'   => 'cultris_3.jpg')));	
                           
 $projects[] = array('name'    => 'Keith Goes Painting',
-					'url'     => 'http://www.wolfys.co.uk/',
+					'url'     => 'http://www.wolfysgames.com/',
 					'type'    => 'Free game',
 					'desc'    => 'Keiths\' Boss has left town with intstructions that all the furniture in his house must be painted. It is up to you to guide Keith around the big house and paint the furniture before his Boss comes home and sacks him. The house seems to be infested with giant worms, flappy bat things and other rare baddies. But fear not, for Keith is armed with a paint gun which can be used splat a path through the house. There are many hidden places to explore and secrets to find, good luck!',
 					'screens' => array(0 => array('small' => 'keith_goes_painting_small_1.jpg',
@@ -229,6 +229,22 @@ $projects[] = array(
 							2 => array(
 								'small' => 'technopolies_small_3.jpg',
 								'big'   => 'technopolies_3.jpg')));								
+								
+$projects[] = array(
+						'name'    => 'Titan Attacks!',
+						'url'     => 'http://www.puppygames.net',
+						'type'    => 'Commercial',
+						'desc'    => 'The Earth is under attack from evil aliens from Titan! Only you can save us all using a hired space ship. Upgrade your ship with bounty money and drive back the Titans across the Solar System, and defeat them on their homeworld. That\'ll show \'em!',
+						'screens' => array(
+							0 => array(
+								'small' => 'titan_attacks_small_1.jpg',
+								'big'   => 'titan_attacks_1.jpg'),
+							1 => array(
+								'small' => 'titan_attacks_small_2.jpg',
+								'big'   => 'titan_attacks_2.jpg'),
+							2 => array(
+								'small' => 'titan_attacks_small_3.jpg',
+								'big'   => 'titan_attacks_3.jpg')));																
 												  
 function displayProjects() {
 	
