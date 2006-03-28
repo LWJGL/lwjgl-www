@@ -14,9 +14,7 @@
 	<b>Input</b>
 </p>
 <pre>
-	ControllerCreationTest    [<a href="jnlp/lwjgl-demo.php/test.input.ControllerCreationTest">launch</a> | <a href="jnlp/source.php?path=test/input/ControllerCreationTest.java" target="_blank">source</a>]
-	ControllerFieldTest       [<a href="jnlp/lwjgl-demo.php/test.input.ControllerFieldTest">launch</a> | <a href="jnlp/source.php?path=test/input/ControllerFieldTest.java" target="_blank">source</a>]
-	ControllerTest            [<a href="jnlp/lwjgl-demo.php/test.input.ControllerTest">launch</a> | <a href="jnlp/source.php?path=test/input/ControllerTest.java" target="_blank">source</a>]
+	TestControllers           [<a href="jnlp/lwjgl-demo.php/test.input.TestControllers">launch</a> | <a href="jnlp/source.php?path=test/input/TestControllers.java" target="_blank">source</a>]
 	HWCursorTest              [<a href="jnlp/lwjgl-demo.php/test.input.HWCursorTest">launch</a> | <a href="jnlp/source.php?path=test/input/HWCursorTest.java" target="_blank">source</a>]
 	KeyboardTest              [<a href="jnlp/lwjgl-demo.php/test.input.KeyboardTest">launch</a> | <a href="jnlp/source.php?path=test/input/KeyboardTest.java" target="_blank">source</a>]
 	MouseCreationTest         [<a href="jnlp/lwjgl-demo.php/test.input.MouseCreationTest">launch</a> | <a href="jnlp/source.php?path=test/input/MouseCreationTest.java" target="_blank">source</a>]
@@ -28,7 +26,6 @@
 </p>
 <pre>
 	ALCTest                   [<a href="jnlp/lwjgl-demo.php/test.openal.ALCTest">launch</a> | <a href="jnlp/source.php?path=test/openal/ALCTest.java" target="_blank">source</a>]
-	EAXTest                   [<a href="jnlp/lwjgl-demo.php/test.openal.EAXTest">launch</a> | <a href="jnlp/source.php?path=test/openal/EAXTest.java" target="_blank">source</a>]
 	MovingSoundTest           [<a href="jnlp/lwjgl-demo.php/test.openal.MovingSoundTest">launch</a> | <a href="jnlp/source.php?path=test/openal/MovingSoundTest.java" target="_blank">source</a>]
 	OpenALCreationTest        [<a href="jnlp/lwjgl-demo.php/test.openal.OpenALCreationTest">launch</a> | <a href="jnlp/source.php?path=test/openal/OpenALCreationTest.java" target="_blank">source</a>]
 	PlayTest                  [<a href="jnlp/lwjgl-demo.php/test.openal.PlayTest">launch</a> | <a href="jnlp/source.php?path=test/openal/PlayTest.java" target="_blank">source</a>]
@@ -43,7 +40,6 @@
 </p>
 <pre>
 	FullScreenWindowedTest    [<a href="jnlp/lwjgl-demo.php/test.opengl.FullScreenWindowedTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/FullScreenWindowedTest.java" target="_blank">source</a>]
-	Game                      [<a href="jnlp/lwjgl-demo.php/test.opengl.Game">launch</a> | <a href="jnlp/source.php?path=test/opengl/Game.java" target="_blank">source</a>]
 	PbufferTest               [<a href="jnlp/lwjgl-demo.php/test.opengl.PbufferTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/PbufferTest.java" target="_blank">source</a>]
 	VBOIndexTest              [<a href="jnlp/lwjgl-demo.php/test.opengl.VBOIndexTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/VBOIndexTest.java" target="_blank">source</a>]
 	VBOTest                   [<a href="jnlp/lwjgl-demo.php/test.opengl.VBOTest">launch</a> | <a href="jnlp/source.php?path=test/opengl/VBOTest.java" target="_blank">source</a>]
