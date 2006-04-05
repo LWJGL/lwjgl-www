@@ -245,6 +245,22 @@ $projects[] = array(
 							2 => array(
 								'small' => 'titan_attacks_small_3.jpg',
 								'big'   => 'titan_attacks_3.jpg')));																
+								
+$projects[] = array(
+						'name'    => 'Herzog3D',
+						'url'     => 'http://herzog3d.sourceforge.net',
+						'type'    => 'Free, open source game',
+						'desc'    => '3D action real time strategy based on the Sega Genisis game Herzog Zwei.',
+						'screens' => array(
+							0 => array(
+								'small' => 'hz_small_1.jpg',
+								'big'   => 'hz_1.jpg'),
+							1 => array(
+								'small' => 'hz_small_2.jpg',
+								'big'   => 'hz_2.jpg'),
+							2 => array(
+								'small' => 'hz_small_3.jpg',
+								'big'   => 'hz_3.jpg')));								
 												  
 function displayProjects() {
 	
