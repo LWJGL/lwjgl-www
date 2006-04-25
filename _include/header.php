@@ -58,8 +58,8 @@
 					</p>
 					<h2>Developers</h2>
 					<p>
-							<a href="http://cia.lwjgl.org" target="_blank">CVS Commits</a><br/>
-					    <a href="http://cvs.sourceforge.net/viewcvs.py/java-game-lib/" target="_blank">CVS Tree</a><br/>
+					    <a href="http://cia.lwjgl.org" target="_blank">Commit logs</a><br/>
+					    <a href="http://svn.sourceforge.net/viewcvs.cgi/java-game-lib/" target="_blank">Source Tree</a><br/>
 					    <a href="http://sourceforge.net/projects/java-game-lib" target="_blank">Project Home</a><br/>
 					</p>
 					<h2>Miscellaneous</h2>
