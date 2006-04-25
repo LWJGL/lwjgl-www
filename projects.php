@@ -260,7 +260,23 @@ $projects[] = array(
 								'big'   => 'hz_2.jpg'),
 							2 => array(
 								'small' => 'hz_small_3.jpg',
-								'big'   => 'hz_3.jpg')));								
+								'big'   => 'hz_3.jpg')));
+
+$projects[] = array(
+						'name'    => 'Diamond Crush',
+						'url'     => 'http://www.diamondcrush.net/',
+						'type'    => 'Free, open source game',
+						'desc'    => 'Diamond Crush is a classic puzzle game, with both single player and multiplayer game modes. Players will control falling pairs of differently colored and shaped gems, and their purpose will be strategically placing them inside their own grid-based play fields, by matching their colors.',
+						'screens' => array(
+							0 => array(
+								'small' => 'diamond_crush_small_1.jpg',
+								'big'   => 'diamond_crush_1.jpg'),
+							1 => array(
+								'small' => 'diamond_crush_small_2.jpg',
+								'big'   => 'diamond_crush_2.jpg'),
+							2 => array(
+								'small' => 'diamond_crush_small_3.jpg',
+								'big'   => 'diamond_crush_3.jpg')));
 												  
 function displayProjects() {
 	
