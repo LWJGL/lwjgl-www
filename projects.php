@@ -277,6 +277,22 @@ $projects[] = array(
 							2 => array(
 								'small' => 'diamond_crush_small_3.jpg',
 								'big'   => 'diamond_crush_3.jpg')));
+								
+$projects[] = array(
+						'name'    => 'Slam Soccer 2006',
+						'url'     => 'http://www.bolzplatz2006.de/en/',
+						'type'    => 'Free, open source game',
+						'desc'    => 'Football World Cup 2006 in Germany! What, you are not taking part? You can not play football at all? As if! Everybody started from scratch. You begin in the muddy village league and work your way up to the international top class of football and build up your own stadium! Now it\'s up to you: If you also find your way in the dubious business of football and if you get your finances under control, it\'s just a matter of your skill until you win the cup and are the Slam Soccer World Champion 2006! Slam Soccer 2006 is a funny football game in 3D-comic-style - and it\'s for free!',
+						'screens' => array(
+							0 => array(
+								'small' => 'slam_soccer_2006_small_1.jpg',
+								'big'   => 'slam_soccer_2006_1.jpg'),
+							1 => array(
+								'small' => 'slam_soccer_2006_small_2.jpg',
+								'big'   => 'slam_soccer_2006_2.jpg'),
+							2 => array(
+								'small' => 'slam_soccer_2006_small_3.jpg',
+								'big'   => 'slam_soccer_2006_3.jpg')));								
 												  
 function displayProjects() {
 	
