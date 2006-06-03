@@ -8,6 +8,10 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 1.0beta released!</b> <span class="newsdate">Friday, June 2nd, 2006</span><br/>
+	1.0 Release! - that is a beta of it :). Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=1646">this thread</a> for more info regarding the release<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 0.99 released!</b> <span class="newsdate">Sunday, December 18th, 2005</span><br/>
 	Getting closer to 1.0! - but first up, the 0.99 release. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=1433">this thread</a> for more info regarding the release<br/><br/>
 </p>
@@ -30,13 +34,5 @@
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>Now for a totally different type of news item!: LWJGL 0.97 released</b> <span class="newsdate">Thursday, May 19th, 2005</span><br/>
 	Basically this is a bugfix release, but it does contain some new stuff. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=1117">this thread</a> for more info regarding the release<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>Finally at last! 0.96 released!</b> <span class="newsdate">Wednesday, March 30th, 2005</span><br/>
-	This relase includes (among other things) AWT support and expanded DevIL and FMOD support. Please check <a href="http://lwjgl.org/forum/viewtopic.php?p=7121">this thread</a> for more info regarding the release<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 0.95 released!</b> <span class="newsdate">Tuesday, January 25th, 2005</span><br/>
-	0.95 released. Lots of fixes. Thanks everybody. Please check <a href="http://lwjgl.org/forum/viewtopic.php?p=6422">this thread</a> for more info regarding the release<br/><br/>
 </p>
 <? require('_include/footer.php'); ?>
