@@ -17,47 +17,30 @@ function displayChangelog($version) {
 </p>
 <ul>
 	<li><a href="http://www.lwjgl.org/changelogs/full-changelog.txt" target="_blank">Full changelog</a></li>
-	<li><a href="#1.0beta">LWJGL 1.0beta</a></li>
-	<li><a href="#0.99">LWJGL 0.99</a></li>
-	<li><a href="#0.98">LWJGL 0.98</a></li>
-	<li><a href="#0.97">LWJGL 0.97</a></li>
-	<li><a href="#0.96">LWJGL 0.96</a></li>
-	<li><a href="#0.95">LWJGL 0.95</a></li>
-	<li><a href="#0.94">LWJGL 0.94</a></li>
-	<li><a href="#0.93">LWJGL 0.93</a></li>
-	<li><a href="#0.92">LWJGL 0.92</a></li>
-	<li><a href="#0.90">LWJGL 0.90</a></li>
-	<li><a href="#0.89">LWJGL 0.89</a></li>
-	<li><a href="#0.80">LWJGL 0.80</a></li>
-	<li><a href="#0.70">LWJGL 0.70</a></li>
-	<li><a href="#0.60">LWJGL 0.60</a></li>
-	<li><a href="#0.50">LWJGL 0.50</a></li>
-	<li><a href="#0.40">LWJGL 0.40</a></li>
-	<li><a href="#0.30">LWJGL 0.30</a></li>
-	<li><a href="#0.20">LWJGL 0.20</a></li>
-	<li><a href="#0.10">LWJGL 0.10</a></li>
+	<li><a href="#1.0beta3">LWJGL 1.0beta3</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/1.0beta2-changelog.txt" target="_blank">LWJGL 1.0beta2</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/1.0beta-changelog.txt" target="_blank">LWJGL 1.0beta</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.99-changelog.txt" target="_blank">LWJGL 0.99</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.98-changelog.txt" target="_blank">LWJGL 0.98</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.97-changelog.txt" target="_blank">LWJGL 0.97</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.96-changelog.txt" target="_blank">LWJGL 0.96</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.95-changelog.txt" target="_blank">LWJGL 0.95</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.94-changelog.txt" target="_blank">LWJGL 0.94</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.93-changelog.txt" target="_blank">LWJGL 0.93</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.92-changelog.txt" target="_blank">LWJGL 0.92</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.90-changelog.txt" target="_blank">LWJGL 0.90</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.89-changelog.txt" target="_blank">LWJGL 0.89</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.80-changelog.txt" target="_blank">LWJGL 0.80</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.70-changelog.txt" target="_blank">LWJGL 0.70</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.60-changelog.txt" target="_blank">LWJGL 0.60</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.50-changelog.txt" target="_blank">LWJGL 0.50</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.40-changelog.txt" target="_blank">LWJGL 0.40</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.30-changelog.txt" target="_blank">LWJGL 0.30</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.20-changelog.txt" target="_blank">LWJGL 0.20</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/0.10-changelog.txt" target="_blank">LWJGL 0.10</a></li>
 </ul>
 
 <?
-displayChangelog('1.0beta');
-displayChangelog('0.99');
-displayChangelog('0.98');
-displayChangelog('0.97');
-displayChangelog('0.96');
-displayChangelog('0.95');
-displayChangelog('0.94');
-displayChangelog('0.93');
-displayChangelog('0.92');
-displayChangelog('0.90');
-displayChangelog('0.89');
-displayChangelog('0.80');
-displayChangelog('0.70');
-displayChangelog('0.60');
-displayChangelog('0.50');
-displayChangelog('0.40');
-displayChangelog('0.30');
-displayChangelog('0.20');
-displayChangelog('0.10');
-
+displayChangelog('1.0beta3');
 require('_include/footer.php');
 ?>
