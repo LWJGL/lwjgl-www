@@ -292,7 +292,23 @@ $projects[] = array(
 								'big'   => 'slam_soccer_2006_2.jpg'),
 							2 => array(
 								'small' => 'slam_soccer_2006_small_3.jpg',
-								'big'   => 'slam_soccer_2006_3.jpg')));								
+								'big'   => 'slam_soccer_2006_3.jpg')));
+								
+$projects[] = array(
+						'name'    => 'Dragon Forever',
+						'url'     => 'http://www.the2bears.com/?page_id=454',
+						'type'    => 'Free game',
+						'desc'    => 'Inspired by Warning Forever, Dragon Forever is a 360 shooter in which you play a Dragon who destroys castles all day long.',
+						'screens' => array(
+							0 => array(
+								'small' => 'dragon_forever_small_1.png',
+								'big'   => 'dragon_forever_1.png'),
+							1 => array(
+								'small' => 'dragon_forever_small_2.png',
+								'big'   => 'dragon_forever_2.png'),
+							2 => array(
+								'small' => 'dragon_forever_small_3.png',
+								'big'   => 'dragon_forever_3.png')));								
 												  
 function displayProjects() {
 	
