@@ -21,7 +21,7 @@ lwjgl_test.jar</pre>
 	<li>
 		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command:<br/><br/>
 		<pre>java -cp .;res;jar\lwjgl.jar;jar\lwjgl_test.jar;jar\lwjgl_util.jar;jar\lwjgl_fmod3.jar;jar\lwjgl_devil.jar;jar\jinput.jar; 
-    -Djava.library.path=native org.lwjgl.test.WindowCreationTest</pre>
+    -Djava.library.path=native\win32 org.lwjgl.test.WindowCreationTest</pre>
 		A window should appear and you should see the following output:<br/><br/>
 		<pre>Found &lt;number&gt; display modes
 240, 320, WindowCreationTest
@@ -47,10 +47,10 @@ lwjgl_test.jar</pre>
 	</li>
 	<li>
 		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command:<br/><br/>
-		<pre>java -cp .:res;jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/lwjgl_fmod3.jar:jar/lwjgl_devil.jar:jar/jinput.jar: 
-    -Djava.library.path=native org.lwjgl.test.WindowCreationTest</pre>
+		<pre>java -cp .:res:jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/lwjgl_fmod3.jar:jar/lwjgl_devil.jar:jar/jinput.jar: 
+    -Djava.library.path=native/linux org.lwjgl.test.WindowCreationTest</pre>
 		Should library loading fail, try using -Djava.library.path to specify the path. For example:<br/><br/>
-		<pre>java -cp .:res;jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/lwjgl_fmod3.jar:jar/lwjgl_devil.jar:jar/jinput.jar: 
+		<pre>java -cp .:res:jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/lwjgl_fmod3.jar:jar/lwjgl_devil.jar:jar/jinput.jar: 
     -Djava.library.path=/home/lwjgluser/lwjgl/ org.lwjgl.test.WindowCreationTest</pre>
 		A window should appear and you should see the following output:<br/><br/>
 		<pre>Found &lt;number&gt; display modes
@@ -77,8 +77,8 @@ lwjgl_test.jar</pre>
 	</li>
 	<li>
 		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command:<br/><br/>
-		<pre>java -cp .:res;jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/lwjgl_fmod3.jar:jar/lwjgl_devil.jar:jar/jinput.jar: 
-    -Djava.library.path=native org.lwjgl.test.WindowCreationTest</pre>
+		<pre>java -cp .:res:jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/lwjgl_fmod3.jar:jar/lwjgl_devil.jar:jar/jinput.jar: 
+    -Djava.library.path=native/macosx org.lwjgl.test.WindowCreationTest</pre>
 		A window should appear and you should see the following output:<br/><br/>
 		<pre>Found &lt;number&gt; display modes
 240, 320, WindowCreationTest
