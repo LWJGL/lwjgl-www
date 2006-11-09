@@ -22,7 +22,7 @@
 
   echo "<h1>LWJGL Log: " . date("Y-m-d", $date) . " (<a href='irc://irc.freenode.net/lwjgl'>#LWJGL IRC channel</a>)</h1>";
   echo "<p>";
-  $body = get_file("http://matzon.dk/brian/lwjgl/stats/lwjgl_browse.php?date=$date");
+  $body = get_file("http://echelog.matzon.dk/logs/lwjgl.php?date=$date");
   echo $body;
   echo "</p>";
   require('_include/footer.php'); 
