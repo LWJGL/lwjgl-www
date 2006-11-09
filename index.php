@@ -8,6 +8,14 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 1.0 beta 3 released!</b> <span class="newsdate">Friday, August 19th, 2006</span><br/>
+	Some extenstions and bugfixes. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=1780">this thread</a> for more info regarding the release<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 1.0 beta 2 released!</b> <span class="newsdate">Wednesday, July 12th, 2006</span><br/>
+	Inching closer - now with applet support!. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=1694">this thread</a> for more info regarding the release<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 1.0beta released!</b> <span class="newsdate">Friday, June 2nd, 2006</span><br/>
 	1.0 Release! - that is a beta of it :). Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=1646">this thread</a> for more info regarding the release<br/><br/>
 </p>
@@ -26,13 +34,5 @@
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>Another release! 0.98</b> <span class="newsdate">Thursday, August 18th, 2005</span><br/>
 	Getting closer to 1.0 with this latest release. <a href="http://lwjgl.org/forum/viewtopic.php?t=1238">Grab and discuss</a><br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>AdSense added</b> <span class="newsdate">Thursday, June 16th, 2005</span><br/>
-	We have added Google AdSense, which should allow us to cover the cost of hosting lwjgl.org<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>Now for a totally different type of news item!: LWJGL 0.97 released</b> <span class="newsdate">Thursday, May 19th, 2005</span><br/>
-	Basically this is a bugfix release, but it does contain some new stuff. Please check <a href="http://lwjgl.org/forum/viewtopic.php?t=1117">this thread</a> for more info regarding the release<br/><br/>
 </p>
 <? require('_include/footer.php'); ?>
