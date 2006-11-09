@@ -12,7 +12,16 @@
 		<a href="http://wiki.lwjgl.org" target="_blank">LWJGL Wiki</a><br/><br/>
 	</li>
 	<li>
-		<a href="documentation_openal_01.php">Using OpenAL</a><br/><br/>
+		<a href="http://lwjgl.org/wiki/doku.php/lwjgl/tutorials/index" target="_blank">LWJGL Wiki Tutorials</a><br/><br/>
+	</li>
+	<li>
+		<a href="documentation_openal_01.php">Using OpenAL (by Jesse Maurais)</a><br/><br/>
+	</li>
+	<li>
+		<a href="http://www.cokeandcode.com/spaceinvaderstutorial" target="_blank">2D Space Invaders with LWJGL renderer (by Kevin Glass)</a><br/><br/>
+	</li>
+	<li>
+		<a href="http://www.cokeandcode.com/asteroidstutorial" target="_blank">2D/3D Asteroids using LWJGL (includes game framework) (by Kevin Glass)</a><br/><br/>
 	</li>
 </ul>
 
