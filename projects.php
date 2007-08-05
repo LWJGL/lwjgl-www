@@ -308,7 +308,103 @@ $projects[] = array(
 								'big'   => 'dragon_forever_2.png'),
 							2 => array(
 								'small' => 'dragon_forever_small_3.png',
-								'big'   => 'dragon_forever_3.png')));								
+								'big'   => 'dragon_forever_3.png')));
+								
+$projects[] = array(
+						'name'    => 'Devastro',
+						'url'     => 'http://www.catnapgames.com/games/devastro',
+						'type'    => 'Commercial game ',
+						'desc'    => 'New action game from Catnap Games. With a squad of recruits you have to save the Earth from yet another alien invasion. Make it the last one and make the slimy bastards remember it well.<br/>Mission objective: Kill all enemy. Are you going to carefully train your recruits to make them tough as Rambo or spend them by the dozens? Scout and plan your attack or open fire the first second?',
+						'screens' => array(
+							0 => array(
+								'small' => 'devastro_small_1.jpg',
+								'big'   => 'devastro_1.jpg'),
+							1 => array(
+								'small' => 'devastro_small_2.jpg',
+								'big'   => 'devastro_2.jpg'),
+							2 => array(
+								'small' => 'devastro_small_3.jpg',
+								'big'   => 'devastro_3.jpg')));
+								
+$projects[] = array(
+						'name'    => 'Riders on the Storm',
+						'url'     => 'http://www.the2bears.com/?page_id=652',
+						'type'    => 'Free game ',
+						'desc'    => 'A vertical shooter with trippy fluid dynamic effects and gameplay',
+						'screens' => array(
+							0 => array(
+								'small' => 'riders_small_1.png',
+								'big'   => 'riders_1.png'),
+							1 => array(
+								'small' => 'riders_small_2.png',
+								'big'   => 'riders_2.png'),
+							2 => array(
+								'small' => 'riders_small_3.png',
+								'big'   => 'riders_3.png')));
+								
+$projects[] = array(
+						'name'    => 'FengGUI',
+						'url'     => 'http://www.fenggui.org/',
+						'type'    => 'API, open source',
+						'desc'    => 'FengGUI is a graphical user interface (GUI) application programming interface (API) that runs on LWJGL. It provides all typical GUI components like buttons, sliders, trees, text areas, frames, tabs, etc. which are required to build simple HUDs but also complete GUI systems. The slim and cohesive design as well as its high degree of customization via XML makes FengGUI well suited for game development.',
+						'screens' => array(
+							0 => array(
+								'small' => 'fenggui_small_1.png',
+								'big'   => 'fenggui_1.png'),
+							1 => array(
+								'small' => 'fenggui_small_2.png',
+								'big'   => 'fenggui_2.png'),
+							2 => array(
+								'small' => 'fenggui_small_3.png',
+								'big'   => 'fenggui_3.png')));
+								
+$projects[] = array(
+						'name'    => 'Waterstorm',
+						'url'     => 'http://www.waterstorm-game.com',
+						'type'    => 'Commercial',
+						'desc'    => 'Waterstorm is a fast paced 2D submarine multiplayer action shooter. Featuring amazing underwater scenarios, intuitive controls  and high-tech weapons, Waterstorm invites gamers to participate in subaqueous battles.<br/>Players from all over the world can join different game modes such as Deathmatch, Team Deathmatch, Capture the Flag and the newly introduced Drone Match. Gamers choose from a variety of mini-submarines, use their tactical as well as team skills and compete for the top ranks in a sophisticated ranking system. Additionally, the game has built-in support for clans by providing clan statistics, organizational tools and even more.',
+						'screens' => array(
+							0 => array(
+								'small' => 'waterstorm_small_1.png',
+								'big'   => 'waterstorm_1.png'),
+							1 => array(
+								'small' => 'waterstorm_small_2.png',
+								'big'   => 'waterstorm_2.png'),
+							2 => array(
+								'small' => 'waterstorm_small_3.png',
+								'big'   => 'waterstorm_3.png')));		
+								
+$projects[] = array(
+						'name'    => 'DS4: Experimental Shooter',
+						'url'     => 'http://www.the2bears.com/?page_id=927',
+						'type'    => 'Free game',
+						'desc'    => 'A vertical shooter with an endless supply of enemies continuously marching downward. Lock on with your missiles for extra points.',
+						'screens' => array(
+							0 => array(
+								'small' => 'ds4_1_small.png',
+								'big'   => 'ds4_1.png'),
+							1 => array(
+								'small' => 'ds4_2_small.png',
+								'big'   => 'ds4_2.png'),
+							2 => array(
+								'small' => 'ds4_3_small.png',
+								'big'   => 'ds4_3.png')));															
+								
+$projects[] = array(
+						'name'    => 'Arcade',
+						'url'     => 'http://phosphoton.741.com/ ',
+						'type'    => 'Free Open Source Game',
+						'desc'    => 'A simple shooter inspired by space-invaders. You control an orange arrow and you shoot at green arrows. As the game progresses you pick up shields, better guns and rockets.',
+						'screens' => array(
+							0 => array(
+								'small' => 'arcade_small_1.gif',
+								'big'   => 'arcade_1.gif'),
+							1 => array(
+								'small' => 'arcade_small_2.gif',
+								'big'   => 'arcade_2.jpg'),
+							2 => array(
+								'small' => 'arcade_small_3.gif',
+								'big'   => 'arcade_3.jpg')));								
 												  
 function displayProjects() {
 	
@@ -318,7 +414,7 @@ function displayProjects() {
 	
 	foreach ($projects as $project) {
 		echo "<p>\n";
-		echo "    <b>".$project['name']."</b> <span class=\"newsdate\"><a href=\"#top\">Back to top</a></span><br/><br/>\n";
+		echo "    <b><a name='" . $project['name'] . "'>".$project['name']."</a></b> <span class=\"newsdate\"><a href=\"#top\">Back to top</a></span><br/><br/>\n";
 		echo "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-bottom: 1px solid #cccccc;\">\n";
 		echo "        <tr>\n";
 		echo "            <td width=\"110\">&nbsp;&nbsp;&nbsp;&nbsp;<i>Website:</i></td>\n";
