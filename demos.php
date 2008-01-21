@@ -47,14 +47,6 @@
 </pre>
 
 <p>
-	<b>FMOD</b>
-</p>
-<pre>
-	NetTest                   [<a href="jnlp/lwjgl-demo.php/test.fmod3.NetTest">launch</a> | <a href="jnlp/source.php?path=test/fmod3/NetTest.java" target="_blank">source</a>]
-	StreamPlayerMemory        [<a href="jnlp/lwjgl-demo.php/test.fmod3.StreamPlayerMemory">launch</a> | <a href="jnlp/source.php?path=test/fmod3/StreamPlayerMemory.java" target="_blank">source</a>]
-</pre>
-
-<p>
 	<b>org.lwjgl</b>
 </p>
 <pre>
