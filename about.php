@@ -28,7 +28,7 @@
 </ul>
 
 <p>
-	<b>Ubquity</b><br/>
+	<b>Ubiquity</b><br/>
 	Our library is designed to work on devices as small as phones right the way up to multiprocessor rendering servers. Just because there aren't any phones or consoles yet with fast enough JVMs and 3d acceleration is neither here nor there - there will be, one day. We're carefully tailoring the library so that when it happens we'll have OpenGL ES support in there just like that. This means that:
 </p>
 <ul>
