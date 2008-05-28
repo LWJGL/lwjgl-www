@@ -17,7 +17,15 @@ function displayChangelog($version) {
 </p>
 <ul>
 	<li><a href="http://www.lwjgl.org/changelogs/full-changelog.txt" target="_blank">Full changelog</a></li>
-	<li><a href="#1.0beta3">LWJGL 1.0beta3</a></li>
+	<li><a href="#1.1.4">LWJGL 1.1.4</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/1.1.3-changelog.txt" target="_blank">LWJGL 1.1.3</a></li>	
+	<li><a href="http://www.lwjgl.org/changelogs/1.1.2-changelog.txt" target="_blank">LWJGL 1.1.2</a></li>	
+	<li><a href="http://www.lwjgl.org/changelogs/1.1.1-changelog.txt" target="_blank">LWJGL 1.1.1</a></li>	
+	<li><a href="http://www.lwjgl.org/changelogs/1.1-changelog.txt" target="_blank">LWJGL 1.1</a></li>	
+	<li><a href="http://www.lwjgl.org/changelogs/1.0-changelog.txt" target="_blank">LWJGL 1.0</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/1.0-rc1-changelog.txt" target="_blank">LWJGL 1.0-rc1</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/1.0beta4-changelog.txt" target="_blank">LWJGL 1.0beta4</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/1.0beta3-changelog.txt" target="_blank">LWJGL 1.0beta3</a></li>
 	<li><a href="http://www.lwjgl.org/changelogs/1.0beta2-changelog.txt" target="_blank">LWJGL 1.0beta2</a></li>
 	<li><a href="http://www.lwjgl.org/changelogs/1.0beta-changelog.txt" target="_blank">LWJGL 1.0beta</a></li>
 	<li><a href="http://www.lwjgl.org/changelogs/0.99-changelog.txt" target="_blank">LWJGL 0.99</a></li>
@@ -41,6 +49,6 @@ function displayChangelog($version) {
 </ul>
 
 <?
-displayChangelog('1.0beta3');
+displayChangelog('1.1.4');
 require('_include/footer.php');
 ?>
