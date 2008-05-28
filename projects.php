@@ -404,7 +404,87 @@ $projects[] = array(
 								'big'   => 'arcade_2.jpg'),
 							2 => array(
 								'small' => 'arcade_small_3.gif',
-								'big'   => 'arcade_3.jpg')));								
+								'big'   => 'arcade_3.jpg')));
+								
+$projects[] = array(
+						'name'    => 'JMugen',
+						'url'     => 'http://mugen-net.sourceforge.net',
+						'type'    => 'Free Open Source Game engine',
+						'desc'    => 'is Mugen clone 2D fighting game engine. It\'s entirely customisable, stages, characters, sound, fx, and menu. More info: <a href="http://en.wikipedia.org/wiki/M.U.G.E.N" target="_blank">http://en.wikipedia.org/wiki/M.U.G.E.N</a>',
+						'screens' => array(
+							0 => array(
+								'small' => 'jmugen_small_1.jpg',
+								'big'   => 'jmugen_1.jpg'),
+							1 => array(
+								'small' => 'jmugen_small_2.jpg',
+								'big'   => 'jmugen_2.jpg'),
+							2 => array(
+								'small' => 'jmugen_small_3.jpg',
+								'big'   => 'jmugen_3.jpg')));
+								
+$projects[] = array(
+						'name'    => 'JOGE',
+						'url'     => 'http://joge.sf.net',
+						'type'    => 'Free Open Source Game engine',
+						'desc'    => 'Joge [Java Opengl Game engine] is a 2D Game engine written in Java. She is stable, fast and very easy to learn. For installation and Video tutorials see project web site.',
+						'screens' => array(
+							0 => array(
+								'small' => 'joge_small_1.jpg',
+								'big'   => 'joge_1.jpg'),
+							1 => array(
+								'small' => 'joge_small_2.jpg',
+								'big'   => 'joge_2.jpg'),
+							2 => array(
+								'small' => 'joge_small_3.jpg',
+								'big'   => 'joge_3.jpg')));								
+								
+$projects[] = array(
+						'name'    => 'jScrabble3D',
+						'url'     => 'http://jscrabble.wz.cz',
+						'type'    => 'Freeware',
+						'desc'    => 'jScrabble3D is an variant for popular game Scrabble, but due to blending powers of graphic cards brings THE THIRD axis of  putting the words. Classic game is also included. User defined desks and lettersets.',
+						'screens' => array(
+							0 => array(
+								'small' => 'jscrabble_small_1.jpg',
+								'big'   => 'jscrabble_1.jpg'),
+							1 => array(
+								'small' => 'jscrabble_small_2.jpg',
+								'big'   => 'jscrabble_2.jpg'),
+							2 => array(
+								'small' => 'jscrabble_small_3.jpg',
+								'big'   => 'jscrabble_3.jpg')));																
+								
+$projects[] = array(
+						'name'    => 'Call of the Kings',
+						'url'     => 'http://www.callofthekings.com',
+						'type'    => 'Commercial',
+						'desc'    => 'It is a time of turmoil and with the old emperor at the brink of insanity and leaving no heir, all the nobles of the Realm realize that they have a legal claim to the Imperial Throne. Personal power struggles and treason leave everything - the economy, government and social order - in chaos. The goal of Call of the Kings is to win the Imperial Throne, take control of the Empire and hold it successfully against the other players. To accomplish this, each player controls a noble family of heroes and retainers. Players must rebuild the economy, and fund an army, by creating commerce in their towns, establishing trade routes and political alliances, building monopolies and collecting revenues from vassals.',
+						'screens' => array(
+							0 => array(
+								'small' => 'cotwl2_small_1.jpg',
+								'big'   => 'cotwl2_1.jpg'),
+							1 => array(
+								'small' => 'cotwl2_small_2.jpg',
+								'big'   => 'cotwl2_2.jpg'),
+							2 => array(
+								'small' => 'cotwl2_small_3.jpg',
+								'big'   => 'cotwl2_3.jpg')));								
+								
+$projects[] = array(
+						'name'    => 'Night Squad 2',
+						'url'     => 'http://nightsquad2.freenet.de/?lan=en ',
+						'type'    => 'Free game',
+						'desc'    => 'Night Squad 2 is a Multiplayer First-Person Shooter made particularly for Casual Gamers. It starts right from the browser. There are four game modes - Deathmatch, Capture (... the nurse), Classic and Elimination (best known from "The Ship"). The basic idea of the game is, that you can shoot only in target mode. However, the targeting laser will tell your position as soon as you start aiming at somebody.',
+						'screens' => array(
+							0 => array(
+								'small' => 'night_squad_2_small_1.jpg',
+								'big'   => 'night_squad_2_1.jpg'),
+							1 => array(
+								'small' => 'night_squad_2_small_2.jpg',
+								'big'   => 'night_squad_2_2.jpg'),
+							2 => array(
+								'small' => 'night_squad_2_small_3.jpg',
+								'big'   => 'night_squad_2_3.jpg')));												
 												  
 function displayProjects() {
 	

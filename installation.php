@@ -19,7 +19,7 @@ lwjgl_util.jar
 lwjgl_test.jar</pre>
 	</li>
 	<li>
-		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command:<br/><br/>
+		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command: (all in one line, space before each -option)<br/><br/>
 		<pre>java -cp .;res;jar\lwjgl.jar;jar\lwjgl_test.jar;jar\lwjgl_util.jar;jar\jinput.jar; 
     -Djava.library.path=native\win32 org.lwjgl.test.WindowCreationTest</pre>
 		A window should appear and you should see the following output:<br/><br/>
@@ -46,7 +46,7 @@ lwjgl_util.jar
 lwjgl_test.jar</pre>
 	</li>
 	<li>
-		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command:<br/><br/>
+		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command: (all in one line, space before each -option)<br/><br/>
 		<pre>java -cp .:res:jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/jinput.jar: 
     -Djava.library.path=native/linux org.lwjgl.test.WindowCreationTest</pre>
 		Should library loading fail, try using -Djava.library.path to specify the path. For example:<br/><br/>
@@ -70,15 +70,15 @@ Window created
 	<li>
 		Unpack the archive, file contents (in sub folders) should include (amongst other things):<br/><br/>
 		<pre>liblwjgl.jnilib
-libopenal.dylib
+openal.dylib
 lwjgl.jar
 lwjgl_util.jar
 lwjgl_test.jar</pre>
 	</li>
 	<li>
-		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command:<br/><br/>
+		Test LWJGL by opening a command prompt, and navigating to the folder where the archive was extracted. Once navigated, issue the following command: (all in one line, space before each -option)<br/><br/>
 		<pre>java -cp .:res:jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/jinput.jar: 
-    -Djava.library.path=native/macosx org.lwjgl.test.WindowCreationTest</pre>
+	 -Djava.library.path=native/macosx org.lwjgl.test.WindowCreationTest</pre>
 		A window should appear and you should see the following output:<br/><br/>
 		<pre>Found &lt;number&gt; display modes
 240, 320, WindowCreationTest
@@ -114,21 +114,9 @@ Window created
 
 <p>
 	<b><a name="netbeans">Netbeans</a></b> <span class="newsdate"><a href="#top">Back to top</a></span>
+	<br/>
+	Please read the install guide in the wiki: <a href="http://lwjgl.org/wiki/doku.php/lwjgl/install/ide/netbeans">How to set up Netbeans 5.5 for use with LWJGL<a/>
 </p>
-<ul>
-	<li>Having installed LWJGL on your platform of choice, fire up Netbeans.</li>
-	<li>
-		Create a new project, and mount lwjgl.jar in the project filesystem by right clicking the Filesystem and selecting Mount -> Archive Files<br/><br/>
-		<img src="_gfx/installation/netbeans-1.png" alt="LWJGL Installation under Netbeans"/><br/><br/>
-	</li>
-	<li>
-		Having created a class to run, you need to setup that class to execute using an External Execution<br/><br/>
-		<img src="_gfx/installation/netbeans-2.png" alt="LWJGL Installation under Netbeans"/><br/><br/>
-		Since Netbeans doesn't allow to change the library path you either have to change the working directory of the executor to the lwjgl.dll or copy files over to whereever you run from. More info is provided in the <a href="http://www.netbeans.org/kb/faqs/miscellaneous.html#FAQ_34" target="_blank">Netbeans FAQ</a>.<br/><br/>
-		<img src="_gfx/installation/netbeans-3.png" alt="LWJGL Installation under Netbeans"/><br/><br/>
-	</li>
-	<li>You should now be able to run the application directly from Netbeans. Push F6 to verify.</li>
-</ul>
 
 <p>
 	<b><a name="jcreator">JCreator</a></b> <span class="newsdate"><a href="#top">Back to top</a></span>
