@@ -48,12 +48,18 @@
 		$donations[] = array("Ewald Kicker");
 		$donations[] = array("Filippo Cortigiani");
 		$donations[] = array("Christoph Kilz");
+		$donations[] = array("Jesse Pavel");
+		$donations[] = array("Charles Ditzel");
+		$donations[] = array("Thomas Schuster");
+		$donations[] = array("Aviram Preshel");
+		$donations[] = array("Tomas Andrle");
+		$donations[] = array("Jörg Junghänel");
 		
 		shuffle($donations);
 		
 		foreach($donations as $key => $value) {
 			echo '<li>';
-			echo $value[0];
+			echo htmlentities($value[0]);
 			echo '</li>';
 		}
 	?>
@@ -62,7 +68,7 @@
 	<b>LWJGL Monetary situation as of 27th August 2006</b>
 <p>The following table displays the current monetary situation of LWJGL. It is purely made to get an overview and does not necessarily accurately display the exact current funds of LWJGL.
 	<br/>
-	Please note that the total expenses are currently 0$ since the hosting is provided free of charge by <a href="http://puppygames.net">Puppygames</a> and that the domains (lwjgl.org and lwjgl.com) are paid by <a href="mailto:brian@matzon.dk">Brian Matzon</a>.
+	Please note that the total expenses are currently 20$/month + domains (lwjgl.org/.com).
 </p>
 <table align="center">
 	<tr>
@@ -70,15 +76,15 @@
 	</tr>
 	<tr>
 		<td width="100">Adsense</td>
-		<td align="right">$483.17</td>
+		<td align="right">$529.95</td>
 	</tr>
 	<tr>
 		<td>Paypal</td>
-		<td align="right">$502.48</td>
+		<td align="right">$669.7</td>
 	</tr>
 	<tr>
 		<td>Total income</td>
-		<td align="right">$985.65</td>
+		<td align="right">$1199.65</td>
 	</tr>
 	<tr>
 		<td colspan="2">&nbsp;</td>
@@ -88,20 +94,24 @@
 	</tr>
 	<tr>
 		<td>Hosting</td>
-		<td align="right">$0.00</td>
+		<td align="right">$120.00</td>
 	</tr>
 	<tr>
 		<td>Domains</td>
 		<td align="right">$0.00</td>
 	</tr>
 	<tr>
+		<td>Code signing certificate</td>
+		<td align="right">$99.5</td>
+	</tr>
+	<tr>
 		<td>Total expenses</td>
-		<td align="right">$0.00</td>
+		<td align="right">$219.5</td>
 	</tr>
 </table>
 <div align="center">
 <br/>
-<i>Adsense currently averages at $1.10/day</i>
+<i>Adsense currently averages at $0.99/day</i>
 <br/>
 <br/>
 <h2>Planned expenses</h2>
@@ -109,10 +119,6 @@
  * <strike>LWJGL Developer Guide - $1000/onetime</strike>
 </p>
 <br/>
-<h2>Wishlist</h2>
-<p>
-	* LWJGL Code signing certificate - $200/year
-</p>	
 </p>
 </div>
 
