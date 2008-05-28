@@ -2,6 +2,9 @@
 
 <h1><a name="top">Demos</a></h1>
 <p>
+	Please visit <a href="/applet">this link</a> to start the applet based LWJGL demo.
+</p>
+<p>
 	Below you find a list of webstartable demos of LWJGL, all from the org.lwjgl.test.* package<br/><br/>
 	<b>Space Invaders</b><br/><br/>
 	This is the Space Invaders originally by Kevin Glass (<a href="http://www.cokeandcode.com/info/tut2d-4.html" target="_blank">http://www.cokeandcode.com/info/tut2d-4.html</a>).
