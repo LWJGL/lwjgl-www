@@ -16,7 +16,7 @@
 
 	<a name="faq2">
 	<b>Q:</b> Is it possible to use LWJGL from an Applet?<br/>
-	<b>A:</b> Unfortunately, no. However you can start a LWJGL application from a webpage using Java WebStart. For more information <a href="http://www.google.com/search?q=java+web+start+tutorial" target="_blank">click here</a>.<br/><br/>
+	<b>A:</b> Absolutely, please check <a href="http://lwjgl.org/wiki/doku.php/lwjgl/tutorials/applet">here</a> for more info.<br/><br/>
 
 	<a name="faq3">
 	<b>Q:</b> Will LWJGL support OpenGL ES<br/>
