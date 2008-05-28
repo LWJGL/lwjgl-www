@@ -9,9 +9,7 @@
 	<li>Caspian Rychlik-Prince</li>
 	<li>Brian Matzon</li>
 	<li>Elias Naur</li>
-	<li>Erik Duijs</li>
 	<li>Ioannis Tsakpinis</li>
-	<li>Mark Bernard</li>
 </ul>
 <p>
 	<b>Contributors</b>
@@ -21,6 +19,11 @@
 	<li>Tristan Campbell</li>
 	<li>Gregory Pierce</li>
 	<li>Luke Holden</li>
+	<li>Erik Duijs</li>
+	<li>Mark Bernard</li>
+  <li>Jos Hirth</li>
+  <li>Kevin Glass</li>
+  <li>Atsuya Takagi</li>
 </ul>
 <p>
 	<b>Additional credits goes to</b>
