@@ -59,15 +59,15 @@
 					<h2>Developers</h2>
 					<p>
 					    <a href="http://cia.lwjgl.org" target="_blank">Commit logs</a><br/>
-					    <a href="http://svn.sourceforge.net/viewcvs.cgi/java-game-lib/" target="_blank">Source Tree</a><br/>
+					    <a href="http://java-game-lib.svn.sourceforge.net/viewvc/java-game-lib/" target="_blank">Source Tree</a><br/>
 					    <a href="http://sourceforge.net/projects/java-game-lib" target="_blank">Project Home</a><br/>
 					</p>
 					<h2>Miscellaneous</h2>
 					<p>
 					    <a href="links.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'links.php') !== false) ? ' class="activeItem"' : '');?>>Links</a><br/>
 					    <a href="changelog.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'changelog.php') !== false) ? ' class="activeItem"' : '');?>>Changelog</a><br/>
-					    <a href="irclog_browse.php"<?=((strpos($_SERVER['SCRIPT_NAME'], 'irclog.php') !== false) ? ' class="activeItem"' : '');?>>IRC Chatlog</a><br/>
-					    <a href="http://irc-stats.lwjgl.org" target="_blank">IRC Stats</a><br/>
+					    <a href="http://echelog.matzon.dk/logs/browse/lwjgl/" target="_blank">IRC Chatlog</a><br/>
+					    <a href="http://echelog.matzon.dk/stats/lwjgl.html" target="_blank">IRC Stats</a><br/>
 					</p>
 					<p>
 					    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -85,7 +85,7 @@
 					    <a href="http://www.opengl.org" target="_blank"><img src="_gfx/button_opengl.png" alt="OpenGL" border="0"></a><br/><br/>
 					    <a href="http://www.openal.org" target="_blank"><img src="_gfx/button_openal.png" alt="OpenAL" border="0"></a><br/><br/>
 					    <a href="http://java.net" target="_blank"><img src="_gfx/button_javanet.png" alt="java.net" border="0"></a><br/><br/>
-					    <a href="http://sourceforge.net" target="_blank"><img src="_gfx/button_sourceforge.png" alt="SourceForge.net" border="0"></a><br/><br/>
+					    <a href="http://sourceforge.net/projects/java-game-lib"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=58488&type=8" width="80" height="15" border="0" alt="Get Lightweight Java Game Library at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a><br/><br/>
 					</p>
 				</div>
 				<div class="content">

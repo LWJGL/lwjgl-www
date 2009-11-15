@@ -8,31 +8,31 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 1.1.4 released!</b> <span class="newsdate">Monday, January 21st, 2008</span><br/>
-	First release in 2008!. This is mostly a bugfix and performance release. It is expected that this is the last release in the 1.1 series. We are now working towards a 2.0 release. Please check <a href="http://lwjgl.org/forum/index.php/topic,2531">this thread</a> for more info regarding the release.<br/><br/>
+	<b>LWJGL 2.2.1</b> <span class="newsdate">Sunday, November 15th, 2009</span><br/>
+	Please check <a href="http://lwjgl.org/forum/index.php?topic=3111">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 1.1.3 released!</b> <span class="newsdate">Tuesday, October 30th, 2007</span><br/>
-	Better applet support, spec updates and some crash fixes. Please check <a href="http://lwjgl.org/forum/index.php/topic,2465">this thread</a> for more info regarding the release.<br/><br/>
+	<b>LWJGL 2.1.0</b> <span class="newsdate">Monday, March 23rd, 2009</span><br/>
+	Please check <a href="http://lwjgl.org/forum/index.php?topic=2856">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 1.1.2 released!</b> <span class="newsdate">Friday, August 17th, 2007</span><br/>
-	Basically a Windows bugfix release. Please check <a href="http://lwjgl.org/forum/index.php/topic,2400">this thread</a> for more info regarding the release.<br/><br/>
+	<b>LWJGL 2.0.1</b> <span class="newsdate">Wednesday, November 26th, 2008</span><br/>
+	Please check <a href="http://lwjgl.org/forum/index.php?topic=2771">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 1.1.1 released!</b> <span class="newsdate">Sunday, August 5th, 2007</span><br/>
-	Mostly a bug fix release. Please check <a href="http://lwjgl.org/forum/index.php/topic,2392.0.html">this thread</a> for more info regarding the release.<br/><br/>
+	<b>LWJGL 2.0 is out of the woods!</b> <span class="newsdate">Sunday, October 26th, 2008</span><br/>
+	Please check <a href="http://lwjgl.org/forum/index.php?topic=2726">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 1.1 released!</b> <span class="newsdate">Monday, April 30th, 2007</span><br/>
-	We bumped the number a nod. Now at 1.1, featuring some linux fixes, optimizations and OpenAL 1.1 support. Please check <a href="http://lwjgl.org/forum/index.php/topic,2314">this thread</a> for more info regarding the release.<br/><br/>
+	<b>LWJGL 2.0 Release Candidate 2 is fresh out of the factory - now with new features(!) like OpenGL3 and Solaris support</b> <span class="newsdate">Monday, September 15th, 2008</span><br/>
+	Please check <a href="http://lwjgl.org/forum/index.php?topic=2703">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 1.0 released!</b> <span class="newsdate">Sunday, February 4th, 2007</span><br/>
-	Finally, after several years of development we finally decided that we're good to go with 1.0!. Please check <a href="http://lwjgl.org/forum/index.php/topic,2202">this thread</a> for more info regarding the release.<br/><br/>
+	<b>Almost there! - LWJGL 2.0 Release Candidate 1 is ready for consumption!</b> <span class="newsdate">Saturday, June 7th, 2008</span><br/>
+	First RC delivered. Might still be some minor issues left - but basically done... Please check <a href="http://lwjgl.org/forum/index.php?topic=2639">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 1.0 Release Candidate 1 released!</b> <span class="newsdate">Sunday, January 7th, 2007</span><br/>
-	We're proud to release the first release candidate of LWJGL! The premier Java Game Library. Please check <a href="http://lwjgl.org/forum/index.php/topic,2174">this thread</a> for more info regarding the release<br/><br/>
+	<b>First release of LWJGL 2.0</b> <span class="newsdate">Sunday, April 20th, 2008</span><br/>
+	We finally released the first beta of LWJGL 2.0. Please check <a href="http://lwjgl.org/forum/index.php?topic=2607">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <? require('_include/footer.php'); ?>

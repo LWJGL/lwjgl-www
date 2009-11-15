@@ -3,7 +3,7 @@
 <h1>License</h1>
 <pre>
 /*
- * Copyright (c) 2002-2008 Lightweight Java Game Library Project
+ * Copyright (c) 2002-2007 Lightweight Java Game Library Project
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without

@@ -4,7 +4,7 @@ require('_include/header.php');
 $projects = array();
 
 $projects[] = array('name'    => 'Extorris',
-					'url'     => 'http://extorris.com',
+					'url'     => 'http://extorris.net',
 					'type'    => 'Commercial game',
 					'desc'    => 'The extorris game is multiplayer online game set in a futuristic society of convicts. The game build upon the classic concept of space warfare and exploration. The player is a convict banished by an authority to a far away galaxy. Here is he left on his own with a small ship. His goal is now to survive among the other convicts in a harsh anarchistic world and if possible find a way home.',
 					'screens' => array(0 => array('small' => 'extorris_small_1.jpg',
@@ -392,9 +392,9 @@ $projects[] = array(
 								
 $projects[] = array(
 						'name'    => 'Arcade',
-						'url'     => 'http://phosphoton.741.com/ ',
-						'type'    => 'Free Open Source Game',
-						'desc'    => 'A simple shooter inspired by space-invaders. You control an orange arrow and you shoot at green arrows. As the game progresses you pick up shields, better guns and rockets.',
+						'url'     => 'http://project2k.yolasite.com/retrostyle.php',
+						'type'    => 'Freeware Game',
+						'desc'    => 'The explosions are sweet, and the gameplay is simple: Destroy as many green triangles as you can. Also includes a two-player hotseat mode. No levels, just a constant stream of baddies that just keep on coming! Shields and rockets can help out in tough situations.',
 						'screens' => array(
 							0 => array(
 								'small' => 'arcade_small_1.gif',
@@ -472,7 +472,7 @@ $projects[] = array(
 								
 $projects[] = array(
 						'name'    => 'Night Squad 2',
-						'url'     => 'http://nightsquad2.freenet.de/?lan=en ',
+						'url'     => 'http://nightsquad2.freenet.de/?lan=en',
 						'type'    => 'Free game',
 						'desc'    => 'Night Squad 2 is a Multiplayer First-Person Shooter made particularly for Casual Gamers. It starts right from the browser. There are four game modes - Deathmatch, Capture (... the nurse), Classic and Elimination (best known from "The Ship"). The basic idea of the game is, that you can shoot only in target mode. However, the targeting laser will tell your position as soon as you start aiming at somebody.',
 						'screens' => array(
@@ -485,6 +485,150 @@ $projects[] = array(
 							2 => array(
 								'small' => 'night_squad_2_small_3.jpg',
 								'big'   => 'night_squad_2_3.jpg')));												
+								
+$projects[] = array(
+						'name'    => 'Droid Assualt',
+						'url'     => 'http://www.puppygames.net/droid-assault/index.php',
+						'type'    => 'Commercial',
+						'desc'    => 'The droids in Omni-Corp\'s factory warehouses have been activated somehow and are running amok! Take control of the droids using a remote virus and either destroy or capture all the droids in each warehouse before production can begin again. Omni-Corp needs you!',
+						'screens' => array(
+							0 => array(
+								'small' => 'droid_assault_small_1.jpg',
+								'big'   => 'droid_assault_1.jpg'),
+							1 => array(
+								'small' => 'droid_assault_small_2.jpg',
+								'big'   => 'droid_assault_2.jpg'),
+							2 => array(
+								'small' => 'droid_assault_small_3.jpg',
+								'big'   => 'droid_assault_3.jpg')));
+								
+$projects[] = array(
+						'name'    => 'RanaRemake',
+						'url'     => 'http://cezgs.computeremuzone.com/ficha.php?id=747&l=en',
+						'type'    => 'Freeware',
+						'desc'    => 'A remake of "RanaRama" (Hewson 1987). You control Mervin that turned into frog himself by mistake. The castle where Mervin lives, has been invaded by an army of Warlocks that you\'ll need to kill fighting against them in a duel. You\'ll need to cast some spells to survive to attacks from the enemies that invaded the castle. Ranaremake has mazes, a lot of rooms, spells, exploring, graphics and sound renewed and a lot of additions from the original game.',
+						'screens' => array(
+							0 => array(
+								'small' => 'ranaremake_small_1.png',
+								'big'   => 'ranaremake_1.png'),
+							1 => array(
+								'small' => 'ranaremake_small_2.png',
+								'big'   => 'ranaremake_2.png'),
+							2 => array(
+								'small' => 'ranaremake_small_3.png',
+								'big'   => 'ranaremake_3.png')));
+								
+$projects[] = array(
+						'name'    => 'Lavirinto3d',
+						'url'     => 'http://lavirinto3d.sourceforge.net',
+						'type'    => 'GPLv3',
+						'desc'    => 'Lavirinto3d brings <a href="http://en.wikipedia.org/wiki/Zen">zen</a> wisdom, <a href="http://en.wikipedia.org/wiki/Pipe_Dream_%28video_game%29">pipes</a> and <a href="http://en.wikipedia.org/wiki/Pac-Man">Pac-Man</a> together. It\'s a 3D version of the old atari800xl game <a href="http://www.youtube.com/watch?v=pV6a6Erd1c8">Zenji</a>.',
+						'screens' => array(
+							0 => array(
+								'small' => 'lavirinto3d_small_1.jpg',
+								'big'   => 'lavirinto3d_1.jpg'),
+							1 => array(
+								'small' => 'lavirinto3d_small_2.jpg',
+								'big'   => 'lavirinto3d_2.jpg'),
+							2 => array(
+								'small' => 'lavirinto3d_small_3.jpg',
+								'big'   => 'lavirinto3d_3.jpg')));
+								
+$projects[] = array(
+						'name'    => 'SpringWorld Challenge',
+						'url'     => 'http://www.springworldchallenge.com/',
+						'type'    => 'Commercial',
+						'desc'    => 'SpringWorld Challenge is a 2D physics-based computer game where you drive and fly all sorts of vehicles such as cars and rockets. All vehicles are made of springs that can be destroyed and this can radically change the vehicles\' behavior and the way they can be controlled. This results in a very challenging and dynamic gameplay experience that you don\'t want to miss! Try the free demo today!',
+						'screens' => array(
+							0 => array(
+								'small' => 'swc_small_1.png',
+								'big'   => 'swc_1.png'),
+							1 => array(
+								'small' => 'swc_small_2.png',
+								'big'   => 'swc_2.png'),
+							2 => array(
+								'small' => 'swc_small_3.png',
+								'big'   => 'swc_3.png')));
+
+$projects[] = array(
+						'name'    => 'Vis/Space',
+						'url'     => 'http://vis.hfbk.net/',
+						'type'    => 'browser / visualisation / arts tool',
+						'desc'    => 'Vis/Space allows the placement of various data sources in a three-dimensional environment. New search terms can be entered into a query field, or can be navigated to from an existing visualised keyword. Data is fetched from various web services, but local files could be dropped into too. This tool works best for chill out web surfing experience.',
+						'screens' => array(
+							0 => array(
+								'small' => 'visspace_small_1.jpg',
+								'big'   => 'visspace_1.jpg'),
+							1 => array(
+								'small' => 'visspace_small_2.jpg',
+								'big'   => 'visspace_2.jpg'),
+							2 => array(
+								'small' => 'visspace_small_3.jpg',
+								'big'   => 'visspace_3.jpg')));
+
+$projects[] = array(
+						'name'    => 'Illarion',
+						'url'     => 'http://illarion.org',
+						'type'    => 'free online roleplaying game',
+						'desc'    => 'llarion is a free, graphical fantasy game that focuses on true roleplaying. Come and join the world of Illarion. You\'ll fully emmerse yourself in this world, as though your character is a real being. All of the characters around you will behave as real people in this independent, mysterious world.',
+						'screens' => array(
+							0 => array(
+								'small' => 'illarion_small_1.png',
+								'big'   => 'illarion_1.png'),
+							1 => array(
+								'small' => 'illarion_small_2.png',
+								'big'   => 'illarion_2.png'),
+							2 => array(
+								'small' => 'illarion_small_3.png',
+								'big'   => 'illarion_3.png')));
+
+$projects[] = array(
+						'name'    => 'Sokobano',
+						'url'     => 'http://sokobano.sourceforge.net',
+						'type'    => 'Open Source Game / GNU General Public License (GPL)',
+						'desc'    => 'Sokobano is a 3D Sokoban game that features different skins & workers, several level sets, resume & replay mode, improved mouse/keyboard control, audio and more.',
+						'screens' => array(
+							0 => array(
+								'small' => 'sokobano_small_1.jpg',
+								'big'   => 'sokobano_1.png'),
+							1 => array(
+								'small' => 'sokobano_small_2.jpg',
+								'big'   => 'sokobano_2.png'),
+							2 => array(
+								'small' => 'sokobano_small_3.jpg',
+								'big'   => 'sokobano_3.png')));
+								
+$projects[] = array(
+						'name'    => 'Modern Society: Online',
+						'url'     => 'http://www.tuonelaproductions.com',
+						'type'    => 'Core gameplay is free but the game is commercial.',
+						'desc'    => 'Modern Society: Online is an online multiplayer game based on Tuonela\'s acclaimed board and educational game Modern Society. Up to six players can take their seats of power and try to influence the society according to their whims against each other. Future versions of MSO will also include a MSO Deck editor that allows players to create and share their own custom games.',
+						'screens' => array(
+							0 => array(
+								'small' => 'mso_small_1.jpg',
+								'big'   => 'mso_1.jpg'),
+							1 => array(
+								'small' => 'mso_small_2.jpg',
+								'big'   => 'mso_2.jpg'),
+							2 => array(
+								'small' => 'mso_small_3.jpg',
+								'big'   => 'mso_3.jpg')));
+
+$projects[] = array(
+						'name'    => 'Grappling Hook',
+						'url'     => 'http://ghook.speedrungames.com/',
+						'type'    => 'Commercial.',
+						'desc'    => 'Grappling Hook is an innovative first-person action puzzle / jump \'n\' run game. You use the Grappling Hook as a mighty high-tech tool to overcome various challenging obstacles by performing incredible moves and fast combinations of daring tricks. The dynamic and surprising levels open opportunities to use the Grappling Hook in unique ways never seen before in a game. Making your way through the levels requires both skill and creativity, while the increasing difficulty pushes you to become a real master of the Grappling Hook. All this comes together to create an intense, challenging, and rewarding gameplay experience.',
+						'screens' => array(
+							0 => array(
+								'small' => 'grappling_hook_small_1.jpg',
+								'big'   => 'grappling_hook_1.jpg'),
+							1 => array(
+								'small' => 'grappling_hook_small_2.jpg',
+								'big'   => 'grappling_hook_2.jpg'),
+							2 => array(
+								'small' => 'grappling_hook_small_3.jpg',
+								'big'   => 'grappling_hook_3.jpg')));
 												  
 function displayProjects() {
 	

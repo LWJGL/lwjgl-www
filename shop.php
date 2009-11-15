@@ -41,6 +41,26 @@
 							2 => array(
 								'small' => 'ultratron_small_3.jpg',
 								'big'   => 'ultratron_3.jpg')));
+								
+	$projects[] = array(
+						'name'    			=> 'Droid Assualt',
+						'url'     			=> 'http://www.puppygames.net/',
+						'price'					=> '&euro;6.77',
+						'donation'			=> '&euro;2.00 (30%)',
+						'product'     	=> 'http://www.puppygames.net/droid-assault/index.php?referrer=LWJGL',
+						'link'					=> '<a href=\'https://secure.bmtmicro.com/servlets/RIP.DemoDownload?PRODUCTID=18990019&AID=1823735\'>Play now (Mac)</a>&nbsp;|&nbsp;<a href=\'https://secure.bmtmicro.com/servlets/RIP.DemoDownload?PRODUCTID=18990018&AID=1823735\'>Play now (Win)</a>&nbsp;|&nbsp;<a href=\'http://www.puppygames.net/applets/droidassault.jnlp?referrer=LWJGL\'>Play now (Linux)</a>',
+						'type'    			=> 'Shoot-em-up',
+						'desc'    			=> 'The droids in Omni-Corp\'s factory warehouses have been activated somehow and are running amok! Take control of the droids using a remote virus and either destroy or capture all the droids in each warehouse before production can begin again. Omni-Corp needs you!',
+						'screens' => array(
+							0 => array(
+								'small' => 'droid_assault_small_1.jpg',
+								'big'   => 'droid_assault_1.jpg'),
+							1 => array(
+								'small' => 'droid_assault_small_2.jpg',
+								'big'   => 'droid_assault_2.jpg'),
+							2 => array(
+								'small' => 'droid_assault_small_3.jpg',
+								'big'   => 'droid_assault_3.jpg')));								
 												  
 	function displayProjects() {
 		
@@ -104,7 +124,7 @@
 		<p>The following is a list of games made using LWJGL. If you buy any of the games from this page a percentage of the price will
 			automatically be donated to LWJGL. If you have a game that you want on this list, please send an email with info (name, pics, price, % donated, etc.) to info@lwjgl.org.
 		</p>
-		<p align="center"><i><b>In an effort to raise money to kick start the LWJGL donation fund, <a href="http://oddlabs.com">Oddlabs</a> and <a href="http://puppygames.net">Puppygames</a> have graciously agreed to donate 100% of the sales made through this page to LWJGL for a limited time.</i></b>
+		<p align="center"><i><b>In an effort to raise money to kick start the LWJGL donation fund, <a href="http://oddlabs.com">Oddlabs</a> and <a href="http://puppygames.net">Puppygames</a> have graciously agreed to donate 100% of the sales - of some games made through this page - to LWJGL for a limited time.</i></b>
 		</p>
 <?		
 	displayProjects();

@@ -34,7 +34,7 @@
 		$donations[] = array("Andrew Kelly");
 		$donations[] = array("Gregory Pierce");
 		$donations[] = array("Shannon Smith");
-		$donations[] = array("Franz Bartlechner");
+		$donations[] = array("Franz Bartlechner - multiple donations");
 		$donations[] = array("Peter Koeleman");
 		$donations[] = array("Benjamin Bingham");
 		$donations[] = array("So-Woo Lee");
@@ -52,8 +52,13 @@
 		$donations[] = array("Charles Ditzel");
 		$donations[] = array("Thomas Schuster");
 		$donations[] = array("Aviram Preshel");
-		$donations[] = array("Tomas Andrle");
+		$donations[] = array("Tomas Andrle - multiple donations");
 		$donations[] = array("Jörg Junghänel");
+		$donations[] = array("Tobias Fritz");
+		$donations[] = array("Nathan Sweet");
+		$donations[] = array("Tiana Bruno Rakotoarimanana");
+		$donations[] = array("Andreas Wallberg");
+		$donations[] = array("Andreas Wiesbauer");
 		
 		shuffle($donations);
 		
@@ -65,58 +70,13 @@
 	?>
 </ul>
 <p>
-	<b>LWJGL Monetary situation as of 27th August 2006</b>
-<p>The following table displays the current monetary situation of LWJGL. It is purely made to get an overview and does not necessarily accurately display the exact current funds of LWJGL.
-	<br/>
-	Please note that the total expenses are currently 20$/month + domains (lwjgl.org/.com).
-</p>
-<table align="center">
-	<tr>
-		<td colspan="2"><b>Income</b></td>
-	</tr>
-	<tr>
-		<td width="100">Adsense</td>
-		<td align="right">$529.95</td>
-	</tr>
-	<tr>
-		<td>Paypal</td>
-		<td align="right">$669.7</td>
-	</tr>
-	<tr>
-		<td>Total income</td>
-		<td align="right">$1199.65</td>
-	</tr>
-	<tr>
-		<td colspan="2">&nbsp;</td>
-	</tr>
-	<tr>
-		<td colspan="2"><b>Expenses</b></td>
-	</tr>
-	<tr>
-		<td>Hosting</td>
-		<td align="right">$120.00</td>
-	</tr>
-	<tr>
-		<td>Domains</td>
-		<td align="right">$0.00</td>
-	</tr>
-	<tr>
-		<td>Code signing certificate</td>
-		<td align="right">$99.5</td>
-	</tr>
-	<tr>
-		<td>Total expenses</td>
-		<td align="right">$219.5</td>
-	</tr>
-</table>
-<div align="center">
-<br/>
-<i>Adsense currently averages at $0.99/day</i>
-<br/>
-<br/>
-<h2>Planned expenses</h2>
-<p>
- * <strike>LWJGL Developer Guide - $1000/onetime</strike>
+	<b>LWJGL Monetary situation as of 18th November 2008</b>
+	<p>
+		<i>I have stopped making a detailed list available online, because its basically always stale. I am maintaining an ad hoc list of income/expenses that is available on request.</i>
+		<br/>
+		We have about 300$ on paypal (income: donations, expenses: hosting) and about (depending on dollar rate) 400$ on my account (income: adsense, expenses: domains, ssl).<br/>
+		We are averaging about 20$ a month in expenses and a 125$ every year for a certificate. The average income from adsense is $20 a month (with %50 comming from echelog! (all channels)).
+		<br/>
 </p>
 <br/>
 </p>

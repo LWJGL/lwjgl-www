@@ -16,27 +16,12 @@ header("Content-type: application/x-java-jnlp-file");
     <icon kind="splash" href="logo.png" />
     <offline-allowed/> 
   </information> 
-  <security> 
-      <all-permissions/> 
-  </security>
   <resources> 
     <j2se version="1.4+"/> 
-    <jar href="lwjgl.jar"/>
-    <jar href="lwjgl_test.jar" main="true"/>
-    <jar href="lwjgl_util.jar"/>
-    <jar href="lwjgl_fmod3.jar"/>
-    <jar href="lwjgl_media.jar"/>
+		<jar href="lwjgl_test.jar"/>
+    <jar href="media.jar"/>
+    <extension name="lwjgl" href="http://lwjgl.org/jnlp/extension.php" />
   </resources> 
-  <resources os="Windows">
-    <j2se version="1.4+"/> 
-    <nativelib href="lwjgl_win32.jar"/>
-    <property name="org.lwjgl.Sys.debug" value="true" />
-  </resources> 
-  <resources os="Linux" arch="i386">
-    <j2se version="1.4+"/> 
-    <nativelib href="lwjgl_linux.jar"/>
-    <property name="org.lwjgl.Sys.debug" value="true" />
-  </resources>   
   <application-desc main-class="org.lwjgl.<?php echo substr($_SERVER["PATH_INFO"], 1, strlen($_SERVER["PATH_INFO"])-1); ?>">
   <?php
     if(isset($HTTP_GET_VARS['arguments'])) {

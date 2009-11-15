@@ -16,8 +16,8 @@
 		OctLight is a Java game engine that will provide all the tools necessary to create 3D massively multi player online games. It can be used for single player games as well, although that's the not the main focus. OctLight includes a scene graph API which is rendered using OpenGL. Built on top of this is a map and object framework which includes collision detection and visibility checking. In addition to this modules for networking, AI, GUI and persistence will be created.<br/><br/>
 	</li>
 	<li>
-		<a href="http://www.mojomonkeycoding.com/" target="_blank">http://www.mojomonkeycoding.com/</a><br/>
-		jME (or jMonkeyEngine) is an attempt at a fully functional game engine using the Java programming language.<br/><br/>
+		<a href="http://www.jmonkeyengine.com" target="_blank">http://www.jmonkeyengine.com</a><br/>
+		jME (jMonkey Engine) is a high performance scene graph based graphics API.<br/><br/>
 	</li>
 	<li>
 		<a href="http://xith.org/" target="_blank">http://xith.org/</a><br/>
