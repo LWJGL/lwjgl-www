@@ -6,33 +6,51 @@
 <p>LWJGL is available under a <a href="license.php">BSD license</a>, which means it's open source and freely available at no charge.</p>
 <p>Please visit us on the Freenode IRC Network: <a href="irc://irc.freenode.net/lwjgl" target="_blank">#LWJGL</a>. Do idle if there is no one to answer any of your questions, we are on different timezones.</p>
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>*** WARNING ***</h1>
+<p>
+	We have had a disk crash. We are working on restoring the site. We do not have a full backup, so some documents may be old. We're working on updating it.
+	We have a relatively recent forum backup and will install it eventually.
+	Downloads are working fine.
+</p>
+<h1>*** WARNING ***</h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 2.5</b> <span class="newsdate">Friday, July 16th, 2010</span><br/>
+	To hot outside? - get inside, switch on the AC unit - and start hacking away with the latest LWJGL release.<br/>
+	Please check <a href="/forum/index.php?topic=3398">this thread</a> for more info regarding the release.<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 2.4</b> <span class="newsdate">Sunday, April 11th, 2010</span><br/>
+	New release with a ton of fixes and support for OpenGL 3.3 and 4.0<br/>
+	Please check <a href=/forum/index.php?topic=3302">this thread</a> for more info regarding the release.<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 2.3</b> <span class="newsdate">Sunday, February 21st, 2010</span><br/>
+	Important release that fixes issues with ATI 10.x drivers. Consider upgrading ASAP.<br/>
+	Please check <a href="/forum/index.php?topic=3212">this thread</a> for more info regarding the release.<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 2.2.2</b> <span class="newsdate">Tuesday, January 26th, 2010</span><br/>
+	First release in the new year. Mostly bugfixes.<br/>
+	Please check <a href="/forum/index.php?topic=3183">this thread</a> for more info regarding the release.<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.2.1</b> <span class="newsdate">Sunday, November 15th, 2009</span><br/>
-	Please check <a href="http://lwjgl.org/forum/index.php?topic=3111">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="/forum/index.php?topic=3111">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.1.0</b> <span class="newsdate">Monday, March 23rd, 2009</span><br/>
-	Please check <a href="http://lwjgl.org/forum/index.php?topic=2856">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="/forum/index.php?topic=2856">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.0.1</b> <span class="newsdate">Wednesday, November 26th, 2008</span><br/>
-	Please check <a href="http://lwjgl.org/forum/index.php?topic=2771">this thread</a> for more info regarding the release.<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 2.0 is out of the woods!</b> <span class="newsdate">Sunday, October 26th, 2008</span><br/>
-	Please check <a href="http://lwjgl.org/forum/index.php?topic=2726">this thread</a> for more info regarding the release.<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 2.0 Release Candidate 2 is fresh out of the factory - now with new features(!) like OpenGL3 and Solaris support</b> <span class="newsdate">Monday, September 15th, 2008</span><br/>
-	Please check <a href="http://lwjgl.org/forum/index.php?topic=2703">this thread</a> for more info regarding the release.<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>Almost there! - LWJGL 2.0 Release Candidate 1 is ready for consumption!</b> <span class="newsdate">Saturday, June 7th, 2008</span><br/>
-	First RC delivered. Might still be some minor issues left - but basically done... Please check <a href="http://lwjgl.org/forum/index.php?topic=2639">this thread</a> for more info regarding the release.<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>First release of LWJGL 2.0</b> <span class="newsdate">Sunday, April 20th, 2008</span><br/>
-	We finally released the first beta of LWJGL 2.0. Please check <a href="http://lwjgl.org/forum/index.php?topic=2607">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="/forum/index.php?topic=2771">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <? require('_include/footer.php'); ?>

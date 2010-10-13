@@ -2,8 +2,12 @@
 
 <h1>Download</h1>
 <p>
-	Latest stable release is 2.2.1 Please download it here:<br/>
-	<a href="https://sourceforge.net/projects/java-game-lib/files/Official%20Releases/LWJGL%202.2.1/" target="_blank">LWJGL 2.2.1</a>
+	Latest stable release is 2.5 Please download it here:<br/>
+	<a href="https://sourceforge.net/projects/java-game-lib/files/Official%20Releases/LWJGL%202.5/" target="_blank">LWJGL 2.5</a>
+</p>
+<p>
+	Nightly builds:<br/>
+	<a href="https://www.newdawnsoftware.com/hudson/view/LWJGL/" target="_blank">https://www.newdawnsoftware.com/hudson/view/LWJGL/</a>
 </p>
 
 <? require('_include/footer.php'); ?>
