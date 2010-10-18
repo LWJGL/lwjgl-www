@@ -6,21 +6,12 @@
 <p>LWJGL is available under a <a href="license.php">BSD license</a>, which means it's open source and freely available at no charge.</p>
 <p>Please visit us on the Freenode IRC Network: <a href="irc://irc.freenode.net/lwjgl" target="_blank">#LWJGL</a>. Do idle if there is no one to answer any of your questions, we are on different timezones.</p>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1>*** WARNING ***</h1>
-<p>
-	We have had a disk crash. We are working on restoring the site. We do not have a full backup, so some documents may be old. We're working on updating it.
-	We have a relatively recent forum backup and will install it eventually.
-	Downloads are working fine.
-</p>
-<h1>*** WARNING ***</h1>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
 <h1>News</h1>
+<p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 2.6</b> <span class="newsdate">Monday, October 18th, 2010</span><br/>
+	On top of the world again! - fresh out with a new 2.6 build which includes lots of fixes and new stuff - including OpenCL support!<br/>
+	Please check <a href="/forum/index.php?topic=3512">this thread</a> for more info regarding the release.<br/><br/>
+</p>
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.5</b> <span class="newsdate">Friday, July 16th, 2010</span><br/>
 	To hot outside? - get inside, switch on the AC unit - and start hacking away with the latest LWJGL release.<br/>
@@ -48,9 +39,5 @@
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.1.0</b> <span class="newsdate">Monday, March 23rd, 2009</span><br/>
 	Please check <a href="/forum/index.php?topic=2856">this thread</a> for more info regarding the release.<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 2.0.1</b> <span class="newsdate">Wednesday, November 26th, 2008</span><br/>
-	Please check <a href="/forum/index.php?topic=2771">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <? require('_include/footer.php'); ?>
