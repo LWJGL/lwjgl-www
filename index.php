@@ -8,6 +8,13 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 2.9.0</b> <span class="newsdate">Sunday, April 21st, 2013</span><br/>
+	New release with a complete rewrite of the OSX backend and a lot of fixes!
+	Get it at the <a href="download.php">usual location</a><br/>
+	Please check <a href="/forum/index.php?topic=4974">this thread</a> for more info regarding the release.<br/><br/>
+</p>
+
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.8.5</b> <span class="newsdate">Sunday, November 4th, 2012</span><br/>
 	It's that time again. You know the drill!
 	Get it at the <a href="download.php">usual location</a><br/>
@@ -46,10 +53,4 @@
 	Minor update. Updated OpenAL-Soft libraries to fix an msvrt90.dll dependency - get it at the <a href="download.php">usual location</a><br/>
 	Please check <a href="/forum/index.php?topic=3741">this thread</a> for more info regarding the release.<br/><br/>
 </p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 2.7</b> <span class="newsdate">Monday, February 7th, 2011</span><br/>
-	2.7 has just been hatched - get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="/forum/index.php?topic=3741">this thread</a> for more info regarding the release.<br/><br/>
-</p>
-
 <? require('_include/footer.php'); ?>

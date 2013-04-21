@@ -17,7 +17,8 @@ function displayChangelog($version) {
 </p>
 <ul>
 	<li><a href="http://www.lwjgl.org/changelogs/full-changelog.txt" target="_blank">Full changelog</a></li>
-	<li><a href="#2.8.4">LWJGL 2.8.5</a></li>
+	<li><a href="#2.9.0">LWJGL 2.9.0</a></li>
+	<li><a href="http://www.lwjgl.org/changelogs/2.8.5-changelog.txt" target="_blank">LWJGL 2.8.4</a></li>
 	<li><a href="http://www.lwjgl.org/changelogs/2.8.4-changelog.txt" target="_blank">LWJGL 2.8.4</a></li>
 	<li><a href="http://www.lwjgl.org/changelogs/2.8.3-changelog.txt" target="_blank">LWJGL 2.8.3</a></li>
 	<li><a href="http://www.lwjgl.org/changelogs/2.8.2-changelog.txt" target="_blank">LWJGL 2.8.2</a></li>
@@ -71,6 +72,6 @@ function displayChangelog($version) {
 </ul>
 
 <?
-displayChangelog('2.8.5');
+displayChangelog('2.9.0');
 require('_include/footer.php');
 ?>

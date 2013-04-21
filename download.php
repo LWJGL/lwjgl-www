@@ -2,8 +2,8 @@
 
 <h1>Download</h1>
 <p>
-	Latest stable release is 2.8.5 Please download it here:<br/>
-	<a href="https://sourceforge.net/projects/java-game-lib/files/Official%20Releases/LWJGL%202.8.5/" target="_blank">LWJGL 2.8.5</a>
+	Latest stable release is 2.9.0 Please download it here:<br/>
+	<a href="https://sourceforge.net/projects/java-game-lib/files/Official%20Releases/LWJGL%202.9.0/" target="_blank">LWJGL 2.9.0</a>
 </p>
 <p>
 	Nightly builds:<br/>
