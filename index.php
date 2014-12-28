@@ -8,50 +8,57 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 2.9.2</b> <span class="newsdate">Sunday, December 28th, 2014</span><br/>
+	The end of 2014 brings us the end of LWJGL 2. This will be the last official release, many thanks to <a href="http://legacy.lwjgl.org/credits.php">everyone</a> that has contributed over the years!<br>
+	Get it at the <a href="download.php">usual location</a><br/>
+	Please check <a href="http://forum.lwjgl.org/index.php?topic=5617">this thread</a> for more info regarding the release.<br/><br/>
+	The journey doesn't end here of course, make sure to try <a href="http://www.lwjgl.org/">LWJGL 3</a> if you haven't already!<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.9.1</b> <span class="newsdate">Monday, December 2nd, 2013</span><br/>
 	Almost christmas! - New release with a slew of fixes and a bit of feature creep :)
 	Get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="/forum/index.php?topic=5259">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="http://forum.lwjgl.org/index.php?topic=5259">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.9.0</b> <span class="newsdate">Sunday, April 21st, 2013</span><br/>
 	New release with a complete rewrite of the OSX backend and a lot of fixes!
 	Get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="/forum/index.php?topic=4974">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="http://forum.lwjgl.org/index.php?topic=4974">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.8.5</b> <span class="newsdate">Sunday, November 4th, 2012</span><br/>
 	It's that time again. You know the drill!
 	Get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="/forum/index.php?topic=4608">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="http://forum.lwjgl.org/index.php?topic=4608">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.8.4</b> <span class="newsdate">Sunday, June 3rd, 2012</span><br/>
 	Summer! - time for a new release! Now you have an excuse for staying inside from that pesky sun and code all day long ;)
 	Get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="/forum/index.php?topic=4798">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="http://forum.lwjgl.org/index.php?topic=4798">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.8.3</b> <span class="newsdate">Monday, January 23rd, 2012</span><br/>
 	First release in the new year. New OpenGL and OpenCL additions as well as some important MacOSX fixes. Please update ASAP. 
 	Get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="/forum/index.php?topic=4409">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="http://forum.lwjgl.org/index.php?topic=4409">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.8.2</b> <span class="newsdate">Sunday, November 13th, 2011</span><br/>
 	Bugfix release + some minor features. Get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="/forum/index.php?topic=4288">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="http://forum.lwjgl.org/index.php?topic=4288">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.8.1</b> <span class="newsdate">Saturday, October 15th, 2011</span><br/>
 	Bugfix release + some minor features. Get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="/forum/index.php?topic=4242">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="http://forum.lwjgl.org/index.php?topic=4242">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.8.0</b> <span class="newsdate">Sunday, October 9th, 2011</span><br/>
 	Finally a new release! This is a pretty big update with a slew of new features as well of bug fixes. Get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="/forum/index.php?topic=4222">this thread</a> for more info regarding the release.<br/><br/>
+	Please check <a href="http://forum.lwjgl.org/index.php?topic=4222">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <? require('_include/footer.php'); ?>

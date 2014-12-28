@@ -1,3 +1,507 @@
+2014-12-14  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* : Merge pull request #104 from md-5/patch-1 Force high performance GPU for Nvidia Optimus systems
+
+2014-11-28  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/LWJGLUtil.java, src/java/org/lwjgl/Sys.java,
+	src/java/org/lwjgl/util/applet/AppletLoader.java: Replace .jnilib
+	with .dylib on OS X with JDK 6. Resolve #100
+
+2014-11-21  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* platform_build/macosx_ant/build.xml: Fix libjawt.dylib detection.
+
+2014-11-21  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* platform_build/macosx_ant/build-symbol-list: Ignore .eh symbols
+
+2014-11-03  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/templates/org/lwjgl/opengl/ARB_direct_state_access.java,
+	src/templates/org/lwjgl/opengl/GL45.java: Added missing "gl" prefix.
+
+2014-10-24  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* : Merge pull request #97 from piotr-piastucki/master  Add missing functionality to create empty textures with
+	 glCompressedTexImage1/2/3D
+
+2014-10-08  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/openal/AL.java: Use OpenAL64 on Windows x64.
+	Fixes #95.
+
+2014-10-04  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* : Merge pull request #93 from b23prodtm/macosx OS X x86_64 build: fixed typo
+
+2014-10-02  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* platform_build/macosx_ant/build.xml: Build the symbols list in the
+	x86_64 only build.
+
+2014-10-01  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* platform_build/macosx_ant/build.xml: Refactored the OS X script
+	for better readability and to enable builds on newer versions.  Issues resolved: - Added support for the 10.8 (Mountain Lion) and 10.9 (Mavericks)
+	SDKs.  - Dropped universal builds on 10.8 or higher, x86 is not supported
+	anymore.  - Use clang instead of gcc on 10.8 or higher. Fixes a system header
+	compilation error on 10.9.  - Fixed issue with the libjawt path on certain JDKs.
+
+2014-10-01  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/LinuxDisplay.java,
+	src/java/org/lwjgl/opengl/LinuxKeyboard.java,
+	src/java/org/lwjgl/opengl/WindowsDisplay.java,
+	src/java/org/lwjgl/opengl/WindowsKeyboard.java: Create virtual key
+	up events for all pressed keys when the display loses focus.  This is a workaround for missed key events and incorrect key state
+	reporting. This is actually a cleaner solution to the previous
+	workaround on Windows and works nicely on Linux too.
+
+2014-09-30  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* : Merge pull request #92 from dc740/master Finally fix support for OpenBSD
+
+2014-09-29  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* : Merge pull request #54 from qbit/master enable build on OpenBSD
+
+2014-09-21  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/templates/org/lwjgl/opengl/EXT_Cg_shader.java,
+	src/templates/org/lwjgl/opengl/EXT_cg_shader.java: Fixed
+	EXT_Cg_shader filename.
+
+2014-09-15  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/util/generator/GeneratorVisitor.java: Finished
+	work on the annotation processing port from apt to javac.  LWJGL now requires JDK 6 or later to build, but will continue to
+	work on Java 5. In this commit: removed native file "last modified
+	time" handling.
+
+2014-09-15  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/util/generator/TypeInfo.java,
+	src/java/org/lwjgl/util/generator/Utils.java: Fixed field/method
+	order so that javac output matches apt output.
+
+2014-09-14  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/util/generator/GeneratorProcessor.java,
+	src/java/org/lwjgl/util/generator/GeneratorVisitor.java,
+	src/java/org/lwjgl/util/generator/JavaMethodsGenerator.java,
+	src/java/org/lwjgl/util/generator/TypeInfo.java: Restored check that
+	skips generation if the source template has not changed.  Note that javac still always recompiles everything. This makes the
+	build process slower than before (apt was using the already compiled
+	templates as input). Will investigate some other time if this can be
+	mitigated.
+
+2014-09-14  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* platform_build/build-generator.xml,
+	src/java/org/lwjgl/util/generator/GeneratorProcessor.java,
+	src/java/org/lwjgl/util/generator/GeneratorVisitor.java,
+	src/java/org/lwjgl/util/generator/JavaMethodsGenerator.java,
+	src/java/org/lwjgl/util/generator/JavaTypeTranslator.java,
+	src/java/org/lwjgl/util/generator/NativeMethodStubsGenerator.java,
+	src/java/org/lwjgl/util/generator/NativeTypeTranslator.java,
+	src/java/org/lwjgl/util/generator/RegisterStubsGenerator.java,
+	src/java/org/lwjgl/util/generator/SignatureTranslator.java,
+	src/java/org/lwjgl/util/generator/TypeInfo.java,
+	src/java/org/lwjgl/util/generator/Utils.java,
+	src/java/org/lwjgl/util/generator/openal/ALTypeMap.java,
+	src/java/org/lwjgl/util/generator/opencl/CLGeneratorProcessor.java,
+	src/java/org/lwjgl/util/generator/opencl/CLTypeMap.java,
+	src/java/org/lwjgl/util/generator/opengl/GLESGeneratorProcessor.jav
+	a, src/java/org/lwjgl/util/generator/opengl/GLESTypeMap.java,
+	src/java/org/lwjgl/util/generator/opengl/GLGeneratorProcessor.java,
+	src/java/org/lwjgl/util/generator/opengl/GLReferencesGeneratorProce
+	ssor.java, src/java/org/lwjgl/util/generator/opengl/GLTypeMap.java: 
+	Made the javac-based Generator compatible with JDK 6.
+
+2014-09-14  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/util/generator/FieldsGenerator.java,
+	src/java/org/lwjgl/util/generator/GeneratorProcessor.java,
+	src/java/org/lwjgl/util/generator/GeneratorVisitor.java,
+	src/java/org/lwjgl/util/generator/JNITypeTranslator.java,
+	src/java/org/lwjgl/util/generator/JavaMethodsGenerator.java,
+	src/java/org/lwjgl/util/generator/JavaTypeTranslator.java,
+	src/java/org/lwjgl/util/generator/NativeMethodStubsGenerator.java,
+	src/java/org/lwjgl/util/generator/NativeTypeTranslator.java,
+	src/java/org/lwjgl/util/generator/PostfixTranslator.java,
+	src/java/org/lwjgl/util/generator/RegisterStubsGenerator.java,
+	src/java/org/lwjgl/util/generator/SignatureTranslator.java,
+	src/java/org/lwjgl/util/generator/TypeInfo.java,
+	src/java/org/lwjgl/util/generator/TypeMap.java,
+	src/java/org/lwjgl/util/generator/TypedefsGenerator.java,
+	src/java/org/lwjgl/util/generator/Utils.java,
+	src/java/org/lwjgl/util/generator/openal/ALTypeMap.java,
+	src/java/org/lwjgl/util/generator/opencl/CLCapabilitiesGenerator.ja
+	va,
+	src/java/org/lwjgl/util/generator/opencl/CLGeneratorProcessor.java,
+	src/java/org/lwjgl/util/generator/opencl/CLPDCapabilitiesGenerator.
+	java, src/java/org/lwjgl/util/generator/opencl/CLTypeMap.java,
+	src/java/org/lwjgl/util/generator/opengl/GLCapabilitiesGenerator.ja
+	va,
+	src/java/org/lwjgl/util/generator/opengl/GLESCapabilitiesGenerator.
+	java,
+	src/java/org/lwjgl/util/generator/opengl/GLESGeneratorProcessor.jav
+	a, src/java/org/lwjgl/util/generator/opengl/GLESTypeMap.java,
+	src/java/org/lwjgl/util/generator/opengl/GLGeneratorProcessor.java,
+	src/java/org/lwjgl/util/generator/opengl/GLReferencesGeneratorProce
+	ssor.java, src/java/org/lwjgl/util/generator/opengl/GLTypeMap.java,
+	src/java/org/lwjgl/util/generator/opengl/GLvoid.java: Automatic code
+	reformatting.  Nothing to see here, just a cleanup so that subsequent commits are
+	cleaner.
+
+2014-09-14  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* platform_build/build-generator.xml,
+	src/java/org/lwjgl/util/generator/FieldsGenerator.java,
+	src/java/org/lwjgl/util/generator/GeneratorProcessor.java,
+	src/java/org/lwjgl/util/generator/GeneratorProcessorFactory.java,
+	src/java/org/lwjgl/util/generator/GeneratorVisitor.java,
+	src/java/org/lwjgl/util/generator/JNITypeTranslator.java,
+	src/java/org/lwjgl/util/generator/JavaMethodsGenerator.java,
+	src/java/org/lwjgl/util/generator/JavaTypeTranslator.java,
+	src/java/org/lwjgl/util/generator/NativeMethodStubsGenerator.java,
+	src/java/org/lwjgl/util/generator/NativeTypeTranslator.java,
+	src/java/org/lwjgl/util/generator/PostfixTranslator.java,
+	src/java/org/lwjgl/util/generator/RegisterStubsGenerator.java,
+	src/java/org/lwjgl/util/generator/SignatureTranslator.java,
+	src/java/org/lwjgl/util/generator/TypeInfo.java,
+	src/java/org/lwjgl/util/generator/TypeMap.java,
+	src/java/org/lwjgl/util/generator/TypedefsGenerator.java,
+	src/java/org/lwjgl/util/generator/Utils.java,
+	src/java/org/lwjgl/util/generator/openal/ALTypeMap.java,
+	src/java/org/lwjgl/util/generator/opencl/CLCapabilitiesGenerator.ja
+	va,
+	src/java/org/lwjgl/util/generator/opencl/CLGeneratorProcessor.java,
+	src/java/org/lwjgl/util/generator/opencl/CLGeneratorProcessorFactor
+	y.java,
+	src/java/org/lwjgl/util/generator/opencl/CLPDCapabilitiesGenerator.
+	java, src/java/org/lwjgl/util/generator/opencl/CLTypeMap.java,
+	src/java/org/lwjgl/util/generator/opencl/cl_void.java,
+	src/java/org/lwjgl/util/generator/opengl/GLCapabilitiesGenerator.ja
+	va,
+	src/java/org/lwjgl/util/generator/opengl/GLESCapabilitiesGenerator.
+	java,
+	src/java/org/lwjgl/util/generator/opengl/GLESGeneratorProcessor.jav
+	a,
+	src/java/org/lwjgl/util/generator/opengl/GLESGeneratorProcessorFact
+	ory.java,
+	src/java/org/lwjgl/util/generator/opengl/GLESTypeMap.java,
+	src/java/org/lwjgl/util/generator/opengl/GLGeneratorProcessor.java,
+	src/java/org/lwjgl/util/generator/opengl/GLGeneratorProcessorFactor
+	y.java,
+	src/java/org/lwjgl/util/generator/opengl/GLReferencesGeneratorProce
+	ssor.java,
+	src/java/org/lwjgl/util/generator/opengl/GLReferencesGeneratorProce
+	ssorFactory.java,
+	src/java/org/lwjgl/util/generator/opengl/GLTypeMap.java,
+	src/java/org/lwjgl/util/generator/opengl/GLvoid.java,
+	src/native/macosx/org_lwjgl_opengl_MacOSXAWTMouse.m,
+	src/templates/org/lwjgl/opengl/AMD_multi_draw_indirect.java,
+	src/templates/org/lwjgl/opengl/ARB_draw_indirect.java,
+	src/templates/org/lwjgl/opengl/ARB_indirect_parameters.java,
+	src/templates/org/lwjgl/opengl/ARB_multi_draw_indirect.java,
+	src/templates/org/lwjgl/opengl/GL40.java,
+	src/templates/org/lwjgl/opengl/GL43.java: Ported annotation
+	processing from apt to javac.  This is a manual merge of request #86 by @b23prodtm. The original
+	patch is fantastic, but as expected has a few issues that will be
+	fixed in subsequent commits.
+
+2014-09-14  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* platform_build/linux_ant/build_es.xml,
+	src/native/common/opengles/org_lwjgl_opengles_CallbackUtil.c,
+	src/native/linux/opengles/org_lwjgl_opengl_Display.c: OpenGL ES
+	build fixes.
+
+2014-09-13  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/Sys.java: Backported LWJGL 3's handling of
+	System.loadLibrary errors. Resolves #87.
+
+2014-09-13  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/ContextGL.java: Fixed optional error
+	check.
+
+2014-09-13  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/XRandR.java: Code clean-up and minor
+	optimizations. Also made sure that the current mode is always first.
+
+2014-09-13  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* : Merge pull request #88 from tfg13/master linux: fix parsing of xrandr output for rare screen configurations
+
+2014-08-16  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/GLContext.java,
+	src/templates/org/lwjgl/opengl/ARB_ES3_1_compatibility.java,
+	src/templates/org/lwjgl/opengl/ARB_clip_control.java,
+	src/templates/org/lwjgl/opengl/ARB_conditional_render_inverted.java
+	, src/templates/org/lwjgl/opengl/ARB_cull_distance.java,
+	src/templates/org/lwjgl/opengl/ARB_derivative_control.java,
+	src/templates/org/lwjgl/opengl/ARB_direct_state_access.java,
+	src/templates/org/lwjgl/opengl/ARB_get_texture_sub_image.java,
+	src/templates/org/lwjgl/opengl/ARB_pipeline_statistics_query.java,
+	src/templates/org/lwjgl/opengl/ARB_shader_texture_image_samples.jav
+	a, src/templates/org/lwjgl/opengl/ARB_sparse_buffer.java,
+	src/templates/org/lwjgl/opengl/ARB_texture_barrier.java,
+	src/templates/org/lwjgl/opengl/ARB_transform_feedback_overflow_quer
+	y.java, src/templates/org/lwjgl/opengl/GL45.java,
+	src/templates/org/lwjgl/opengl/KHR_context_flush_control.java,
+	src/templates/org/lwjgl/opengl/KHR_robust_buffer_access_behavior.ja
+	va, src/templates/org/lwjgl/opengl/KHR_robustness.java: Added
+	support for OpenGL 4.5 and new extensions released with it.
+
+2014-08-16  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/util/generator/JavaMethodsGenerator.java,
+	src/templates/org/lwjgl/opengl/APPLE_object_purgeable.java,
+	src/templates/org/lwjgl/opengl/ARB_buffer_object.java,
+	src/templates/org/lwjgl/opengl/ARB_framebuffer_no_attachments.java,
+	src/templates/org/lwjgl/opengl/ARB_framebuffer_object.java,
+	src/templates/org/lwjgl/opengl/ARB_internalformat_query2.java,
+	src/templates/org/lwjgl/opengl/ARB_occlusion_query.java,
+	src/templates/org/lwjgl/opengl/ARB_program.java,
+	src/templates/org/lwjgl/opengl/ARB_program_interface_query.java,
+	src/templates/org/lwjgl/opengl/ARB_sampler_objects.java,
+	src/templates/org/lwjgl/opengl/ARB_separate_shader_objects.java,
+	src/templates/org/lwjgl/opengl/ARB_shader_objects.java,
+	src/templates/org/lwjgl/opengl/ARB_shader_subroutine.java,
+	src/templates/org/lwjgl/opengl/ARB_shading_language_include.java,
+	src/templates/org/lwjgl/opengl/ARB_sync.java,
+	src/templates/org/lwjgl/opengl/ARB_timer_query.java,
+	src/templates/org/lwjgl/opengl/ARB_transform_feedback3.java,
+	src/templates/org/lwjgl/opengl/ARB_uniform_buffer_object.java,
+	src/templates/org/lwjgl/opengl/ATI_vertex_array_object.java,
+	src/templates/org/lwjgl/opengl/EXT_direct_state_access.java,
+	src/templates/org/lwjgl/opengl/EXT_framebuffer_object.java,
+	src/templates/org/lwjgl/opengl/EXT_texture_integer.java,
+	src/templates/org/lwjgl/opengl/GL11.java,
+	src/templates/org/lwjgl/opengl/GL15.java,
+	src/templates/org/lwjgl/opengl/GL20.java,
+	src/templates/org/lwjgl/opengl/GL30.java,
+	src/templates/org/lwjgl/opengl/GL31.java,
+	src/templates/org/lwjgl/opengl/GL32.java,
+	src/templates/org/lwjgl/opengl/GL33.java,
+	src/templates/org/lwjgl/opengl/GL40.java,
+	src/templates/org/lwjgl/opengl/GL41.java,
+	src/templates/org/lwjgl/opengl/GL43.java,
+	src/templates/org/lwjgl/opengl/NV_occlusion_query.java,
+	src/templates/org/lwjgl/opengl/NV_path_rendering.java,
+	src/templates/org/lwjgl/opengl/NV_present_video.java,
+	src/templates/org/lwjgl/opengl/NV_program.java,
+	src/templates/org/lwjgl/opengl/NV_register_combiners.java,
+	src/templates/org/lwjgl/opengl/NV_shader_buffer_load.java,
+	src/templates/org/lwjgl/opengl/NV_vertex_buffer_unified_memory.java
+	, src/templates/org/lwjgl/opengl/NV_video_capture.java,
+	src/templates/org/lwjgl/opengles/APPLE_sync.java,
+	src/templates/org/lwjgl/opengles/EXT_occlusion_query_boolean.java,
+	src/templates/org/lwjgl/opengles/EXT_separate_shader_objects.java,
+	src/templates/org/lwjgl/opengles/GLES20.java,
+	src/templates/org/lwjgl/opengles/GLES30.java,
+	src/templates/org/lwjgl/opengles/NV_get_tex_image.java,
+	src/templates/org/lwjgl/opengles/OES_framebuffer_object.java: 
+	Simplified pattern matching when stripping types and the 'v'
+	postfix, which fixed a few corner cases.
+
+2014-08-16  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/GLChecks.java,
+	src/java/org/lwjgl/opengles/GLChecks.java,
+	src/templates/org/lwjgl/opengl/ARB_buffer_object.java,
+	src/templates/org/lwjgl/opengl/ATI_map_object_buffer.java,
+	src/templates/org/lwjgl/opengl/EXT_direct_state_access.java,
+	src/templates/org/lwjgl/opengl/GL15.java,
+	src/templates/org/lwjgl/opengles/GLES30.java,
+	src/templates/org/lwjgl/opengles/OES_mapbuffer.java: Removed
+	obsolete buffer size methods.
+
+2014-08-15  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/ContextAttribs.java: Updated class
+	documentation, added additional constructor (version + profile
+	mask), skip validations if LWJGLUtil.CHECKS is disabled.
+
+2014-08-15  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/ContextAttribs.java,
+	src/java/org/lwjgl/opengl/ContextAttribsImplementation.java,
+	src/java/org/lwjgl/opengl/LinuxContextAttribs.java,
+	src/java/org/lwjgl/opengl/WindowsContextAttribs.java,
+	src/java/org/lwjgl/test/opengl/VersionTest.java: Refactored
+	ContextAttribs: there's now an additional constructor that accepts
+	the profile mask and context flags.  Also simplified the internal state, added more documentation and
+	validation, added support for CONTEXT_RELEASE_BEHAVIOR_ARB, dropped
+	the GLX & WGL helper classes and publicly exposed the attribute
+	tokens.
+
+2014-08-15  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* : Merge pull request #81 from tfg13/master linux: basic compatibility for systems with multiple monitors
+
+2014-08-06  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	*
+	src/templates/org/lwjgl/opengl/AMD_stencil_operation_extended.java,
+	src/templates/org/lwjgl/opengl/ARB_gpu_shader_fp64.java,
+	src/templates/org/lwjgl/opengl/ARB_imaging.java,
+	src/templates/org/lwjgl/opengl/ARB_internalformat_query2.java,
+	src/templates/org/lwjgl/opengl/ARB_robustness.java,
+	src/templates/org/lwjgl/opengl/ARB_shader_subroutine.java,
+	src/templates/org/lwjgl/opengl/ARB_tessellation_shader.java,
+	src/templates/org/lwjgl/opengl/ARB_viewport_array.java,
+	src/templates/org/lwjgl/opengl/KHR_debug.java,
+	src/templates/org/lwjgl/opengl/NV_shader_buffer_store.java: Removed
+	duplicate constants.
+
+2014-08-04  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	*
+	src/java/org/lwjgl/util/generator/NativeMethodStubsGenerator.java,
+	src/native/linux/opengl/org_lwjgl_opengl_Display.c,
+	src/native/macosx/context.m: Fixed some native compilation warnings.
+
+2014-07-22  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/WindowsDisplay.java: Application menu:
+	Disabled activation on ALT/F10 key press and enabled on mouse click.
+
+2014-07-13  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* : Merge pull request #73 from msteiger/master Fixed util applet permissions.
+
+2014-07-04  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/templates/org/lwjgl/opengl/ARB_clear_buffer_object.java,
+	src/templates/org/lwjgl/opengl/GL43.java: Bugfix:
+	Clear(Named)BufferSubData requires an explicit size argument.
+
+2014-06-17  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/WindowsDisplay.java: Fixed
+	WM_WINDOWPOSCHANGED coordinate bug.
+
+2014-05-20  kappaOne <one.kappa@googlemail.com>
+
+	* : Merge pull request #76 from philipwhiuk/master Fix some straightforward Javadoc problems
+
+2014-05-11  tulius <tobifleig@gmail.com>
+
+	* src/java/org/lwjgl/opengl/LinuxDisplay.java,
+	src/java/org/lwjgl/opengl/XRandR.java: linux: use xrandr for all
+	display mode changing
+
+2014-05-02  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/MacOSXPeerInfo.java: Use
+	NSOpenGLProfileVersion3_2Core for any OpenGL 3.2+ version.
+
+2014-04-26  Martin Steiger <git@martin-steiger.de>
+
+	* build.xml: Fix util applet permissions
+
+2014-04-21  kappaOne <one.kappa@googlemail.com>
+
+	* src/java/org/lwjgl/opengl/MacOSXDisplay.java: Fix a viewport issue
+	on OS X with retina displays when going fullscreen
+
+2014-04-02  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/util/generator/Extension.java,
+	src/java/org/lwjgl/util/generator/opencl/CLPDCapabilitiesGenerator.
+	java,
+	src/templates/org/lwjgl/opencl/APPLE_ContextLoggingFunctions.java,
+	src/templates/org/lwjgl/opencl/APPLE_SetMemObjectDestructor.java,
+	src/templates/org/lwjgl/opencl/APPLE_gl_sharing.java: Workaround to
+	preserve case when checking availability of APPLE OpenCL extensions.
+
+2014-03-27  kappaOne <one.kappa@googlemail.com>
+
+	* : Merge pull request #63 from b23prodtm/master macosx CALayer Display.create() / .setParent() / setFullscreen()
+
+2014-03-11  Brian Matzon <brian@matzon.dk>
+
+	* : Merge pull request #66 from tfg13/master Fix  120Hz-reset issue on linux
+
+2014-03-03  tulius <tobifleig@gmail.com>
+
+	* src/java/org/lwjgl/opengl/XRandR.java: Fixed reverting screen
+	settings on exit for multi-monitor setups
+
+2014-02-16  tulius <tobifleig@gmail.com>
+
+	* src/java/org/lwjgl/opengl/XRandR.java: Test: Read frequency with
+	xrandr
+
+2014-02-02  b23prodtm <b23prodtm@users.sourceforge.net>
+
+	* .gitignore, src/java/org/lwjgl/opengl/MacOSXCanvasPeerInfo.java: 
+	Peer lookup fixed. Canvas as parent is displayed fully covered by
+	the CALayer . Need to check if windowed Display works again.
+
+2014-02-01  b23prodtm <b23prodtm@users.sourceforge.net>
+
+	* .gitignore, src/java/org/lwjgl/opengl/MacOSXCanvasPeerInfo.java,
+	src/native/macosx/org_lwjgl_opengl_MacOSXCanvasPeerInfo.m: Fixed Mac
+	OS Canvas / CALayer.  http://hg.openjdk.java.net/jdk8/awt/jdk/rev/65d874d16d59 JAWT native
+	CALayer not positioned over Canvas (Reviewed-by: art, anthony)
+	Initialy, the layer bounds have the Y coord originating not as
+	expected. java7 only seems to provoke that issue. so cpeer would
+	update bounds as necessary now.  by broumbroum
+
+2014-01-14  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/native/windows/opengl/context.h,
+	src/native/windows/opengles/context.h,
+	src/native/windows/org_lwjgl_opengl_Display.c: Convert local
+	WindowsDisplay jclass reference to global.
+
+2014-01-13  kappaOne <one.kappa@googlemail.com>
+
+	* : Merge pull request #61 from Unh0lyTigg/patch-1 Fix javadoc typo in DisplayMode
+
+2013-12-22  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/WindowsDisplay.java: Reverted resizable
+	workaround.
+
+2013-12-16  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/test/opengl/sprites/SpriteShootout.java,
+	src/java/org/lwjgl/test/opengl/sprites/SpriteShootout2P.java,
+	src/java/org/lwjgl/test/opengl/sprites/SpriteShootoutMapped.java: 
+	Removed unnecessary TEXTURE_COORD_ARRAY enable. Caused a crash on NV
+	GPUs.
+
+2013-12-14  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/WindowsDisplay.java: Another attempt at
+	fixing the client area bug when toggling resizable.
+
+2013-12-13  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/WindowsDisplay.java,
+	src/native/windows/org_lwjgl_opengl_Display.c: Fixed Rect/RECT
+	conversion and added a workaround that resets the OpenGL client area
+	when we toggle resizable after window creation.
+
+2013-12-03  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/native/windows/display.c: Removed fullscreen CDS_TEST. It's
+	very slow and unnecessary.
+
+2013-12-02  Brian Matzon <brian@matzon.dk>
+
+	* platform_build/build-definitions.xml, src/java/org/lwjgl/Sys.java: 
+	bumped version to 2.9.2
+	
 2013-12-02  Brian Matzon <brian@matzon.dk>
 
 	* libs/lzma.jar, src/java/org/lwjgl/util/applet/AppletLoader.java:
