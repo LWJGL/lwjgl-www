@@ -1,0 +1,200 @@
+2013-12-02  Brian Matzon <brian@matzon.dk>
+
+	* libs/lzma.jar, src/java/org/lwjgl/util/applet/AppletLoader.java:
+	  changed default behavior to not use SecureClassLoader, as it was
+	  causing issues since the latest security update
+
+2013-11-16  kappaOne <one.kappa@googlemail.com>
+
+	* build.xml, libs/lzma.jar: Fix the LWJGL AppletLoader so that it
+	  works on Java 7u45
+
+2013-11-12  kappaOne <one.kappa@googlemail.com>
+
+	* doc/lwjgl_hidden_switches.text,
+	  src/java/org/lwjgl/opengl/Display.java,
+	  src/java/org/lwjgl/opengl/MacOSXDisplay.java,
+	  src/native/macosx/org_lwjgl_opengl_Display.m: Finalise
+	  implementation of HiDPI mode for OS X
+
+2013-11-11  kappaOne <one.kappa@googlemail.com>
+
+	* src/java/org/lwjgl/opengl/Display.java,
+	  .../org/lwjgl/opengl/DisplayImplementation.java,
+	  src/java/org/lwjgl/opengl/LinuxDisplay.java,
+	  src/java/org/lwjgl/opengl/MacOSXDisplay.java,
+	  src/java/org/lwjgl/opengl/WindowsDisplay.java: Add new LWJGL API
+	  Display.getPixelScaleFactor() for use in high DPI modes, like HiDPI
+	  retina mode on OS X.
+	* src/java/org/lwjgl/opengl/MacOSXDisplay.java,
+	  src/native/macosx/context.h,
+	  src/native/macosx/org_lwjgl_opengl_Display.m: Implement initial
+	  support for High DPI mode on OS X
+
+2013-11-09  kappaOne <one.kappa@googlemail.com>
+
+	* src/java/org/lwjgl/opengl/Display.java,
+	  src/java/org/lwjgl/opengl/LinuxDisplay.java,
+	  src/native/linux/opengl/org_lwjgl_opengl_Display.c,
+	  .../linux/opengles/org_lwjgl_opengl_Display.c: Implement 8 bit Icon
+	  transparency support on Linux, now using the modern _NET_WM_ICON
+	  method to set the icon, removed legacy method and associated code.
+
+2013-11-06  kappaOne <one.kappa@googlemail.com>
+
+	* src/java/org/lwjgl/opengl/MacOSXDisplay.java,
+	  src/native/macosx/context.h,
+	  src/native/macosx/org_lwjgl_opengl_Display.m: Implement initial
+	  support for the OS X 10.7+ fullscreen mode API, currently enabled
+	  using the VM parameter
+	  org.lwjgl.opengl.Display.enableOSXFullscreenModeAPI
+
+2013-11-03  kappaOne <one.kappa@googlemail.com>
+
+	* src/java/org/lwjgl/opengl/MacOSXCanvasPeerInfo.java,
+	  src/native/macosx/context.h,
+	  src/native/macosx/org_lwjgl_opengl_MacOSXCanvasPeerInfo.m: Don't
+	  autoresize CALayer's when using the Java 7 workaround
+	* src/java/org/lwjgl/opengl/MacOSXCanvasPeerInfo.java,
+	  src/native/macosx/context.h: Fix CALayer/Display.setParent()
+	  initial position bug on OS X.
+	* src/native/macosx/context.h,
+	  src/native/macosx/org_lwjgl_opengl_Display.m: Fix issue on OS X
+	  when using Command + Tab caused the command key to become stuck.
+
+2013-10-30  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/NondirectBufferWrapper.java,
+	  src/java/org/lwjgl/input/Cursor.java,
+	  .../lwjgl/util/generator/JavaMethodsGenerator.java: Removed
+	  NondirectBufferWrapper. It was only used in the Cursor constructor
+	  and in a way that could cause crashes: Passing heap buffers to both
+	  the images and delays arguments would result in both sharing the
+	  same direct memory.
+
+2013-10-29  kappaOne <one.kappa@googlemail.com>
+
+	* src/java/org/lwjgl/input/ControllerEvent.java,
+	  src/java/org/lwjgl/input/Controllers.java: Slight tweak to the
+	  controller patch, rename getEventButtonStatus() to
+	  getEventButtonState() to make it consistent with Keyboard and Mouse
+	  classes and remove unused import.
+
+2013-10-27  kappaOne <one.kappa@googlemail.com>
+
+	* src/java/org/lwjgl/opengl/Display.java,
+	  src/java/org/lwjgl/opengl/LinuxDisplay.java,
+	  src/native/linux/opengl/org_lwjgl_opengl_Display.c,
+	  .../linux/opengles/org_lwjgl_opengl_Display.c: Make the WM_CLASS
+	  implementation more flexible by giving users an option to set it
+	  manually by VM parameter or system property
+	* src/native/linux/opengl/org_lwjgl_opengl_Display.c,
+	  src/native/linux/opengles/org_lwjgl_opengl_Display.c: Set the
+	  WM_CLASS property on Linux as its needed for some WM to display the
+	  app name/class, currently its the same as the window title.
+
+2013-10-22  kappaOne <one.kappa@googlemail.com>
+
+	* .../org/lwjgl/opengl/MacOSXCanvasPeerInfo.java,
+	  .../macosx/org_lwjgl_opengl_MacOSXCanvasPeerInfo.m: Further fixes
+	  for Display.setParent() canvas position & size bugs on OS X
+
+2013-10-20  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/WindowsDisplay.java,
+	  src/java/org/lwjgl/opengl/WindowsKeyboard.java: Fixed missing key
+	  up events when both shift keys are pressed at the same time.
+
+2013-10-13  kappaOne <one.kappa@googlemail.com>
+
+	* .../org/lwjgl/opengl/MacOSXNativeKeyboard.java,
+	  src/native/macosx/org_lwjgl_opengl_Display.m: Fix keyboard key
+	  codes to return Unicode characters instead of ASCII characters
+
+2013-07-31  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* .../lwjgl/test/opengl/sprites/SpriteShootout.java,
+	  .../test/opengl/sprites/SpriteShootout2P.java,
+	  .../test/opengl/sprites/SpriteShootoutCL.java: Enable POINT_SPRITE
+	  on compatibility contexts. Improved platform/device choice when
+	  multiple CL implementations are available.
+
+2013-07-24  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/native/common/extcl_types.h,
+	  .../org/lwjgl/opencl/KHR_mipmap_image.java,
+	  .../org/lwjgl/opencl/KHR_mipmap_image_writes.java,
+	  .../org/lwjgl/opencl/KHR_srgb_image_writes.java,
+	  src/templates/org/lwjgl/opencl/KHR_subgroups.java: Added new OpenCL
+	  extensions.
+
+2013-07-23  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/java/org/lwjgl/opengl/ContextAttribs.java,
+	  src/java/org/lwjgl/opengl/GLContext.java,
+	  .../org/lwjgl/opengl/ARB_bindless_texture.java,
+	  .../org/lwjgl/opengl/ARB_buffer_storage.java,
+	  .../org/lwjgl/opengl/ARB_clear_texture.java,
+	  .../opengl/ARB_compute_variable_group_size.java,
+	  .../org/lwjgl/opengl/ARB_enhanced_layouts.java,
+	  .../org/lwjgl/opengl/ARB_indirect_parameters.java,
+	  src/templates/org/lwjgl/opengl/ARB_multi_bind.java,
+	  .../org/lwjgl/opengl/ARB_query_buffer_object.java,
+	  .../opengl/ARB_seamless_cubemap_per_texture.java,
+	  .../lwjgl/opengl/ARB_shader_draw_parameters.java,
+	  .../org/lwjgl/opengl/ARB_shader_group_vote.java,
+	  .../org/lwjgl/opengl/ARB_sparse_texture.java,
+	  .../opengl/ARB_texture_mirror_clamp_to_edge.java,
+	  .../org/lwjgl/opengl/ARB_texture_stencil8.java,
+	  .../opengl/ARB_vertex_type_10f_11f_11f_rev.java,
+	  src/templates/org/lwjgl/opengl/GL44.java,
+	  .../opengl/NV_bindless_multi_draw_indirect.java,
+	  .../lwjgl/opengl/NV_blend_equation_advanced.java,
+	  .../lwjgl/opengl/NV_gpu_program5_mem_extended.java: Added support
+	  for OpenGL 4.4 and new extensions.
+	* .../lwjgl/util/generator/NativeTypeTranslator.java,
+	  src/java/org/lwjgl/util/generator/PointerType.java,
+	  src/java/org/lwjgl/util/generator/TypeInfo.java,
+	  .../org/lwjgl/util/generator/opengl/GLTypeMap.java,
+	  .../org/lwjgl/util/generator/opengl/GLintptr.java,
+	  .../lwjgl/util/generator/opengl/GLintptrARB.java,
+	  .../lwjgl/util/generator/opengl/GLsizeiptr.java,
+	  .../lwjgl/util/generator/opengl/GLsizeiptrARB.java: Added support
+	  for PointerBuffer parameters to OpenGL.
+
+2013-07-22  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+	* src/templates/org/lwjgl/opencl/APPLE_ContextLoggingFunctions.java,
+	  src/templates/org/lwjgl/opencl/APPLE_SetMemObjectDestructor.java,
+	  src/templates/org/lwjgl/opencl/APPLE_gl_sharing.java: Added
+	  @CLPlatformExtension to APPLE extensions that are exposed in the
+	  PLATFORM_EXTENSIONS string.
+
+2013-07-12  momokan <momokan@chocolapod.sakura.ne.jp>
+
+	* src/java/org/lwjgl/input/Controllers.java,
+	  src/java/org/lwjgl/input/JInputController.java: I correct that it
+	  was pointed out in my pull request
+	  ・src/java/org/lwjgl/input/Controllers.java, line 265: Should be
+	  "The timestamp assigned to the current event"
+	  ・src/java/org/lwjgl/input/JInputController.java, line 211:
+	  Consider splitting on two lines.
+
+2013-07-09  kappaOne <one.kappa@googlemail.com>
+
+	* src/java/org/lwjgl/util/vector/Vector2f.java,
+	  src/java/org/lwjgl/util/vector/Vector3f.java,
+	  src/java/org/lwjgl/util/vector/Vector4f.java: Add equals method to
+	  Vector2f, Vector3f and Vector4f.
+
+2013-06-30  momokan <momokan@chocolapod.sakura.ne.jp>
+
+	* src/java/org/lwjgl/input/ControllerEvent.java,
+	  src/java/org/lwjgl/input/Controllers.java,
+	  src/java/org/lwjgl/input/JInputController.java: Add controller's
+	  status to event buffer
+
+2013-04-21  Brian Matzon <brian@matzon.dk>
+
+	* platform_build/build-definitions.xml, src/java/org/lwjgl/Sys.java:
+	  bumping version to 2.9.1

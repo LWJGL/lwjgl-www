@@ -2,8 +2,7 @@
 <h1>Donations</h1>
 <p>
 	In the span of LWJGL's lifetime a series of donations have enabled us to advance the project further
-	by purchasing hardware and services to make LWJGL an even better solution for your problems. Should you
-	wish to donate to the project too, please do so using the paypal link to the lower left in the menu.
+	by purchasing hardware and services to make LWJGL an even better solution for your problems.
 	<br/>
 	<i>If you are not on this list and have donated please contact <a href="mailto:donation@lwjgl.org">donation@lwjgl.org</a> and we will fix this ASAP</i>
 	<br/>
@@ -13,14 +12,17 @@
 </p>
 <ul>
 	<?
+    $donations[] = array("Afonso Lage");
     $donations[] = array("Andreas Wallberg");
     $donations[] = array("Andreas Wiesbauer");
     $donations[] = array("Andrew Kelly");
+	$donations[] = array("Andrew Keturi");
     $donations[] = array("Anthony Lovell");
     $donations[] = array("Anthony Rogers");
     $donations[] = array("Apostolos Tsakpinis");
     $donations[] = array("Aviram Preshel");
     $donations[] = array("Bart Blokland");    
+	$donations[] = array("Bas van Schoonhoven");
     $donations[] = array("Benjamin Behrendt");
     $donations[] = array("Benjamin Bingham");    
     $donations[] = array("Benoit Hambucken");
@@ -30,6 +32,7 @@
     $donations[] = array("Charles Ditzel");
     $donations[] = array("Chris Heimpel");
     $donations[] = array("Christiaan Ghijselinck");
+	$donations[] = array("Christian Bielert");
     $donations[] = array("Christian Haehnel");
     $donations[] = array("Christoph Kilz");
     $donations[] = array("David Hope");
@@ -43,15 +46,18 @@
     $donations[] = array("Gregory Pierce");
     $donations[] = array("Ivan Lazarte");
     $donations[] = array("Jens Hohmuth");
+	$donations[] = array("Jesse Krebs");
     $donations[] = array("Jesse Pavel");
     $donations[] = array("John Watson");
     $donations[] = array("John Yates");
     $donations[] = array("Jonathan Lermitage");    
-    $donations[] = array("Jörg Junghänel");
+    $donations[] = array("Jï¿½rg Junghï¿½nel");
+	$donations[] = array("Klaus Pfeiffer");	
     $donations[] = array("Lars Petter Mathiassen");    
     $donations[] = array("Marc Sachse");
+    $donations[] = array("Markus Persson");
     $donations[] = array("Martin Gruscher");
-    $donations[] = array("Michael Lundström");
+    $donations[] = array("Michael Lundstrï¿½m");
     $donations[] = array("Mojang Specifications");
     $donations[] = array("Nathan Sweet");
     $donations[] = array("Oliver Due Billing");
@@ -62,11 +68,13 @@
     $donations[] = array("Peter Leikauf");    
     $donations[] = array("Rob Mayhew");
     $donations[] = array("Ruben Steins");
+    $donations[] = array("Samuel Provencher");
     $donations[] = array("SEO Company");
     $donations[] = array("Scott Palmer");
     $donations[] = array("Shane Essary");
     $donations[] = array("Shannon Smith");
     $donations[] = array("Sharp Production");
+    $donations[] = array("Simen Gangstad");	
     $donations[] = array("Simon Felix");    
     $donations[] = array("So-Woo Lee");
     $donations[] = array("Steve Klouvi");
@@ -76,8 +84,8 @@
     $donations[] = array("Tobias Fritz");
     $donations[] = array("Tomas Andrle - multiple donations");
     $donations[] = array("Tonny Espeset");
+	$donations[] = array("Viktor Mï¿½ntzing");
     $donations[] = array("Yinglai Yang");
-    $donations[] = array("Jesse Krebs");
 		
 		
 		shuffle($donations);
@@ -89,17 +97,6 @@
 		}
 	?>
 </ul>
-<p>
-	<b>LWJGL Monetary situation as of 18th November 2008</b>
-	<p>
-		<i>I have stopped making a detailed list available online, because its basically always stale. I am maintaining an ad hoc list of income/expenses that is available on request.</i>
-		<br/>
-		We have about 300$ on paypal (income: donations, expenses: hosting) and about (depending on dollar rate) 400$ on my account (income: adsense, expenses: domains, ssl).<br/>
-		We are averaging about 20$ a month in expenses and a 125$ every year for a certificate. The average income from adsense is $20 a month (with %50 comming from echelog! (all channels)).
-		<br/>
-</p>
-<br/>
-</p>
 </div>
 
 <? require('_include/footer.php'); ?>

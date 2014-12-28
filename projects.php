@@ -3,6 +3,28 @@ require('_include/header.php');
 
 $projects = array();
 
+$projects[] = array('name'    => 'Night Run',
+					'url'     => ' http://nightrun.frostedberry.com',
+					'type'    => 'Free, open source',
+					'desc'    => 'free, open-source platformer created for onegameamonth.com',
+					'screens' => array(0 => array('small' => 'nightrun_small_1.png',
+					 							  'big'   => 'nightrun_1.png'),
+								       1 => array('small' => 'nightrun_small_2.png',
+												  'big'   => 'nightrun_2.png'),
+								       2 => array('small' => 'nightrun_small_3.png',
+												  'big'   => 'nightrun_3.png')));
+
+$projects[] = array('name'    => 'Haxel',
+					'url'     => 'http://www.haxelgame.com',
+					'type'    => 'Commercial game',
+					'desc'    => 'Haxel is a futuristic, moddable, voxel based first person shooter. Create maps collaboratively, or compete online in many modes.',
+					'screens' => array(0 => array('small' => 'haxel_small_1.png',
+					 							  'big'   => 'haxel_1.png'),
+								       1 => array('small' => 'haxel_small_2.png',
+												  'big'   => 'haxel_2.png'),
+								       2 => array('small' => 'haxel_small_3.png',
+												  'big'   => 'haxel_3.png')));
+
 $projects[] = array('name'    => 'Extorris',
 					'url'     => 'http://extorris.net',
 					'type'    => 'Commercial game',
@@ -114,7 +136,7 @@ $projects[] = array('name'    => 'Cultris',
 $projects[] = array('name'    => 'Cultris II',
 					'url'     => 'http://gewaltig.net',
 					'type'    => 'Free game',
-					'desc'    => 'Cultris II is one of the fastest Tetris&reg;-clones ever! Train your reflexes in the single player challenge modes, enjoy a split-screen match with your friends or play over the Internet with the best of the best. Cultris II not only supports various game modes, but all of them with team-play. The exquisite graphics and stylish jungle music makes other clones strike with awe. This is not your grandmother’s Tetris&reg; anymore...',
+					'desc'    => 'Cultris II is one of the fastest Tetris&reg;-clones ever! Train your reflexes in the single player challenge modes, enjoy a split-screen match with your friends or play over the Internet with the best of the best. Cultris II not only supports various game modes, but all of them with team-play. The exquisite graphics and stylish jungle music makes other clones strike with awe. This is not your grandmotherï¿½s Tetris&reg; anymore...',
 					'screens' => array(0 => array('small' => 'cultris2_small_1.gif',
 											      'big'   => 'cultris2_1.png'),
 								       1 => array('small' => 'cultris2_small_2.gif',
