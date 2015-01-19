@@ -20,7 +20,7 @@ header("Content-type: application/x-java-jnlp-file");
     <j2se version="1.5+"/> 
     <jar href="lwjgl_test.jar" main="true"/>
     <jar href="media.jar"/>
-    <extension name="lwjgl" href="http://lwjgl.org/webstart/2.9.2/extension.jnlp" />
+    <extension name="lwjgl" href="http://lwjgl.org/webstart/2.9.3/extension.jnlp" />
   </resources> 
   <application-desc main-class="org.lwjgl.<?php echo substr($_SERVER["PATH_INFO"], 1, strlen($_SERVER["PATH_INFO"])-1); ?>">
   <?php

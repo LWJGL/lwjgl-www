@@ -1,0 +1,52 @@
+2015-01-14  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+        * src/java/org/lwjgl/opengl/WindowsDisplay.java: Fix window resizing
+        when mouse is grabbed and optimize cursor clipping
+
+2015-01-14  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+        * src/java/org/lwjgl/opengl/WindowsDisplay.java,
+        src/java/org/lwjgl/opengl/WindowsMouse.java: Fix cursor
+        stuttering/drifting with mouse grab and high keyboard repeat rates In those situations we get multiple WM_MOUSEMOVE events per frame.
+        The problem was that we moved the cursor back to the window center
+        after every such event, right in the middle of the event loop. The
+        fix was to only center the cursor once, after the event buffer has
+        been drained.
+
+2015-01-07  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+        * src/java/org/lwjgl/opengl/WindowsDisplay.java: Reset mouse
+        tracking state on window recreation
+
+2015-01-07  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+        * src/java/org/lwjgl/opengl/InputImplementation.java: Fix javadoc
+        error
+
+2015-01-05  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+        * src/java/org/lwjgl/opengl/WindowsKeyboard.java: Revert
+        849511784b7651bd30ab35e0ff10c023f28cca9a
+
+2014-12-30  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+        * src/java/org/lwjgl/opengl/LinuxDisplay.java,
+        src/native/linux/opengl/org_lwjgl_opengl_Display.c: Improvements to
+        setTitle on Linux WM_CLASS should not change after window creation. It's illegal (may
+        only change while the window is in the Withdrawn state) and causes
+        flickering issues on the taskbar.  The native setTitle implementation has been changed to use a better
+		fallback when XChangeProperty fails and _NET_WM_ICON_NAME is also
+        set, in addition to _NET_WM_NAME.
+
+2014-12-30  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+        * platform_build/linux_ant/build.xml: Enable parallel compilation
+
+2014-12-30  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+        * build.xml: Fix nightly build link
+
+2014-12-30  Ioannis Tsakpinis <iotsakp@gmail.com>
+
+        * platform_build/build-definitions.xml, src/java/org/lwjgl/Sys.java:
+        Bump version to 2.9.3

@@ -8,6 +8,12 @@
 
 <h1>News</h1>
 <p style="border-bottom: 1px solid #cccccc;">
+	<b>LWJGL 2.9.3</b> <span class="newsdate">Sunday, January 18th, 2015</span><br/>
+	Bugfix release, grabbed cursor movement on Windows is now perfectly smooth.<br>
+	Get it at the <a href="download.php">usual location</a><br/>
+	Please check <a href="http://forum.lwjgl.org/index.php?topic=5655">this thread</a> for more info regarding the release.<br/><br/>
+</p>
+<p style="border-bottom: 1px solid #cccccc;">
 	<b>LWJGL 2.9.2</b> <span class="newsdate">Sunday, December 28th, 2014</span><br/>
 	The end of 2014 brings us the end of LWJGL 2. This will be the last official release, many thanks to <a href="http://legacy.lwjgl.org/credits.php">everyone</a> that has contributed over the years!<br>
 	Get it at the <a href="download.php">usual location</a><br/>
@@ -50,15 +56,5 @@
 	<b>LWJGL 2.8.2</b> <span class="newsdate">Sunday, November 13th, 2011</span><br/>
 	Bugfix release + some minor features. Get it at the <a href="download.php">usual location</a><br/>
 	Please check <a href="http://forum.lwjgl.org/index.php?topic=4288">this thread</a> for more info regarding the release.<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 2.8.1</b> <span class="newsdate">Saturday, October 15th, 2011</span><br/>
-	Bugfix release + some minor features. Get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="http://forum.lwjgl.org/index.php?topic=4242">this thread</a> for more info regarding the release.<br/><br/>
-</p>
-<p style="border-bottom: 1px solid #cccccc;">
-	<b>LWJGL 2.8.0</b> <span class="newsdate">Sunday, October 9th, 2011</span><br/>
-	Finally a new release! This is a pretty big update with a slew of new features as well of bug fixes. Get it at the <a href="download.php">usual location</a><br/>
-	Please check <a href="http://forum.lwjgl.org/index.php?topic=4222">this thread</a> for more info regarding the release.<br/><br/>
 </p>
 <? require('_include/footer.php'); ?>
